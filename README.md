@@ -1,2 +1,2 @@
-# ESCAPE
+# ラーメンWiki
 Team_C
