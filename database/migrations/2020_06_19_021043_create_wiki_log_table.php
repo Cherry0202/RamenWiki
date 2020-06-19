@@ -18,6 +18,8 @@ class CreateWikiLogTable extends Migration
             $table->integer('user_id');
             $table->timestamps('created_at');
             $table->timestamps('updated_at');
+            $table->foreign('user_id')->references('id')->on('user');
+            $table->foreign('wiki_id')->references('id')->on('wiki');
         });
     }
 
