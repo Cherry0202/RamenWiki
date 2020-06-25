@@ -14,13 +14,13 @@ class CreateStoreTable extends Migration
     public function up()
     {
         Schema::create('store', function (Blueprint $table) {
-            $table->increments('store_id');
-            $table->varchar('store_name');
-            $table->varchar('address');
+            $table->increments('id');
+            $table->string('store_name');
+            $table->string('address');
             $table->integer('open_now');
             $table->char('phone_number');
-            $table->varchar('website');
-            $table->varchar('photo');
+            $table->string('website');
+            $table->string('photo');
             $table->timestamps();
         });
     }
