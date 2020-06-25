@@ -24,10 +24,7 @@ class CreateWikiTable extends Migration
                     ->references('store_name')
                     ->on('store');
             $table->varchar('text');
-            $table->int('user_history');
-            $table->foreign('user_history.id')
-                    ->references('store.id')
-                    ->on('user_history');
+            $table->int('store_user_sum');
             $table->timestamps();
         });
     }
