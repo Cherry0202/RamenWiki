@@ -19,12 +19,12 @@ class CreateWikiTable extends Migration
             $table->foreign('store_id')
                     ->references('store_id')
                     ->on('store');
-            $table->varchar('store_name');
+            $table->string('store_name');
             $table->foreign('store_name')
                     ->references('store_name')
                     ->on('store');
-            $table->varchar('text');
-            $table->int('store_user_sum');
+            $table->string('text');
+            $table->integer('store_user_sum');
             $table->timestamps();
         });
     }
