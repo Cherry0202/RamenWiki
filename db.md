@@ -43,7 +43,7 @@
 ## store table
 
 | お店ID | お店名 | 住所 | 営業中 | 電話番号 | ウェブサイト | 写真 | 作成日 | 更新日 |
-| -------- | ---------- | ------- | -------- | ------------ | ------- | ----- | ------ |------ |------ |
+| -------- | ---------- | ------- | -------- | ------------ | ------- | ----- | ------ |------|
 | store_id | store_name | address | open_now | phone_number | website | photo | created_at | updated_at |
 | int      | varchar    | varchar |   int       | char    | varchar | varchar | timestamp |  timestmp | timestmp |
 
