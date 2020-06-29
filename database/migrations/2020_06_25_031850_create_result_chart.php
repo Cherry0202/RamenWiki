@@ -15,7 +15,7 @@ class CreateResultChart extends Migration
     {
         Schema::create('result_chart', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('wiki_id');
+            $table->unsignedInteger('wiki_id');
             $table->integer('avg_price');
             $table->integer('avg_amount');
             $table->integer('avg_kotteri');

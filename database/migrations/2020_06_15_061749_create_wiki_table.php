@@ -14,14 +14,10 @@ class CreateWikiTable extends Migration
     public function up()
     {
         Schema::create('wiki', function (Blueprint $table) {
-            $table->integer('id');
-            $table->integer('store_id');
+            $table->increments('id');
+            $table->unsignedInteger('store_id');
             $table->foreign('store_id')
-                    ->references('store_id')
-                    ->on('store');
-            $table->string('store_name');
-            $table->foreign('store_name')
-                    ->references('store_name')
+                    ->references('id')
                     ->on('store');
             $table->string('text');
             $table->integer('store_user_sum');
