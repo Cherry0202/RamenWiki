@@ -14,10 +14,10 @@ class CreateWikiLogTable extends Migration
     public function up()
     {
         Schema::create('wiki_log', function (Blueprint $table) {
-            $table->integer('wiki_id');
-            $table->integer('user_id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
+            $table->unsignedInteger('wiki_id');
+            $table->unsignedInteger('user_id');
+            $table->timestamp('created_at');
+            $table->timestamp('updated_at');
             $table->foreign('user_id')->references('id')->on('user');
             $table->foreign('wiki_id')->references('id')->on('wiki');
         });
