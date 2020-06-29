@@ -24,8 +24,8 @@ class CreateUserTable extends Migration
             $table->integer('soup');
             $table->integer('topping');
             $table->integer('nodle_type');
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
         });
     }
 
