@@ -8,7 +8,7 @@ use App\Search;
 class Search extends Controller
 {
     public function index(){
-        $search_info = Search::all();
+        $search_info = wiki::all()+store::all()+result_chart::all();
         return $search_info;
     }
 }
