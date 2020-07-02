@@ -11,16 +11,16 @@
 
 <script>
     export default {
-        mouted() {
-            console.log('Component moundted.')
+        created() {
+            console.log('example-component')
         }
     }
 </script>
 
 <style scoped lang="scss">
     .wrap {
-        width: 100vw;
-        height: 100vh;
+        width: 70vw;
+        height: 70vh;
         border: dashed 2px #5b8bd0;
         border-radius: 5px;
         padding: 3px;
@@ -29,8 +29,8 @@
         justify-content: center;
         align-items: center;
         .sample{
-            width: 80vw;
-            height: 80vh;
+            width: 80%;
+            height: 80%;
             background-color: #5b8bd0;
             display: flex;
             justify-content: center;
