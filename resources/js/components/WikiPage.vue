@@ -1,10 +1,7 @@
 <template>
     <div class="wrap">
-            <div class="card sample">
-                <div class="card-header">Example Component</div>
-                <div class="card_body">
-                    I'm an example component.
-                </div>
+            <div class="sample">
+                Hogeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee!
             </div>
     </div>
 </template>
@@ -19,8 +16,8 @@
 
 <style scoped lang="scss">
     .wrap {
-        width: 70vw;
-        height: 70vh;
+        width: 375pt;
+        height: 100vh;
         border: dashed 2px #5b8bd0;
         border-radius: 5px;
         padding: 3px;
@@ -31,7 +28,7 @@
         .sample{
             width: 80%;
             height: 80%;
-            background-color: #5b8bd0;
+            background-color: #c90707;
             display: flex;
             justify-content: center;
             align-items: center;
