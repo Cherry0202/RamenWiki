@@ -12,29 +12,16 @@ class WikiController extends Controller
 {
 
     // 店舗ごとのWiki取得
-    public function select(){
+    public function select(Request $request){
         // 仮定のリクエスト作成及びjsonのデコード
-        $request = new Request();
-        $request->store_id = 1;
-        $store_info = json_encode($request);
-        $store_id = json_decode($store_info);
-
+        $store_id = json_decode($request);
         $wiki = new Wiki();
         return $wiki->wiki_select($store_id->store_id);
     }
 
     // wikiの登録及びUPDATE
-    public function register(){
-        // 仮定のRequest作成及びjsonのデコード
-        $request = new Request();
-        $request->user_id = 1;
-        $request->store_id = 1;
-        $request->text = 'ooo';
-        $request->store_user_sum = 1;
-        $json = json_encode($request);
-        $register = json_decode($json);
-
-        
+    public function register(Request $request){
+        $register = json_decode($request);
         $wiki = new Wiki();
         if($wiki->wiki_register($register)){
             $flag = response()->json([],200);
@@ -55,14 +42,8 @@ class WikiController extends Controller
     }
 
     // Wikiの削除
-    public function delete(){
-        // 仮定のRequest作成及びjsonのデコード
-        $request = new Request();
-        $request->user_id = 1;
-        $request->store_id = 1;
-        $json = json_encode($request);
-        $register = json_decode($json);
-
+    public function delete(Request $request){
+        $register = json_decode($request);
         $wiki = new Wiki();
         if($wiki->wiki_delete($register)){
             return response()->json(['message'=>'aaa'],200);

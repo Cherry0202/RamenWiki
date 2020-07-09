@@ -11,41 +11,21 @@ class ReviewController extends Controller
 {
 
     // review Wiki毎に取得
-    public function review_user_select(){
-        $request = new Request();
-        $request->user_id = 1;
-        $json = json_encode($request);
-        $register = json_decode($json);
-
+    public function review_user_select(Request $request){
+        $register = json_decode($request);
         $review = new Review();
         return response()->json(['data'=>$review->user_select($register)],200);
     }
 
-    public function review_wiki_select(){
-        $request = new Request();
-        $request->wiki_id = 3;
-        $json = json_encode($request);
-        $register = json_decode($json);
-
+    public function review_wiki_select(Request $request){
+        $register = json_decode($request);
         $review = new Review();
         return response()->json(['data'=>$review->wiki_select($register)],200);
     }
 
     //
-    public function register(){
-        $request = new Request();
-        $request->user_id = 1;
-        $request->wiki_id = 1;
-        $request->price = 4;
-        $request->amount = 5;
-        $request->kotteri = 5;
-        $request->soup = 5;
-        $request->topping = 5;
-        $request->noodle_type = 5;
-        $request->text = 'aaa';
-        $json = json_encode($request);
-
-        $register = json_decode($json);
+    public function register(Request $request){
+        $register = json_decode($request);
         $chart_log = new Chart_log();
         $chart_log_id = $chart_log->chart_log_register($register);
 
@@ -60,12 +40,8 @@ class ReviewController extends Controller
 
     }
 
-    public function delete(){
-        $request = new Request();
-        $request->id = 2;
-        $json = json_encode($request);
-
-        $delete = json_decode($json);
+    public function delete(Request $request){
+        $delete = json_decode($request);
 
         $review = new Review();
         if($review->review_delete($delete)){
