@@ -13,6 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/wiki', 'ReviewController@review_wiki_select');
+
+Route::get('/', 'WikiController@wikiData');
