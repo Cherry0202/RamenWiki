@@ -17,7 +17,7 @@ class CreateUserHistory extends Migration
             $table->increments('id');
             $table->unsignedInteger('user_id');
             $table->unsignedInteger('store_id');
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('store_id')->references('id')->on('store');
         });
     }
