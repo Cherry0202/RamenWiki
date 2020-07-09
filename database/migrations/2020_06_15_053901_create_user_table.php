@@ -13,19 +13,19 @@ class CreateUserTable extends Migration
      */
     public function up()
     {
-        Schema::create('user', function (Blueprint $table) {
+        Schema::create('users', function (Blueprint $table) {
             $table->increments('id');
             $table->string('name');
             $table->string('password');
-            $table->string('mail');
-            $table->integer('price');
-            $table->integer('volume');
-            $table->integer('kotteri');
-            $table->integer('soup');
-            $table->integer('topping');
-            $table->integer('nodle_type');
-            $table->timestamp('created_at');
-            $table->timestamp('updated_at');
+            $table->string('email');
+            $table->integer('price')->default('3');
+            $table->integer('volume')->default('3');
+            $table->integer('kotteri')->default('3');
+            $table->integer('soup')->default('3');
+            $table->integer('topping')->default('3');
+            $table->integer('noodle_type')->default('3');
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
         });
     }
 
@@ -36,6 +36,6 @@ class CreateUserTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user');
+        Schema::dropIfExists('users');
     }
 }

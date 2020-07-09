@@ -15,9 +15,9 @@ class CreateUserHistory extends Migration
     {
         Schema::create('user_history', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
-            $table->integer('store_id');
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->unsignedInteger('users_id');
+            $table->unsignedInteger('store_id');
+            $table->foreign('users_id')->references('id')->on('users');
             $table->foreign('store_id')->references('id')->on('store');
         });
     }

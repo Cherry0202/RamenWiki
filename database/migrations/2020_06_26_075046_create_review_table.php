@@ -15,13 +15,13 @@ class CreateReviewTable extends Migration
     {
         Schema::create('review', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('chart_log_id');
+            $table->unsignedInteger('chart_log_id');
             $table->text('text');
-            $table->integer('user_id');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
-            $table->text('deleated_at');
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->unsignedInteger('users_id');
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
+            $table->text('deleated_at')->nullable();
+            $table->foreign('users_id')->references('id')->on('users');
             $table->foreign('chart_log_id')->references('id')->on('chart_log');
         });
     }

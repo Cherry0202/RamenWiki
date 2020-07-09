@@ -15,17 +15,17 @@ class CreateChartLogTable extends Migration
     {
         Schema::create('chart_log', function (Blueprint $table) {
             $table->increments('id');
-            $table->integer('user_id');
-            $table->integer('wiki_id');
+            $table->unsignedInteger('users_id');
+            $table->unsignedInteger('wiki_id');
             $table->integer('price');
             $table->integer('amount');
             $table->integer('kotteri');
             $table->integer('soup');
             $table->integer('topping');
             $table->integer('nodle_type');
-            $table->timestamps('created_at');
-            $table->timestamps('updated_at');
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
+            $table->foreign('users_id')->references('id')->on('users');
             $table->foreign('wiki_id')->references('id')->on('wiki');
         });
     }
