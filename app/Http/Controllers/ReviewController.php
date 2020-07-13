@@ -1,0 +1,67 @@
+<?php
+
+namespace App\Http\Controllers;
+
+use Illuminate\Http\Request;
+use App\Chart_log;
+use App\Result_chart;
+use App\Review;
+use Illuminate\Http\Response;
+
+class ReviewController extends Controller
+{
+
+    // review Wiki毎に取得
+    public function review_user_select(Request $request){
+        $register = json_decode($request);
+        $review = new Review();
+        $review_user = $review->user_select($register);
+        if($review_user){
+            return response()->json(['data'=>$review_user],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
+        }
+    }
+
+    public function review_wiki_select(Request $request){
+        $register = json_decode($request);
+        $review = new Review();
+        $review_wiki = $review->wiki_select($register);
+        if($review_wiki){
+            return response()->json(['data'=>$review_wiki],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
+        }
+    }
+
+    //
+    public function register(Request $request){
+        $register = json_decode($request);
+        $chart_log = new Chart_log();
+        $chart_log_id = $chart_log->chart_log_register($register);
+        if($chart_log_id){
+            $result_chart = new Result_chart();
+            $result_chart->chart_log_result_register($register->wiki_id);
+            $register->chart_log_id = $chart_log_id;
+
+            $review = new Review();
+            $review->register($register);
+
+            return response()->json(['message'=>'登録完了'],Response::HTTP_CREATED);          
+        }else {
+            return response()->json(['message'=>'登録失敗',Response::HTTP_INTERNAL_SERVER_ERROR]);
+        }
+    }
+
+    public function delete(Request $request){
+        $delete = json_decode($request);
+
+        $review = new Review();
+        if($review->review_delete($delete)){
+            return response()->json(['message'=>'ok'],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'miss'],Response::HTTP_INTERNAL_SERVER_ERROR);
+        }
+
+    }
+}
