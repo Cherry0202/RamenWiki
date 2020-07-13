@@ -59,15 +59,15 @@ class Wiki extends Model
             // あった場合はtextの更新
             $wiki_flag->text = $register->text;
             $flag = $wiki_flag->save();
-            return $flag;
+            return $wiki_flag->id;
         }else {
             // ない場合はそのまま登録
             $wiki = new Wiki();
             $wiki->store_id = $register->store_id;
             $wiki->text = $register->text;
             $wiki->store_user_sum = $register->store_user_sum;
-            $flag = $wiki->save();
-            return $flag;
+            $flag = $wiki->create();
+            return $flag->id;
         }
 
         return false;
