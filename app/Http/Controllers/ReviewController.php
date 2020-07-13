@@ -6,6 +6,7 @@ use Illuminate\Http\Request;
 use App\Chart_log;
 use App\Result_chart;
 use App\Review;
+use Illuminate\Http\Response;
 
 class ReviewController extends Controller
 {
@@ -14,13 +15,23 @@ class ReviewController extends Controller
     public function review_user_select(Request $request){
         $register = json_decode($request);
         $review = new Review();
-        return response()->json(['data'=>$review->user_select($register)],200);
+        $review_user = $review->user_select($register);
+        if($review_user){
+            return response()->json(['data'=>$review_user],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
+        }
     }
 
     public function review_wiki_select(Request $request){
         $register = json_decode($request);
         $review = new Review();
-        return response()->json(['data'=>$review->wiki_select($register)],200);
+        $review_wiki = $review->wiki_select($register);
+        if($review_wiki){
+            return response()->json(['data'=>$review_wiki],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
+        }
     }
 
     //
@@ -28,16 +39,18 @@ class ReviewController extends Controller
         $register = json_decode($request);
         $chart_log = new Chart_log();
         $chart_log_id = $chart_log->chart_log_register($register);
+        if($chart_log_id){
+            $result_chart = new Result_chart();
+            $result_chart->chart_log_result_register($register->wiki_id);
+            $register->chart_log_id = $chart_log_id;
 
-        $result_chart = new Result_chart();
-        $result_chart->chart_log_result_register($register->wiki_id);
-        $register->chart_log_id = $chart_log_id;
+            $review = new Review();
+            $review->register($register);
 
-        $review = new Review();
-        $review->register($register);
-
-        return response()->json(['message'=>'ok'],200);
-
+            return response()->json(['message'=>'登録完了'],Response::HTTP_CREATED);          
+        }else {
+            return response()->json(['message'=>'登録失敗',Response::HTTP_INTERNAL_SERVER_ERROR]);
+        }
     }
 
     public function delete(Request $request){
@@ -45,9 +58,9 @@ class ReviewController extends Controller
 
         $review = new Review();
         if($review->review_delete($delete)){
-            return response()->json(['message'=>'ok'],200);
+            return response()->json(['message'=>'ok'],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'miss'],404);
+            return response()->json(['message'=>'miss'],Response::HTTP_INTERNAL_SERVER_ERROR);
         }
 
     }

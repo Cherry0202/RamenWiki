@@ -16,28 +16,32 @@ class WikiController extends Controller
         // 仮定のリクエスト作成及びjsonのデコード
         $store_id = json_decode($request);
         $wiki = new Wiki();
-        return $wiki->wiki_select($store_id->store_id);
+        $wiki_info = $wiki->wiki_select($store_id->store_id);
+        if($wiki_info){
+            return response()->json(['data'=>$wiki_info],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'該当なし'],Response::HTTP_NOT_FOUND);
+        }
     }
 
     // wikiの登録及びUPDATE
     public function register(Request $request){
         $register = json_decode($request);
         $wiki = new Wiki();
-        if($wiki->wiki_register($register)){
-            $flag = response()->json([],200);
+        $flag_wiki = $wiki->wiki_register($register);
+        if($flag_wiki){
+            $flag = response()->json(['message'=>'登録完了'],Response::HTTP_CREATED);
         }else {
-            $flag = response()->json([],404);
+            $flag = response()->json(['message'=>'登録失敗'],Response::HTTP_INTERNAL_SERVER_ERROR);
         }
 
         // ログの更新
-        if($flag->status() == 200){
-            $wiki_id = Wiki::all()->where('store_id', $register->store_id)->first()->id;
+        if($flag->status() == Response::HTTP_CREATED){
             $wiki_log = new Wiki_log();
-            $wiki_log->wiki_log_register($wiki_id, $register->user_id);
-            return $flag->status();
-        }else {
-            return $flag->status();
+            $wiki_log->wiki_log_register($flag_wiki, $register->user_id);
         }
+
+        return $flag;
 
     }
 
@@ -46,9 +50,9 @@ class WikiController extends Controller
         $register = json_decode($request);
         $wiki = new Wiki();
         if($wiki->wiki_delete($register)){
-            return response()->json(['message'=>'aaa'],200);
+            return response()->json(['message'=>'削除完了'],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'bbb'],404);
+            return response()->json(['message'=>'削除失敗'],Response::HTTP_NO_CONTENT);
         }
     }
 
