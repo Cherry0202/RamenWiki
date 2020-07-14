@@ -19,7 +19,7 @@ class WikiController extends Controller
         if($wiki_info){
             return response()->json(['response'=>$wiki_info],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'該当なし'],Response::HTTP_NOT_FOUND);
+            return response()->json(['message'=>'no contents'],Response::HTTP_NOT_FOUND);
         }
     }
 

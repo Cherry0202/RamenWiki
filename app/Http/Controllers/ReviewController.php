@@ -60,7 +60,7 @@ class ReviewController extends Controller
         if($review->review_delete($delete)){
             return response()->json(['message'=>'ok'],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'miss'],Response::HTTP_INTERNAL_SERVER_ERROR);
+            return response()->json(['message'=>'error'],Response::HTTP_INTERNAL_SERVER_ERROR);
         }
 
     }
