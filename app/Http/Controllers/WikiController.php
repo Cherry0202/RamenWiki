@@ -14,11 +14,10 @@ class WikiController extends Controller
     // 店舗ごとのWiki取得
     public function select(Request $request){
         // 仮定のリクエスト作成及びjsonのデコード
-        $store_id = json_decode($request);
         $wiki = new Wiki();
-        $wiki_info = $wiki->wiki_select($store_id->store_id);
+        $wiki_info = $wiki->wiki_select($request->store_id);
         if($wiki_info){
-            return response()->json(['data'=>$wiki_info],Response::HTTP_OK);
+            return response()->json(['response'=>$wiki_info],Response::HTTP_OK);
         }else {
             return response()->json(['message'=>'該当なし'],Response::HTTP_NOT_FOUND);
         }
@@ -26,13 +25,13 @@ class WikiController extends Controller
 
     // wikiの登録及びUPDATE
     public function register(Request $request){
-        $register = json_decode($request);
+        $register = $request;
         $wiki = new Wiki();
         $flag_wiki = $wiki->wiki_register($register);
         if($flag_wiki){
-            $flag = response()->json(['message'=>'登録完了'],Response::HTTP_CREATED);
+            $flag = response()->json(['message'=>'ok'],Response::HTTP_CREATED);
         }else {
-            $flag = response()->json(['message'=>'登録失敗'],Response::HTTP_INTERNAL_SERVER_ERROR);
+            $flag = response()->json(['message'=>'error'],Response::HTTP_INTERNAL_SERVER_ERROR);
         }
 
         // ログの更新
@@ -47,12 +46,12 @@ class WikiController extends Controller
 
     // Wikiの削除
     public function delete(Request $request){
-        $register = json_decode($request);
+        $register = $request;
         $wiki = new Wiki();
         if($wiki->wiki_delete($register)){
-            return response()->json(['message'=>'削除完了'],Response::HTTP_OK);
+            return response()->json(['message'=>'ok'],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'削除失敗'],Response::HTTP_NO_CONTENT);
+            return response()->json(['message'=>'error'],Response::HTTP_NO_CONTENT);
         }
     }
 
