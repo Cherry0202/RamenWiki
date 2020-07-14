@@ -9,7 +9,8 @@
 5. composer install
 6. npm install
 7. php artisan key:generate
-8. php artisan serve
+8. npm run dev
+9. php artisan serve
 ```
 
 [らーめんwiki store functions](https://github.com/Cherry0202/RamenWikiStoreFunction)
