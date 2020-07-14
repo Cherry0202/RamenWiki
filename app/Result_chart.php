@@ -49,4 +49,9 @@ class Result_chart extends Model
             return $result_chart->id;
         }
     }
+
+    public function chart_log_delete($wiki_id){
+        $result_chart = Result_chart::where('wiki_id',$wiki_id);
+        $result_chart->delete();
+    }
 }
