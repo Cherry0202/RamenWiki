@@ -13,30 +13,30 @@ class ReviewController extends Controller
 
     // review Wiki毎に取得
     public function review_user_select(Request $request){
-        $register = json_decode($request);
+        $register = $request;
         $review = new Review();
         $review_user = $review->user_select($register);
         if($review_user){
-            return response()->json(['data'=>$review_user],Response::HTTP_OK);
+            return response()->json(['response'=>$review_user],Response::HTTP_OK);
         }else {
             return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
         }
     }
 
     public function review_wiki_select(Request $request){
-        $register = json_decode($request);
+        $register = $request;
         $review = new Review();
         $review_wiki = $review->wiki_select($register);
         if($review_wiki){
-            return response()->json(['data'=>$review_wiki],Response::HTTP_OK);
+            return response()->json(['response'=>$review_wiki],Response::HTTP_OK);
         }else {
-            return response()->json(['message'=>'該当なし',Response::HTTP_NO_CONTENT]);
+            return response()->json(['message'=>'error',Response::HTTP_NO_CONTENT]);
         }
     }
 
     //
     public function register(Request $request){
-        $register = json_decode($request);
+        $register = $request;
         $chart_log = new Chart_log();
         $chart_log_id = $chart_log->chart_log_register($register);
         if($chart_log_id){
@@ -47,14 +47,14 @@ class ReviewController extends Controller
             $review = new Review();
             $review->register($register);
 
-            return response()->json(['message'=>'登録完了'],Response::HTTP_CREATED);          
+            return response()->json(['message'=>'ok'],Response::HTTP_CREATED);          
         }else {
-            return response()->json(['message'=>'登録失敗',Response::HTTP_INTERNAL_SERVER_ERROR]);
+            return response()->json(['message'=>'error',Response::HTTP_INTERNAL_SERVER_ERROR]);
         }
     }
 
     public function delete(Request $request){
-        $delete = json_decode($request);
+        $delete = $request;
 
         $review = new Review();
         if($review->review_delete($delete)){

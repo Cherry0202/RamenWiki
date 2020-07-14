@@ -62,12 +62,22 @@ class Review extends Model
 
     public function review_delete($delete){
         $review = Review::all()->where('id',$delete->id)->first();
-        $chart_log_delete = $review->chart;
-        $result_chart = new Result_chart();
-        $wiki_id = $chart_log_delete->wiki_id;
-        $review->delete();
-        $chart_log_delete->delete();
-        $result_chart->chart_log_result_register($wiki_id);
+        if($review){
+            $chart_log_delete = $review->chart;
+            $result_chart = new Result_chart();
+            $wiki_id = $chart_log_delete->wiki_id;
+            $review->delete();
+            $chart_log_delete->delete();
+            $flag = Chart_log::all()->where('wiki_id',$wiki_id)->count();
+            if($flag){
+                $result_chart->chart_log_result_register($wiki_id);
+            }else {
+                $result_chart->chart_log_delete($wiki_id);
+            }
+            return true;
+        }else {
+            return false;
+        }
 
     }
 
