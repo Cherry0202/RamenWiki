@@ -11,3 +11,5 @@
 7. php artisan key:generate
 8. php artisan serve
 ```
+
+[らーめんwiki store functions](https://github.com/Cherry0202/RamenWikiStoreFunction)
