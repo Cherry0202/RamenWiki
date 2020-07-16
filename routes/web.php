@@ -17,7 +17,7 @@ Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
 
-Route::get('/', 'UserHistoryController@history')->name('history');
+Route::post('/', 'UserHistoryController@history')->name('history');
 Route::post('/wiki', 'WikiController@select');
 
 Route::post('/wiki/register', 'WikiController@register');

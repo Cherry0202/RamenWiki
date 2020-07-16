@@ -3,7 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use Illuminate\Http\Response;
 use App\UserHistory;
+
 
 class UserHistoryController extends Controller
 {
@@ -11,9 +13,9 @@ class UserHistoryController extends Controller
         $register = $request;
         $history = new UserHistory();
         if($history->register($register)){
-            return("ok");
+            return response()->json(['response'=>'OK'],Response::HTTP_OK);
         }else{
-            return("no");
+            return response()->json(['response'=>'NO'],Response::HTTP_INTERNAL_SERVER_ERROR);
         }
     }
 }
