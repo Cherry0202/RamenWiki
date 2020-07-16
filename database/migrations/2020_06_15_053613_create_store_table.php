@@ -21,8 +21,8 @@ class CreateStoreTable extends Migration
             $table->char('phone_number');
             $table->string('website');
             $table->string('photo');
-            $table->double('lat',20,14);
-            $table->double('lng',20,14);
+            $table->float('lat',9,7);
+            $table->float('lng',12,7);
             $table->string('open_time');
             $table->timestamps();
         });
