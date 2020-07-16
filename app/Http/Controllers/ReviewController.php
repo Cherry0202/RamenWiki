@@ -34,6 +34,16 @@ class ReviewController extends Controller
         }
     }
 
+    public function result_chart(Request $request){
+        $result_chart = new ResultChart();
+        $result_chart_info = $result_chart->chart_log_result($request->wiki_id);
+        if($result_chart_info){
+            return response()->json(['response'=>$result_chart_info],Response::HTTP_OK);
+        }else {
+            return response()->json(['message'=>'error',Response::HTTP_NO_CONTENT]);
+        }
+    }
+
     //
     public function register(Request $request){
         $register = $request;

@@ -23,6 +23,8 @@ Route::post('/user/review', 'ReviewController@review_user_select');
 
 Route::post('/review/wiki', 'ReviewController@review_wiki_select');
 
+Route::post('/wiki/review', 'ReviewController@result_chart');
+
 Route::post('/review/store', 'ReviewController@register');
 
 Route::post('review/delete', 'ReviewController@delete');
