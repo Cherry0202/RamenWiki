@@ -1,11 +1,16 @@
 <template>
-    <div class="wrap">
-            <div class="card sample">
-                <div class="card-header">Example Component</div>
-                <div class="card_body">
-                    I'm an example component.
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <div class="card">
+                    <div class="card-header">Example Component</div>
+
+                    <div class="card-body">
+                        I'm an example component.
+                    </div>
                 </div>
             </div>
+        </div>
     </div>
 </template>
 

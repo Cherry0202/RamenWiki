@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/', 'UserHistoryController@history')->name('history');
 Route::post('/wiki', 'WikiController@select');
 
 Route::post('/wiki/register', 'WikiController@register');
