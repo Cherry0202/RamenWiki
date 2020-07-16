@@ -64,11 +64,11 @@ class Review extends Model
         $review = Review::all()->where('id',$delete->id)->first();
         if($review){
             $chart_log_delete = $review->chart;
-            $result_chart = new Result_chart();
+            $result_chart = new ResultChart();
             $wiki_id = $chart_log_delete->wiki_id;
             $review->delete();
             $chart_log_delete->delete();
-            $flag = Chart_log::all()->where('wiki_id',$wiki_id)->count();
+            $flag = ChartLog::all()->where('wiki_id',$wiki_id)->count();
             if($flag){
                 $result_chart->chart_log_result_register($wiki_id);
             }else {
@@ -83,6 +83,6 @@ class Review extends Model
 
     public function chart()
     {
-        return  $this->belongsTo('App\Chart_log', 'chart_log_id');
+        return  $this->belongsTo('App\ChartLog', 'chart_log_id');
     }
 }
