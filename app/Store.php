@@ -6,7 +6,7 @@ use Illuminate\Database\Eloquent\Model;
 use App\Wiki;
 use App\ResultChart;
 
-class Stores extends Model
+class Store extends Model
 {
     protected $table = 'store';
     public function search($keyword)

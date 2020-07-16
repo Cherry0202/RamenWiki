@@ -3,16 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Stores;
+use App\Store;
 
 class SearchController extends Controller
 {
     //
     public function search(Request $request)
     {
-        $stores = new Stores;
-        $keyword = $request->keyword;
-        $storesResult = $stores->search($keyword);
-        return $storesResult;
+        $store = new Store;
+        $storeResult = $store->search($request->keyword);
+        return $storeResult;
     }
 }
