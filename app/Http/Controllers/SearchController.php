@@ -11,8 +11,7 @@ class SearchController extends Controller
     public function search(Request $request)
     {
         $stores = new Stores;
-        $keyword = $request->keyword;
-        $storesResult = $stores->search($keyword);
+        $storesResult = $stores->search($request->keyword);
         return $storesResult;
     }
 }
