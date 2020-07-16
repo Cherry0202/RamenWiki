@@ -22,10 +22,10 @@ class CreateChartLogTable extends Migration
             $table->integer('kotteri');
             $table->integer('soup');
             $table->integer('topping');
-            $table->integer('nodle_type');
+            $table->integer('noodle_type');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('wiki_id')->references('id')->on('wiki');
         });
     }

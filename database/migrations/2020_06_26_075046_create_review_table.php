@@ -21,7 +21,7 @@ class CreateReviewTable extends Migration
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
             $table->text('deleated_at')->nullable();
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('chart_log_id')->references('id')->on('chart_log');
         });
     }
