@@ -23,6 +23,7 @@ class CreateStoreTable extends Migration
             $table->string('photo');
             $table->double('lat',20,14);
             $table->double('lng',20,14);
+            $table->string('open_time');
             $table->timestamps();
         });
     }
