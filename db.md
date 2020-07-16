@@ -27,7 +27,7 @@
 ## wiki table
 
 | ID  | お店ID | お店名 | 本文 | お店のユーザの合計値 |作成日 | 更新日　|
-| --- | -------------- | ---------------- | ------------------ | ------ | ------ |------ |------ |
+| --- | -------------- | ---------------- | ------------------ | ------ | ------ |------ |
 | id  | store.store_id | store.store_name | text | user_history.id(sum) | created_at | updated_at |
 | int | int           | varchar             |  varchar | int | timestamp          | timestamp |
 
