@@ -22,6 +22,8 @@ class CreateWikiTable extends Migration
             $table->string('text');
             $table->integer('store_user_sum');
             $table->timestamps();
+
+            $table->softDeletes();
         });
     }
 
