@@ -80,7 +80,7 @@ class Wiki extends Model
         $wiki_flag = $wiki->wiki_select($register->store_id);
         if($wiki_flag){
             // 更新
-            $wiki_log = new Wiki_log();
+            $wiki_log = new WikiLog();
             $wiki_log->wiki_log_register($wiki_flag->id, $register->user_id);
 
             // あった場合は削除

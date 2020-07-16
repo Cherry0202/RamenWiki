@@ -4,8 +4,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Wiki;
-use App\Wiki_log;
-use App\Chart_log;
+use App\WikiLog;
+use App\ChartLog;
 use Illuminate\Http\Response;
 
 class WikiController extends Controller
@@ -36,7 +36,7 @@ class WikiController extends Controller
 
         // ログの更新
         if($flag->status() == Response::HTTP_CREATED){
-            $wiki_log = new Wiki_log();
+            $wiki_log = new WikiLog();
             $wiki_log->wiki_log_register($flag_wiki, $register->user_id);
         }
 
