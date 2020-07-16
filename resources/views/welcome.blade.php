@@ -5,6 +5,7 @@
 
 <div id="app" class="wrap">
     <wiki-page></wiki-page>
+    <ai-page></ai-page>
     
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>
