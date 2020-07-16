@@ -29,6 +29,7 @@ Route::post('/review/store', 'ReviewController@register');
 
 Route::post('review/delete', 'ReviewController@delete');
 
+Route::post('search', 'SearchController@search');
 
 Route::get('/', function () {
     return view('welcome');
