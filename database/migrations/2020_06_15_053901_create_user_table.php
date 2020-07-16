@@ -23,7 +23,7 @@ class CreateUserTable extends Migration
             $table->integer('kotteri')->default(3);
             $table->integer('soup')->default(3);
             $table->integer('topping')->default(3);
-            $table->integer('nodle_type')->default(3);
+            $table->integer('noodle_type')->default(3);
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
         });

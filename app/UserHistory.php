@@ -13,6 +13,9 @@ class UserHistory extends Model
         $history->user_id=$register->user_id;
         $history->store_id=$register->store_id;
         $check = UserHistory::where('user_id', $history->user_id)->where('store_id', $history->store_id)->first();
+        $wiki = Wiki::all()->where('store_id',$register->store_id)->first();
+        $wiki->store_user_sum = $history;
+        $wiki->save();
         if($check){
             $result = false;
         }else{
