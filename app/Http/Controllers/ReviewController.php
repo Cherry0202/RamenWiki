@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Chart_log;
-use App\Result_chart;
+use App\ChartLog;
+use App\ResultChart;
 use App\Review;
 use Illuminate\Http\Response;
 
@@ -37,10 +37,10 @@ class ReviewController extends Controller
     //
     public function register(Request $request){
         $register = $request;
-        $chart_log = new Chart_log();
+        $chart_log = new ChartLog();
         $chart_log_id = $chart_log->chart_log_register($register);
         if($chart_log_id){
-            $result_chart = new Result_chart();
+            $result_chart = new ResultChart();
             $result_chart->chart_log_result_register($register->wiki_id);
             $register->chart_log_id = $chart_log_id;
 
