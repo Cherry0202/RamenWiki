@@ -98,7 +98,7 @@
             position: absolute;
             top: 17%;
             left: 0%;
-            background-color: red;
+            //background-color: red; //dbg
         
         }
         
