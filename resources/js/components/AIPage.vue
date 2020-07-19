@@ -17,11 +17,17 @@
         </div>
 
         <div class="OsusumeRamen1">
+            <div class="white_text">
             
+
+            </div>
         </div>
 
         <div class="OsusumeRamen2">
+            <div class="white_text">
+
             
+            </div>
         </div>
         
         <p class="under_sentence">
@@ -110,12 +116,30 @@
             width: 100%;
             height: 200px;
             background-color: cyan; //dbg
+            display: flex;
+            justify-content: flex-end;
+            .white_text{
+                width: 85%;
+                height: 100%;
+                background-color: white;
+                text-align: right;
+                border-radius: 15px;
+            }
         }
         .OsusumeRamen2{
             margin-top: 40px;
             width: 100%;
             height: 200px;
             background-color: red; //dbg
+            display: flex;
+            justify-content: flex-end;
+            .white_text{
+                width: 85%;
+                height: 100%;
+                background-color: white;
+                text-align: right;
+                border-radius: 15px;
+            }
         }
 
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////
