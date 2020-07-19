@@ -24,6 +24,9 @@
             
         </div>
         
+        <p class="under_sentence">
+            あなたの趣味嗜好に合わせて、AIのおすすめ店舗も増加していきます。
+        </p>
 
     </div>
 </template>
@@ -109,10 +112,28 @@
             background-color: cyan; //dbg
         }
         .OsusumeRamen2{
-            margin-top: 150px;
+            margin-top: 40px;
             width: 100%;
             height: 200px;
             background-color: red; //dbg
+        }
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        .under_sentence{
+           font-family: 'MyFont2'; 
+           font-size: 10px;
+           white-space: nowrap;
+           position: relative;
+           //margin-top: 100px;
+           /////////////////////////////
+           position: absolute;
+           top: 50%;
+           left: 50%;
+           transform: translate(-50%,-50%);
+           top: 95%;
+
+
         }
     }
 

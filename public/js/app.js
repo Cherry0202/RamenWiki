@@ -1936,6 +1936,9 @@ module.exports = {
 //
 //
 //
+//
+//
+//
 
 /***/ }),
 
@@ -2129,7 +2132,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  display: flex;\n  flex-direction: column;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .line{\n          width: 60%;\n          position: absolute;\n          right: 1%;\n          top: 18.5%;\n          z-index: 10;\n  }\n  */\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 3%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-family: \"MyFont3\";\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 17%;\n  left: 0%;\n  background-color: red;\n}\n.wrap .OsusumeRamen1[data-v-ee27cd3c], .wrap .OsusumeRamen2[data-v-ee27cd3c] {\n  margin-top: 150px;\n  width: 100%;\n  height: 200px;\n  background-color: cyan;\n}\n.wrap .OsusumeRamen2[data-v-ee27cd3c] {\n  background-color: red;\n}", ""]);
+exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  display: flex;\n  flex-direction: column;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .line{\n          width: 60%;\n          position: absolute;\n          right: 1%;\n          top: 18.5%;\n          z-index: 10;\n  }\n  */\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 3%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-family: \"MyFont3\";\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 17%;\n  left: 0%;\n  background-color: red;\n}\n.wrap .OsusumeRamen1[data-v-ee27cd3c] {\n  margin-top: 150px;\n  width: 100%;\n  height: 200px;\n  background-color: cyan;\n}\n.wrap .OsusumeRamen2[data-v-ee27cd3c] {\n  margin-top: 40px;\n  width: 100%;\n  height: 200px;\n  background-color: red;\n}\n.wrap .under_sentence[data-v-ee27cd3c] {\n  font-family: \"MyFont2\";\n  font-size: 10px;\n  white-space: nowrap;\n  position: relative;\n  position: absolute;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n  top: 90%;\n}", ""]);
 
 // exports
 
@@ -20666,7 +20669,13 @@ var staticRenderFns = [
       _vm._v(" "),
       _c("div", { staticClass: "OsusumeRamen1" }),
       _vm._v(" "),
-      _c("div", { staticClass: "OsusumeRamen2" })
+      _c("div", { staticClass: "OsusumeRamen2" }),
+      _vm._v(" "),
+      _c("p", { staticClass: "under_sentence" }, [
+        _vm._v(
+          "\n        あなたの趣味嗜好に合わせて、AIのおすすめ店舗も増加していきます。\n    "
+        )
+      ])
     ])
   }
 ]
