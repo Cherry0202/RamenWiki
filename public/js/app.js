@@ -1926,6 +1926,16 @@ module.exports = {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -2119,7 +2129,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .line{\n          width: 60%;\n          position: absolute;\n          right: 1%;\n          top: 18.5%;\n          z-index: 10;\n  }\n  */\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 6%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 21%;\n  left: 0%;\n  background-color: red;\n}", ""]);
+exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  display: flex;\n  flex-direction: column;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .line{\n          width: 60%;\n          position: absolute;\n          right: 1%;\n          top: 18.5%;\n          z-index: 10;\n  }\n  */\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 3%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-family: \"MyFont3\";\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 17%;\n  left: 0%;\n  background-color: red;\n}\n.wrap .OsusumeRamen1[data-v-ee27cd3c], .wrap .OsusumeRamen2[data-v-ee27cd3c] {\n  margin-top: 150px;\n  width: 100%;\n  height: 200px;\n  background-color: cyan;\n}\n.wrap .OsusumeRamen2[data-v-ee27cd3c] {\n  background-color: red;\n}", ""]);
 
 // exports
 
@@ -2196,7 +2206,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Medium.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf")) + ");\n}\n.title-border[data-v-ee27cd3c] {\ndisplay: flex;\nalign-items: center;\nfont-family: 'MyFont';\n}\n.title-border[data-v-ee27cd3c]:before,\n.title-border[data-v-ee27cd3c]:after {\nborder-top: 1px solid;\ncontent: \"\";\nflex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\nmargin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\nmargin-left: 1rem;\n}\n\n", ""]);
+exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont2';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Medium.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf")) + ");\n}\n@font-face {\n    font-family: 'MyFont3';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/MPLUSRounded1c-Medium.ttf */ "./resources/js/Ozawa_files/MPLUSRounded1c-Medium.ttf")) + ");\n}\n.title-border[data-v-ee27cd3c] {\ndisplay: flex;\nalign-items: center;\nfont-family: 'MyFont2';\n}\n.title-border[data-v-ee27cd3c]:before,\n.title-border[data-v-ee27cd3c]:after {\nborder-top: 1px solid;\ncontent: \"\";\nflex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\nmargin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\nmargin-left: 1rem;\n}\n\n", ""]);
 
 // exports
 
@@ -20652,7 +20662,11 @@ var staticRenderFns = [
           _c("br"),
           _vm._v("素敵なラーメン店をご紹介します。")
         ])
-      ])
+      ]),
+      _vm._v(" "),
+      _c("div", { staticClass: "OsusumeRamen1" }),
+      _vm._v(" "),
+      _c("div", { staticClass: "OsusumeRamen2" })
     ])
   }
 ]
@@ -33111,6 +33125,17 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = "/images/ColorLine.png?fe1fc4fbbdd624225d8b6e3beca27237";
+
+/***/ }),
+
+/***/ "./resources/js/Ozawa_files/MPLUSRounded1c-Medium.ttf":
+/*!************************************************************!*\
+  !*** ./resources/js/Ozawa_files/MPLUSRounded1c-Medium.ttf ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/MPLUSRounded1c-Medium.ttf?cbb62fcdd7723af9ed654028ed57f6af";
 
 /***/ }),
 

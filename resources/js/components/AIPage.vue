@@ -15,6 +15,16 @@
         <div class="Sen">
             <p class="title-border">あなたが今まで行ったことのない<br>素敵なラーメン店をご紹介します。</p>
         </div>
+
+        <div class="OsusumeRamen1">
+            
+        </div>
+
+        <div class="OsusumeRamen2">
+            
+        </div>
+        
+
     </div>
 </template>
 
@@ -27,8 +37,8 @@
         width: 375px;
         min-height: 812px;
         max-height: auto;
-        //display: flex;
-        //flex-direction: column;
+        display: flex;
+        flex-direction: column;
         background-color: #D5D7DB;
         justify-content: center;
         align-items: center;
@@ -52,7 +62,7 @@
             width: 100%;
             height: 100px;
             position: absolute;
-            top: 6%;
+            top: 3%;
             //border:solid 1px #ccc; //dbg
             .center{
                 display: flex;
@@ -61,6 +71,7 @@
                 top: 50%;
                 transform: translate(-50%,-50%);
                 p{
+                    font-family: 'MyFont3';
                     font-size: 30px;
                     white-space: nowrap;
                     margin-left: 20px;
@@ -82,11 +93,27 @@
         .Sen{
             width: 100%;
             position: absolute;
-            top: 21%;
+            top: 17%;
             left: 0%;
             background-color: red;
         
-        } 
+        }
+        
+        
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+        .OsusumeRamen1{
+            margin-top: 150px;
+            width: 100%;
+            height: 200px;
+            background-color: cyan; //dbg
+        }
+        .OsusumeRamen2{
+            margin-top: 150px;
+            width: 100%;
+            height: 200px;
+            background-color: red; //dbg
+        }
     }
 
 </style>
@@ -97,13 +124,17 @@
 
 <style scoped lang="css">
     @font-face {
-        font-family: 'MyFont';
+        font-family: 'MyFont2';
         src: url(../Ozawa_files/NotoSerifJP-Medium.otf);
+    }
+    @font-face {
+        font-family: 'MyFont3';
+        src: url(../Ozawa_files/MPLUSRounded1c-Medium.ttf);
     }
     .title-border {
     display: flex;
     align-items: center;
-    font-family: 'MyFont';
+    font-family: 'MyFont2';
     }
     .title-border:before,
     .title-border:after {
