@@ -134,6 +134,7 @@
                 z-index: 10;
             }
             .name{
+                font-family: 'MyFont';
                 position: absolute;
                 top: 21%;
                 left: 19%;
@@ -284,6 +285,10 @@
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
 
 <style scoped lang="css">
+    @font-face {
+        font-family: 'MyFont';
+        src: url(../Ozawa_files/NotoSerifJP-Bold.otf);
+    }
 
     /*********** レビュー ***********/
     .accbox {

@@ -2119,7 +2119,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 10%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .line[data-v-ee27cd3c] {\n  width: 60%;\n  position: absolute;\n  right: 1%;\n  top: 18.5%;\n  z-index: 10;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 24%;\n  left: 0%;\n}", ""]);
+exports.push([module.i, ".wrap[data-v-ee27cd3c] {\n  width: 375px;\n  min-height: 812px;\n  max-height: auto;\n  background-color: #D5D7DB;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .line{\n          width: 60%;\n          position: absolute;\n          right: 1%;\n          top: 18.5%;\n          z-index: 10;\n  }\n  */\n}\n.wrap .grad[data-v-ee27cd3c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to bottom, #FFF, transparent);\n  z-index: 10;\n}\n.wrap .Midashi[data-v-ee27cd3c] {\n  z-index: 11;\n  display: flex;\n  width: 100%;\n  height: 100px;\n  position: absolute;\n  top: 6%;\n}\n.wrap .Midashi .center[data-v-ee27cd3c] {\n  display: flex;\n  position: absolute;\n  left: 50%;\n  top: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .Midashi .center p[data-v-ee27cd3c] {\n  font-size: 30px;\n  white-space: nowrap;\n  margin-left: 20px;\n  position: relative;\n  top: 10%;\n  color: #454F63;\n}\n.wrap .Sen[data-v-ee27cd3c] {\n  width: 100%;\n  position: absolute;\n  top: 21%;\n  left: 0%;\n  background-color: red;\n}", ""]);
 
 // exports
 
@@ -2176,7 +2176,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wrap[data-v-3d2e076c] {\n  width: 375px;\n  height: 1000px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wrap .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wrap .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wrap .main_photo .name[data-v-3d2e076c] {\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.wrap .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wrap .main_line[data-v-3d2e076c] {\n  width: 375px;\n  height: auto;\n}\n.wrap .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wrap .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wrap .main_text hr[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 3%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wrap .icon li[data-v-3d2e076c] {\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wrap .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wrap .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wrap .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wrap .chart img[data-v-3d2e076c] {\n  position: absolute;\n  top: 85%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .second_text[data-v-3d2e076c] {\n  position: absolute;\n  top: 100%;\n  width: 375px;\n  height: auto;\n  background-color: #2A2E43;\n}\n.wrap .second_text hr[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .second_text .phone_g[data-v-3d2e076c] {\n  margin-top: 30px;\n  margin-bottom: 30px;\n  display: flex;\n  position: relative;\n  left: 100%;\n  transform: translateX(-80%);\n}\n.wrap .second_text .phone_g p[data-v-3d2e076c] {\n  margin-left: 20px;\n  color: #A9A9A9;\n}\n.wrap .second_text iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wrap .second_text .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wrap .second_text .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
+exports.push([module.i, ".wrap[data-v-3d2e076c] {\n  width: 375px;\n  height: 1000px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wrap .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wrap .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wrap .main_photo .name[data-v-3d2e076c] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.wrap .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wrap .main_line[data-v-3d2e076c] {\n  width: 375px;\n  height: auto;\n}\n.wrap .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wrap .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wrap .main_text hr[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 3%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wrap .icon li[data-v-3d2e076c] {\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wrap .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wrap .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wrap .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wrap .chart img[data-v-3d2e076c] {\n  position: absolute;\n  top: 85%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .second_text[data-v-3d2e076c] {\n  position: absolute;\n  top: 100%;\n  width: 375px;\n  height: auto;\n  background-color: #2A2E43;\n}\n.wrap .second_text hr[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .second_text .phone_g[data-v-3d2e076c] {\n  margin-top: 30px;\n  margin-bottom: 30px;\n  display: flex;\n  position: relative;\n  left: 100%;\n  transform: translateX(-80%);\n}\n.wrap .second_text .phone_g p[data-v-3d2e076c] {\n  margin-left: 20px;\n  color: #A9A9A9;\n}\n.wrap .second_text iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wrap .second_text .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wrap .second_text .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
 
 // exports
 
@@ -2190,12 +2190,13 @@ exports.push([module.i, ".wrap[data-v-3d2e076c] {\n  width: 375px;\n  height: 10
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n.title-border[data-v-ee27cd3c] {\ndisplay: flex;\nalign-items: center;\n}\n.title-border[data-v-ee27cd3c]:before,\n.title-border[data-v-ee27cd3c]:after {\nborder-top: 1px solid;\ncontent: \"\";\nflex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\nmargin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\nmargin-left: 1rem;\n}\n\n", ""]);
+exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Medium.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf")) + ");\n}\n.title-border[data-v-ee27cd3c] {\ndisplay: flex;\nalign-items: center;\nfont-family: 'MyFont';\n}\n.title-border[data-v-ee27cd3c]:before,\n.title-border[data-v-ee27cd3c]:after {\nborder-top: 1px solid;\ncontent: \"\";\nflex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\nmargin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\nmargin-left: 1rem;\n}\n\n", ""]);
 
 // exports
 
@@ -2209,12 +2210,13 @@ exports.push([module.i, "\n.title-border[data-v-ee27cd3c] {\ndisplay: flex;\nali
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
+var escape = __webpack_require__(/*! ../../../node_modules/css-loader/lib/url/escape.js */ "./node_modules/css-loader/lib/url/escape.js");
 exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
 // imports
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n    padding: 0;\n    max-width: 300px;\n    margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n    display: block;\n    margin: 1.5px 0;\n    padding : 11px 12px;\n    color :#DCDCDC;\n    font-weight: bold;\n    background :#3c4052;\n    cursor :pointer;\n    transition: all 0.5s;\n    border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n    background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n    display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n    height: 0;\n    padding: 0;\n    overflow: hidden;\n    opacity: 0;\n    transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n    height: auto;\n    padding: 5px;\n    background: #BAD3FF;\n    opacity: 1;\n    border-radius: 5px;\n}\n\n\n/*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n    width: 80%;\n    position: relative;\n    left: 9.5%;\n    display: inline-block;\n    padding: 0.3em 1em;\n    text-decoration: none;\n    border-radius: 3px;\n    transition: .4s;\n    text-align: center;\n    padding: 10px 0 10px 0;\n    margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n    background: #67c5ff;\n    color: white;\n}\n", ""]);
+exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Bold.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf")) + ");\n}\n\n/*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n    padding: 0;\n    max-width: 300px;\n    margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n    display: block;\n    margin: 1.5px 0;\n    padding : 11px 12px;\n    color :#DCDCDC;\n    font-weight: bold;\n    background :#3c4052;\n    cursor :pointer;\n    transition: all 0.5s;\n    border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n    background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n    display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n    height: 0;\n    padding: 0;\n    overflow: hidden;\n    opacity: 0;\n    transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n    height: auto;\n    padding: 5px;\n    background: #BAD3FF;\n    opacity: 1;\n    border-radius: 5px;\n}\n\n\n/*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n    width: 80%;\n    position: relative;\n    left: 9.5%;\n    display: inline-block;\n    padding: 0.3em 1em;\n    text-decoration: none;\n    border-radius: 3px;\n    transition: .4s;\n    text-align: center;\n    padding: 10px 0 10px 0;\n    margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n    background: #67c5ff;\n    color: white;\n}\n", ""]);
 
 // exports
 
@@ -2303,6 +2305,33 @@ function toComment(sourceMap) {
 	var data = 'sourceMappingURL=data:application/json;charset=utf-8;base64,' + base64;
 
 	return '/*# ' + data + ' */';
+}
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/lib/url/escape.js":
+/*!***************************************************!*\
+  !*** ./node_modules/css-loader/lib/url/escape.js ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function escape(url) {
+    if (typeof url !== 'string') {
+        return url
+    }
+    // If url is already wrapped in quotes, remove them
+    if (/^['"].*['"]$/.test(url)) {
+        url = url.slice(1, -1);
+    }
+    // Should url be wrapped?
+    // See https://drafts.csswg.org/css-values-3/#urls
+    if (/["'() \t\n]/.test(url)) {
+        return '"' + url.replace(/"/g, '\\"').replace(/\n/g, '\\n') + '"'
+    }
+
+    return url
 }
 
 
@@ -33082,6 +33111,28 @@ module.exports = function(module) {
 /***/ (function(module, exports) {
 
 module.exports = "/images/ColorLine.png?fe1fc4fbbdd624225d8b6e3beca27237";
+
+/***/ }),
+
+/***/ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf":
+/*!*******************************************************!*\
+  !*** ./resources/js/Ozawa_files/NotoSerifJP-Bold.otf ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/NotoSerifJP-Bold.otf?67006b53faab922e523aa16cc4a05c9a";
+
+/***/ }),
+
+/***/ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf":
+/*!*********************************************************!*\
+  !*** ./resources/js/Ozawa_files/NotoSerifJP-Medium.otf ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/fonts/NotoSerifJP-Medium.otf?f28e738741d61c69b0e7b6d3fc0f4ea1";
 
 /***/ }),
 

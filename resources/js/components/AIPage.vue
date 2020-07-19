@@ -52,7 +52,7 @@
             width: 100%;
             height: 100px;
             position: absolute;
-            top: 10%;
+            top: 6%;
             //border:solid 1px #ccc; //dbg
             .center{
                 display: flex;
@@ -70,6 +70,7 @@
                 }
             }
         }
+        /*
         .line{
                 width: 60%;
                 position: absolute;
@@ -77,11 +78,14 @@
                 top: 18.5%;
                 z-index: 10;
         }
+        */
         .Sen{
             width: 100%;
             position: absolute;
-            top: 24%;
+            top: 21%;
             left: 0%;
+            background-color: red;
+        
         } 
     }
 
@@ -92,9 +96,14 @@
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
 
 <style scoped lang="css">
+    @font-face {
+        font-family: 'MyFont';
+        src: url(../Ozawa_files/NotoSerifJP-Medium.otf);
+    }
     .title-border {
     display: flex;
     align-items: center;
+    font-family: 'MyFont';
     }
     .title-border:before,
     .title-border:after {
