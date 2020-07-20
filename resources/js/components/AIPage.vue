@@ -19,16 +19,20 @@
         <div class="OsusumeRamen1">
             <div class="white_text1">
                 <div class="photoimage1">
+                    <!-- おすすめ店舗のラーメン画像 -->
                     <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
                 </div>
+                <!-- おすすめ店舗の文章 -->
             </div>
         </div>
 
         <div class="OsusumeRamen2">
             <div class="white_text2">
                 <div class="photoimage2">
+                    <!-- おすすめ店舗のラーメン画像 -->
                     <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
-                </div>            
+                </div>  
+                <!-- おすすめ店舗の文章 -->          
             </div>
         </div>
         
@@ -162,6 +166,10 @@
     @font-face {
         font-family: 'MyFont3';
         src: url(../Ozawa_files/MPLUSRounded1c-Medium.ttf);
+    }
+    @font-face {
+        font-family: 'Flop';
+        src: url(../Ozawa_files/FlopDesignFONT.otf);
     }
     .title-border {
     display: flex;
