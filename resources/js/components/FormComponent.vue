@@ -1,7 +1,9 @@
 <template>
     <div>
-    <input type="text" v-model="keyword" placeholder="Search...">
-    <button v-on:click="postKeyword">post</button>
+        <label>
+            <input type="text" v-model="keyword" placeholder="Search...">
+        </label>
+        <button v-on:click="postKeyword">post</button>
     </div>
 </template>
 
