@@ -17,16 +17,18 @@
         </div>
 
         <div class="OsusumeRamen1">
-            <div class="white_text">
-            
-
+            <div class="white_text1">
+                <div class="photoimage1">
+                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
+                </div>
             </div>
         </div>
 
         <div class="OsusumeRamen2">
-            <div class="white_text">
-
-            
+            <div class="white_text2">
+                <div class="photoimage2">
+                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
+                </div>            
             </div>
         </div>
         
@@ -109,40 +111,25 @@
         }
         
         
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////  CSSにも記述あり
 
         .OsusumeRamen1{
-            margin-top: 150px;
+            margin-top: 120px;
             width: 100%;
-            height: 200px;
-            background-color: cyan; //dbg
+            height: 180px;
+            //background-color: cyan; //dbg
             display: flex;
             justify-content: flex-end;
-            .white_text{
-                width: 85%;
-                height: 100%;
-                background-color: white;
-                text-align: right;
-                border-radius: 15px;
-            }
         }
         .OsusumeRamen2{
             margin-top: 40px;
             width: 100%;
-            height: 200px;
-            background-color: red; //dbg
+            height: 180px;
+            //background-color: red; //dbg
             display: flex;
-            justify-content: flex-end;
-            .white_text{
-                width: 85%;
-                height: 100%;
-                background-color: white;
-                text-align: right;
-                border-radius: 15px;
-            }
         }
 
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////  FIN
 
         .under_sentence{
            font-family: 'MyFont2'; 
@@ -192,6 +179,51 @@
     }
     .title-border:after {
     margin-left: 1rem;
+    }
+
+    /***********************************************************/
+
+    .white_text1 , .white_text2{
+        width: 70%;
+        height: 100%;
+        background-color: white;
+        text-align: right;
+        border-radius: 15px;
+    }
+    .photoimage1 , .photoimage2{
+        width: 120px;
+        height: 120px;
+        /*
+        background-color: darkblue; 
+        */
+        position: relative;
+        border-radius: 15px;
+        justify-content: center;
+        object-fit: cover;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .white_text1{
+        margin-right: 20px;
+    }
+    .white_text2{
+        margin-left: 20px;
+    }
+    .photoimage1{
+        left: -25%;
+        top: 20%;
+    }
+    .photoimage2{
+        right: -78.5%;
+        top: 20%;
+    }
+
+    .imagecovershot{
+        width: 140px;
+        height: 140px;
+        object-fit: cover; 
+        border-radius: 15px;
     }
 
 </style>
