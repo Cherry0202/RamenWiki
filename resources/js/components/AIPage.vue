@@ -23,6 +23,12 @@
                     <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
                 </div>
                 <!-- おすすめ店舗の文章 -->
+                <div class="yayaya1">
+                    <p class="topRamen_name">
+                       
+                    </p>
+                </div>
+                
             </div>
         </div>
 
@@ -32,7 +38,12 @@
                     <!-- おすすめ店舗のラーメン画像 -->
                     <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
                 </div>  
-                <!-- おすすめ店舗の文章 -->          
+                <!-- おすすめ店舗の文章 -->  
+                <div class="yayaya2">
+                    <p class="topRamen_name">
+                        
+                    </p>
+                </div>        
             </div>
         </div>
         
@@ -172,21 +183,20 @@
         src: url(../Ozawa_files/FlopDesignFONT.otf);
     }
     .title-border {
-    display: flex;
-    align-items: center;
-    font-family: 'MyFont2';
+        display: flex;
+        align-items: center;
+        font-family: 'MyFont2';
     }
-    .title-border:before,
-    .title-border:after {
-    border-top: 1px solid;
-    content: "";
-    flex-grow: 1;
+    .title-border:before, .title-border:after {
+        border-top: 1px solid;
+        content: "";
+        flex-grow: 1;
     }
     .title-border:before {
-    margin-right: 1rem;
+        margin-right: 1rem;
     }
     .title-border:after {
-    margin-left: 1rem;
+        margin-left: 1rem;
     }
 
     /***********************************************************/
@@ -195,13 +205,14 @@
         width: 70%;
         height: 100%;
         background-color: white;
-        text-align: right;
+        text-align: center;
         border-radius: 15px;
         box-shadow: 
-                0 8px 10px 1px rgba(0,0,0,0.14),
-                0 3px 14px 2px rgba(0,0,0,0.12),
-                0 5px 5px -3px rgba(0,0,0,0.2)
-            ;
+            0 8px 10px 1px rgba(0,0,0,0.14),
+            0 3px 14px 2px rgba(0,0,0,0.12),
+            0 5px 5px -3px rgba(0,0,0,0.2)
+        ;
+
     }
     .photoimage1 , .photoimage2{
         width: 120px;
@@ -243,5 +254,32 @@
         object-fit: cover; 
         border-radius: 15px;
     }
+
+
+    /***********************************************************/
+    .yayaya1, .yayaya2{
+        background-color: darkgreen;
+        width: 65%;
+        height: 85%;
+        position: relative;
+        top: -70%;
+    }
+    .yayaya1{
+        left: 29.5%;
+    }
+    .yayaya2{
+        left: 5%;
+    }
+    .topRamen_name{
+        width: 100%;
+        /*
+        background-color: darkgoldenrod;
+        */
+        font-family: Flop;
+        font-size: 20px;
+        position: relative;
+        top: -65%;
+    }
+    
 
 </style>
