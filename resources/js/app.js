@@ -21,7 +21,7 @@ window.Vue = require('vue');
 
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('sample-component', require('./components/SampleComponent.vue').default)
-Vue.component('form-component', require('./components/FormComponent.vue').default);
+Vue.component('search-form-component', require('./components/SearchFormComponent.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to
