@@ -9,9 +9,9 @@
             <div class="under-wrap">
                 <a href="#">Home</a>
                  <div class="button-div">
-                    <button @click="louIn">ログイン</button>
+                    <button @click="logIn">ログイン</button>
                     <button @click="signUp">会員登録</button>
-                 </div>            
+                 </div>
             </div>
         </div>
         <div class="side-space">
@@ -23,7 +23,7 @@
 
     export default {
       created() {
-        console.log('menubarnotlogin-component')
+        console.log('menubar-notlogin-component')
       },
       data: () => ({ value: 'recent' }),
       methods: {
