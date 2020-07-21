@@ -177,17 +177,17 @@
                 transition: 0.35s ease;
                 color: #008ABF;
                 &::-webkit-input-placeholder{
-                transition: opacity 0.45s ease; 
+                transition: opacity 0.45s ease;
                 opacity: 0;
                 }
                 &::-moz-placeholder {
-                transition: opacity 0.45s ease; 
+                transition: opacity 0.45s ease;
                 opacity: 0;
                 }
-                &:-ms-placeholder {
-                transition: opacity 0.45s ease; 
-                opacity: 0;
-                }    
+                /*&:-ms-placeholder {*/
+                /*transition: opacity 0.45s ease; */
+                /*opacity: 0;*/
+                /*}    */
             }
             }
 
@@ -223,7 +223,7 @@
             .block4{
                 width: 25%;
                 background-color: #3ACCE1;
-            }            
+            }
         }
         #ramen-menu-bar{
             background-color: #2A2E43;
