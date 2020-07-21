@@ -1,17 +1,18 @@
 <template>
     <div class="wrap">
-        <div class= "header">
-            <div class="menu-all">
-                <a href="#" class="button">MENU</a>
-            </div>
-            <div class="searcher">
-                <form class="search-container">
-                 <input type="text" id="search-bar" placeholder="Search">
-                 <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
-                </form>
-            </div>
-        </div>
         <div id="google-map">
+            <div class= "header">
+                <div class="menu-all">
+                    <a href="#" class="button">MENU</a>
+                </div>
+                <div class="searcher">
+                    <form class="search-container">
+                        <input type="text" id="search-bar" placeholder="Search">
+                        <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
+                    </form>
+                </div>
+                <!--            <search-form-component></search-form-component>-->
+            </div>
                 <GmapMap
                 :center="maplocation"
                 :zoom="15"
@@ -37,13 +38,13 @@
             <div class="block4"></div>
         </div>
         <div id="ramen-menu-bar">
-            <div class="text1"><a href="#">⇑</a></div>
             <div class="text2">
                 <h2>Nearby</h2>
                 <p>近くのラーメン店</p>
             </div>
             <div class="text3"><h1>７</h1></div>
         </div>
+
     </div>
 </template>
 
@@ -123,21 +124,21 @@
 
 <style scoped lang="scss">
     .wrap{
-        width: 375px;
+        width: 100vw;
         height: 100vh;
         background-color: whitesmoke;
         position: relative;
-        top: 0;
-        right: 0;
-        bottom: 0;
-        left: 0;
+        /*top: 0;*/
+        /*right: 0;*/
+        /*bottom: 0;*/
+        /*left: 0;*/
         .header{
             display: flex;
             background-color: #339b4d;
         }
         .menu-all{
             background-color: #3ACCE1;
-            height: 60px;
+            height: 100%;
             padding-top: 10px;
             padding-left: 20px;
             .button {margin-top: 10px;
@@ -180,17 +181,8 @@
                 transition: opacity 0.45s ease;
                 opacity: 0;
                 }
-                &::-moz-placeholder {
-                transition: opacity 0.45s ease;
-                opacity: 0;
-                }
-                /*&:-ms-placeholder {*/
-                /*transition: opacity 0.45s ease; */
-                /*opacity: 0;*/
-                /*}    */
             }
             }
-
             .search-icon{
             position: relative;
             float: right;
@@ -202,12 +194,12 @@
         }
         #google-map{
             width: 100%;
-            height: 500px;
+            height: 91%;
             background-color: #2A2E43;
         }
         #under-color-block{
             display: flex;
-            height: 10px;
+            height: 8px;
             .block1{
                 width: 25%;
                 background-color: #665EFF;
@@ -228,21 +220,22 @@
         #ramen-menu-bar{
             background-color: #2A2E43;
             display: flex;
-            height: 100px;
-            .text1{
-                padding-left: 20px;
-                padding-top: 30px;
-                background-color: #3ACCE1;
-            }
+            height: 9%;
+            width: 100%;
+            background-color: white;
             .text2{
-                padding-left: 50px;
-                padding-top: 10px;
+                width: 85%;
                 background-color: #3AC;
             }
             .text3{
-                padding-left: 50px;
-                padding-top: 40px;
+                width: 15%;
                 background-color: #CE1;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                h1{
+                    font-size: 62px;
+                }
             }
         }
     }
