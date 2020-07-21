@@ -5,13 +5,7 @@
                 <div class="menu-all">
                     <a href="#" class="button">MENU</a>
                 </div>
-                <div class="searcher">
-                    <form class="search-container">
-                        <input type="text" id="search-bar" placeholder="Search">
-                        <a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a>
-                    </form>
-                </div>
-                <!--            <search-form-component></search-form-component>-->
+                <search-form-component></search-form-component>
             </div>
                 <GmapMap
                 :center="maplocation"
