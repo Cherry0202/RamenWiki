@@ -24,6 +24,7 @@
                 .then( response => {
                     console.log(response.data);
                     this.lists = response.data
+                    this.$emit('postLists',this.lists)
                 })
             }
         }
