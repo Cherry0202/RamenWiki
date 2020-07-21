@@ -6,6 +6,7 @@
             csrfToken: "{{ csrf_token() }}"
         };
     </script>
+    <title></title>
 </head>
 <div id="app" class="wrap">
     <search-form-component></search-form-component>
