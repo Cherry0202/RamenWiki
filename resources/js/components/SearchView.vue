@@ -5,7 +5,7 @@
                 <div class="menu-all">
                     <a href="#" class="button">MENU</a>
                 </div>
-                <search-form-component></search-form-component>
+                <search-form-component @postLists="getLists"></search-form-component>
             </div>
                 <GmapMap
                 :center="maplocation"
@@ -46,8 +46,9 @@
     export default {
         data() {
             return {
-                    maplocation:{lat:0, lng:0},
-                    makers:[]
+                maplocation:{lat:0, lng:0},
+                makers:[],
+                lists: null,
             }
         },
         async mounted() {
@@ -110,7 +111,10 @@
           }
         }.bind(this)
       );
-    }
+    },
+            getLists(lists) {
+               this.lists = lists
+            }
   }
 }
 </script>
@@ -216,7 +220,6 @@
             display: flex;
             height: 9%;
             width: 100%;
-            background-color: white;
             .text2{
                 width: 85%;
                 background-color: #3AC;
