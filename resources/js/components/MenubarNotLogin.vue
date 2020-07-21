@@ -20,10 +20,9 @@
 </template>
 
 <script>
-
     export default {
       created() {
-        console.log('menubar-notlogin-component')
+        console.log('menubar-not-login-component')
       },
       data: () => ({ value: 'recent' }),
       methods: {
@@ -40,17 +39,14 @@
 <style scoped lang="scss">
     .wrap {
         width: 70vw;
-        height: 70vh;
-        border: dashed 2px #5b8bd0;
-        border-radius: 5px;
+        height: 100vh;
         padding: 3px;
         background-color: white;
         display: flex;
-        justify-content: center;
-        align-items: center;
+        justify-content: flex-start;
         .background-wrap{
             width: 80%;
-            height: 80%;
+            height: 100%;
             background-color: #5b8bd0;
             justify-content: center;
             align-items: center;
