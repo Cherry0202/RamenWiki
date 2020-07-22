@@ -36,7 +36,7 @@
                 <h2>Nearby</h2>
                 <p>近くのラーメン店</p>
             </div>
-            <div class="text3"><h1>{{lists.length}}</h1></div>
+            <div class="text3"><h1>{{results.length}}</h1></div>
         </div>
 
     </div>
@@ -48,7 +48,7 @@
             return {
                 maplocation:{lat:0, lng:0},
                 makers:[],
-                lists: [],
+                results: [],
             }
         },
         async mounted() {
@@ -113,9 +113,7 @@
       );
     },
             getLists(lists) {
-                this.lists = lists
-                console.log("listだよ！"+this.lists);
-                console.log("長さ！"+this.lists.length);
+                this.results = lists
             }
   },
 }
