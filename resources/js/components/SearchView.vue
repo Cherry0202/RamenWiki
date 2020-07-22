@@ -25,6 +25,7 @@
 <!--                </GmapMarker>-->
 <!--                </GmapMap>-->
         </div>
+        <result-card-component :results="results"></result-card-component>
         <div id="under-color-block">
             <div class="block1"></div>
             <div class="block2"></div>
