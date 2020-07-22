@@ -9,6 +9,8 @@
     <title></title>
 </head>
 <div id="app" class="wrap">
-    <search-form-component></search-form-component>
+{{--    <search-form-component></search-form-component>--}}
+{{--    <menubar-not-login-component></menubar-not-login-component>--}}
+    <search-view-component></search-view-component>
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>
