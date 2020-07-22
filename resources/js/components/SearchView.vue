@@ -7,23 +7,23 @@
                 </div>
                 <search-form-component @postLists="getLists"></search-form-component>
             </div>
-                <GmapMap
-                :center="maplocation"
-                :zoom="15"
-                :draggable="true"
-                map-type-id="roadmap"
-                style="width: 375px; height: 500px"
-                ref="mapRef"
-                >
-                <GmapMarker v-for="m in makers"
-                    :position="m.position"
-                    :title="m.title"
-                    :clickable="true"
-                    :draggable="false"
-                    :icon="m.icon"
-                    :key="m.id">
-                </GmapMarker>
-                </GmapMap>
+<!--                <GmapMap-->
+<!--                :center="maplocation"-->
+<!--                :zoom="15"-->
+<!--                :draggable="true"-->
+<!--                map-type-id="roadmap"-->
+<!--                style="width: 375px; height: 500px"-->
+<!--                ref="mapRef"-->
+<!--                >-->
+<!--                <GmapMarker v-for="m in makers"-->
+<!--                    :position="m.position"-->
+<!--                    :title="m.title"-->
+<!--                    :clickable="true"-->
+<!--                    :draggable="false"-->
+<!--                    :icon="m.icon"-->
+<!--                    :key="m.id">-->
+<!--                </GmapMarker>-->
+<!--                </GmapMap>-->
         </div>
         <div id="under-color-block">
             <div class="block1"></div>
@@ -36,7 +36,7 @@
                 <h2>Nearby</h2>
                 <p>近くのラーメン店</p>
             </div>
-            <div class="text3"><h1>７</h1></div>
+            <div class="text3"><h1>{{lists.length}}</h1></div>
         </div>
 
     </div>
@@ -48,7 +48,7 @@
             return {
                 maplocation:{lat:0, lng:0},
                 makers:[],
-                lists: null,
+                lists: [],
             }
         },
         async mounted() {
@@ -113,9 +113,11 @@
       );
     },
             getLists(lists) {
-               this.lists = lists
+                this.lists = lists
+                console.log("listだよ！"+this.lists);
+                console.log("長さ！"+this.lists.length);
             }
-  }
+  },
 }
 </script>
 

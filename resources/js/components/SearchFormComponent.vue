@@ -3,9 +3,9 @@
         <form class="search-container">
         <label>
             <input type="text" v-model="keyword" id="search-bar" placeholder="Search...">
-            <button v-on:click="postKeyword"><a href="#"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></a></button>
         </label>
         </form>
+        <button v-on:click="postKeyword"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></button>
     </div>
 </template>
 
@@ -15,7 +15,7 @@
         data() {
             return {
                 keyword: '',
-                lists: null
+                lists: []
             }
         },
         methods: {
