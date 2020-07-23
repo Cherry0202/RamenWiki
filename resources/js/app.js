@@ -8,6 +8,7 @@ Vue.component('search-form-component', require('./components/SearchFormComponent
 Vue.component('menubar-not-login-component', require('./components/MenubarNotLogin').default);
 Vue.component('search-view-component', require('./components/SearchView').default);
 Vue.component('result-card-component', require('./components/ResultCardComponent').default);
+Vue.component('mypage', require('./pages/Mypage').default);
 
 
 const app = new Vue({
