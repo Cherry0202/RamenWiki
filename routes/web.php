@@ -32,9 +32,9 @@ Route::post('/wiki/review', 'ReviewController@result_chart');
 
 Route::post('/review/store', 'ReviewController@register');
 
-Route::post('review/delete', 'ReviewController@delete');
+Route::post('/review/delete', 'ReviewController@delete');
 
-Route::post('search', 'SearchController@search');
+Route::post('/search', 'SearchController@search');
 
 Route::post('store/all', 'StoreController@storeAll');
 
