@@ -24,9 +24,19 @@
                 </div>
                 <!-- おすすめ店舗の文章 -->
                 <div class="yayaya1">
-                    <p class="topRamen_name">
-                       
-                    </p>
+                    <div class="topRamen_name">
+                        <p>
+                            江畑の一杯
+                        </p>
+                       <div class="topRamen_text">
+                        <p>
+                            冷やし豆乳担々麺が人気。<br>
+                            ごまの風味と豆乳タレ、<br>
+                            ピリ辛の肉味噌が絶妙に<br>
+                            マッチ。
+                        </p>
+                       </div>
+                    </div>
                 </div>
                 
             </div>
@@ -40,9 +50,19 @@
                 </div>  
                 <!-- おすすめ店舗の文章 -->  
                 <div class="yayaya2">
-                    <p class="topRamen_name">
-                        
-                    </p>
+                    <div class="topRamen_name">
+                        <p>
+                            江畑の一杯
+                        </p>
+                        <div class="topRamen_text">
+                            <p>
+                                淡麗塩そばが一番人気。<br>
+                                さっぱりとしつつコクが<br>
+                                有り、何度食べても飽き<br>
+                                が来ない味。
+                            </p>
+                        </div>
+                    </div>
                 </div>        
             </div>
         </div>
@@ -241,11 +261,11 @@
     }
     .photoimage1{
         left: -25%;
-        top: 20%;
+        top: 17%;
     }
     .photoimage2{
         right: -78.5%;
-        top: 20%;
+        top: 17%;
     }
 
     .imagecovershot{
@@ -258,11 +278,16 @@
 
     /***********************************************************/
     .yayaya1, .yayaya2{
-        background-color: darkgreen;
-        width: 65%;
-        height: 85%;
+        width: 170px;
+        height: 155px;
         position: relative;
-        top: -70%;
+        top: -60%;
+        font-family: Flop;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-align-items: flex-start;
+        align-items: flex-start;
+    
     }
     .yayaya1{
         left: 29.5%;
@@ -272,14 +297,34 @@
     }
     .topRamen_name{
         width: 100%;
-        /*
-        background-color: darkgoldenrod;
-        */
-        font-family: Flop;
-        font-size: 20px;
-        position: relative;
-        top: -65%;
+        height: 55px;
+        border:solid 1px rgba(204, 204, 204, 0);
+        box-sizing: border-box;
     }
-    
+    .topRamen_name p{
+        font-family: MyFont2;
+        white-space: nowrap;
+        font-size: 18px;
+        color: #454F63;
+        margin-top: 20px;
+        margin-bottom: 0;
+        text-align: left;
+    }
+    .topRamen_text{
+        width: 100%;
+        height: 100px;
+        box-sizing: border-box;
+        border:solid 1px rgba(204, 204, 204, 0);
+        text-align: center;
+    }
+    .topRamen_text p{
+        font-family: Flop;
+        white-space: nowrap;
+        font-size: 15px;
+        color: #78849E;
+        text-align: left;
+        
+    }
+
 
 </style>

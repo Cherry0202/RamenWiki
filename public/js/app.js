@@ -1962,6 +1962,26 @@ module.exports = {
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -2232,7 +2252,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont2';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Medium.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf")) + ");\n}\n@font-face {\n    font-family: 'MyFont3';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/MPLUSRounded1c-Medium.ttf */ "./resources/js/Ozawa_files/MPLUSRounded1c-Medium.ttf")) + ");\n}\n@font-face {\n    font-family: 'Flop';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/FlopDesignFONT.otf */ "./resources/js/Ozawa_files/FlopDesignFONT.otf")) + ");\n}\n.title-border[data-v-ee27cd3c] {\n    display: flex;\n    align-items: center;\n    font-family: 'MyFont2';\n}\n.title-border[data-v-ee27cd3c]:before, .title-border[data-v-ee27cd3c]:after {\n    border-top: 1px solid;\n    content: \"\";\n    flex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\n    margin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\n    margin-left: 1rem;\n}\n\n/***********************************************************/\n.white_text1[data-v-ee27cd3c], .white_text2[data-v-ee27cd3c]{\n    width: 70%;\n    height: 100%;\n    background-color: white;\n    text-align: center;\n    border-radius: 15px;\n    box-shadow: \n        0 8px 10px 1px rgba(0,0,0,0.14),\n        0 3px 14px 2px rgba(0,0,0,0.12),\n        0 5px 5px -3px rgba(0,0,0,0.2)\n    ;\n}\n.photoimage1[data-v-ee27cd3c], .photoimage2[data-v-ee27cd3c]{\n    width: 120px;\n    height: 120px;\n    /*\n    background-color: darkblue; \n    */\n    position: relative;\n    border-radius: 15px;\n    justify-content: center;\n    -o-object-fit: cover;\n       object-fit: cover;\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    box-shadow: \n            0 8px 10px 1px rgba(0,0,0,0.14),\n            0 3px 14px 2px rgba(0,0,0,0.12),\n            0 5px 5px -3px rgba(0,0,0,0.2)\n        ;\n}\n.white_text1[data-v-ee27cd3c]{\n    margin-right: 20px;\n}\n.white_text2[data-v-ee27cd3c]{\n    margin-left: 20px;\n}\n.photoimage1[data-v-ee27cd3c]{\n    left: -25%;\n    top: 20%;\n}\n.photoimage2[data-v-ee27cd3c]{\n    right: -78.5%;\n    top: 20%;\n}\n.imagecovershot[data-v-ee27cd3c]{\n    width: 140px;\n    height: 140px;\n    -o-object-fit: cover;\n       object-fit: cover; \n    border-radius: 15px;\n}\n\n\n/***********************************************************/\n.yayaya1[data-v-ee27cd3c], .yayaya2[data-v-ee27cd3c]{\n    background-color: darkgreen;\n    width: 65%;\n    height: 85%;\n    position: relative;\n    top: -70%;\n}\n.yayaya1[data-v-ee27cd3c]{\n    left: 29.5%;\n}\n.yayaya2[data-v-ee27cd3c]{\n    left: 5%;\n}\n.topRamen_name[data-v-ee27cd3c]{\n    width: 100%;\n    /*\n    background-color: darkgoldenrod;\n    */\n    font-family: Flop;\n    font-size: 20px;\n    position: relative;\n    top: -65%;\n}\n\n\n", ""]);
+exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont2';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Medium.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Medium.otf")) + ");\n}\n@font-face {\n    font-family: 'MyFont3';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/MPLUSRounded1c-Medium.ttf */ "./resources/js/Ozawa_files/MPLUSRounded1c-Medium.ttf")) + ");\n}\n@font-face {\n    font-family: 'Flop';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/FlopDesignFONT.otf */ "./resources/js/Ozawa_files/FlopDesignFONT.otf")) + ");\n}\n.title-border[data-v-ee27cd3c] {\n    display: flex;\n    align-items: center;\n    font-family: 'MyFont2';\n}\n.title-border[data-v-ee27cd3c]:before, .title-border[data-v-ee27cd3c]:after {\n    border-top: 1px solid;\n    content: \"\";\n    flex-grow: 1;\n}\n.title-border[data-v-ee27cd3c]:before {\n    margin-right: 1rem;\n}\n.title-border[data-v-ee27cd3c]:after {\n    margin-left: 1rem;\n}\n\n/***********************************************************/\n.white_text1[data-v-ee27cd3c], .white_text2[data-v-ee27cd3c]{\n    width: 70%;\n    height: 100%;\n    background-color: white;\n    text-align: center;\n    border-radius: 15px;\n    box-shadow: \n        0 8px 10px 1px rgba(0,0,0,0.14),\n        0 3px 14px 2px rgba(0,0,0,0.12),\n        0 5px 5px -3px rgba(0,0,0,0.2)\n    ;\n}\n.photoimage1[data-v-ee27cd3c], .photoimage2[data-v-ee27cd3c]{\n    width: 120px;\n    height: 120px;\n    /*\n    background-color: darkblue; \n    */\n    position: relative;\n    border-radius: 15px;\n    justify-content: center;\n    -o-object-fit: cover;\n       object-fit: cover;\n    align-items: center;\n    display: flex;\n    flex-direction: column;\n    box-shadow: \n            0 8px 10px 1px rgba(0,0,0,0.14),\n            0 3px 14px 2px rgba(0,0,0,0.12),\n            0 5px 5px -3px rgba(0,0,0,0.2)\n        ;\n}\n.white_text1[data-v-ee27cd3c]{\n    margin-right: 20px;\n}\n.white_text2[data-v-ee27cd3c]{\n    margin-left: 20px;\n}\n.photoimage1[data-v-ee27cd3c]{\n    left: -25%;\n    top: 17%;\n}\n.photoimage2[data-v-ee27cd3c]{\n    right: -78.5%;\n    top: 17%;\n}\n.imagecovershot[data-v-ee27cd3c]{\n    width: 140px;\n    height: 140px;\n    -o-object-fit: cover;\n       object-fit: cover; \n    border-radius: 15px;\n}\n\n\n/***********************************************************/\n.yayaya1[data-v-ee27cd3c], .yayaya2[data-v-ee27cd3c]{\n    width: 170px;\n    height: 155px;\n    position: relative;\n    top: -60%;\n    font-family: Flop;\n    display: flex;\n    align-items: flex-start;\n}\n.yayaya1[data-v-ee27cd3c]{\n    left: 29.5%;\n}\n.yayaya2[data-v-ee27cd3c]{\n    left: 5%;\n}\n.topRamen_name[data-v-ee27cd3c]{\n    width: 100%;\n    height: 55px;\n    border:solid 1px rgba(204, 204, 204, 0);\n    box-sizing: border-box;\n}\n.topRamen_name p[data-v-ee27cd3c]{\n    font-family: MyFont2;\n    white-space: nowrap;\n    font-size: 18px;\n    color: #454F63;\n    margin-top: 20px;\n    margin-bottom: 0;\n    text-align: left;\n}\n.topRamen_text[data-v-ee27cd3c]{\n    width: 100%;\n    height: 100px;\n    box-sizing: border-box;\n    border:solid 1px rgba(204, 204, 204, 0);\n    text-align: center;\n}\n.topRamen_text p[data-v-ee27cd3c]{\n    font-family: Flop;\n    white-space: nowrap;\n    font-size: 15px;\n    color: #78849E;\n    text-align: left;\n}\n\n\n", ""]);
 
 // exports
 
@@ -20700,7 +20720,27 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "yayaya1" }, [
-            _c("p", { staticClass: "topRamen_name" })
+            _c("div", { staticClass: "topRamen_name" }, [
+              _c("p", [
+                _vm._v(
+                  "\n                        江畑の一杯\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "topRamen_text" }, [
+                _c("p", [
+                  _vm._v("\n                        冷やし豆乳担々麺が人気。"),
+                  _c("br"),
+                  _vm._v("\n                        ごまの風味と豆乳タレ、"),
+                  _c("br"),
+                  _vm._v("\n                        ピリ辛の肉味噌が絶妙に"),
+                  _c("br"),
+                  _vm._v(
+                    "\n                        マッチ。\n                    "
+                  )
+                ])
+              ])
+            ])
           ])
         ])
       ]),
@@ -20715,7 +20755,33 @@ var staticRenderFns = [
           ]),
           _vm._v(" "),
           _c("div", { staticClass: "yayaya2" }, [
-            _c("p", { staticClass: "topRamen_name" })
+            _c("div", { staticClass: "topRamen_name" }, [
+              _c("p", [
+                _vm._v(
+                  "\n                        江畑の一杯\n                    "
+                )
+              ]),
+              _vm._v(" "),
+              _c("div", { staticClass: "topRamen_text" }, [
+                _c("p", [
+                  _vm._v(
+                    "\n                            淡麗塩そばが一番人気。"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            さっぱりとしつつコクが"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            有り、何度食べても飽き"
+                  ),
+                  _c("br"),
+                  _vm._v(
+                    "\n                            が来ない味。\n                        "
+                  )
+                ])
+              ])
+            ])
           ])
         ])
       ]),
