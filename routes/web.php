@@ -36,6 +36,8 @@ Route::post('review/delete', 'ReviewController@delete');
 
 Route::post('search', 'SearchController@search');
 
+Route::post('store/all', 'StoreController@storeAll');
+
 Route::get('/', function () {
     return view('welcome');
 });
