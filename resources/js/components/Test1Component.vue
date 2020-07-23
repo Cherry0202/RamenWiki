@@ -16,14 +16,14 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss" scoped>
 div{
-    border: 1px solid blue
-}
-h1{
-    color: blue
-}
-p{
-    color:blue
+    border: 1px solid blue;
+    h1{
+        color: blue
+    }
+    p{
+        color:blue
+    }
 }
 </style>

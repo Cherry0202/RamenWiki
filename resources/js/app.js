@@ -9,7 +9,7 @@ Vue.component('shopname-component', require('./components/SampleComponent.vue').
 Vue.component('websubtitle-component', require('./components/ShopNameComponent.vue').default);
 Vue.component('header-component', require('./components/WebSubTitleComponent.vue').default);
 
-Vue.component('test0-component', require('./components/Test0Component.vue').default);
+// Vue.component('test0-component', require('./components/Test0Component.vue').default);
 Vue.component('test1-component', require('./components/Test1Component.vue').default);
 Vue.component('test2-component', require('./components/Test2Component.vue').default);
 
