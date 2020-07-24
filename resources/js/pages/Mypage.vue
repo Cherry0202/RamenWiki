@@ -29,7 +29,15 @@
       </ul>
     </div>
     <div class="content">
-      <h1>ここに中身が表記されます</h1>
+      <div v-show="tab === 1">
+        user
+      </div>
+      <div v-show="tab === 2">
+        image
+      </div>
+      <div v-show="tab === 3">
+        review
+      </div>
     </div>
 
   </div>  
@@ -77,7 +85,7 @@ export default {
     display: flex;
     justify-content: center;
     align-items: center;
-    border-radius: 10px;
+    border-radius: 20px;
   }
 
   .content {
