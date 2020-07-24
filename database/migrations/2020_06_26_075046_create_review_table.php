@@ -17,6 +17,7 @@ class CreateReviewTable extends Migration
             $table->increments('id');
             $table->unsignedInteger('chart_log_id');
             $table->text('text');
+            $table->string('image')->nullable();
             $table->unsignedInteger('user_id');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
