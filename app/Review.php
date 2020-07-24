@@ -61,7 +61,7 @@ class Review extends Model
             $review->user_id = $register->user_id;
             $imagefile = $register->file('imagefile');
             $temp_path = $imagefile->store('public/review');
-            $read_temp_path = str_replace('public/', 'storage/', $temp_path); //追加
+            $read_temp_path = str_replace('public/', 'storage/', $temp_path);
             $review->image = $read_temp_path;
             $review->save();
             return $review;
