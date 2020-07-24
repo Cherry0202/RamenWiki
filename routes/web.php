@@ -13,6 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
+
+Route::post('/', 'UserHistoryController@history')->name('history');
 Route::post('/wiki', 'WikiController@select');
 
 Route::post('/wiki/register', 'WikiController@register');
@@ -27,8 +32,9 @@ Route::post('/wiki/review', 'ReviewController@result_chart');
 
 Route::post('/review/store', 'ReviewController@register');
 
-Route::post('review/delete', 'ReviewController@delete');
+Route::post('/review/delete', 'ReviewController@delete');
 
+Route::post('/search', 'SearchController@search');
 
 Route::get('/', function () {
     return view('welcome');

@@ -17,7 +17,7 @@ class CreateUserTable extends Migration
             $table->increments('id');
             $table->string('name');
             $table->string('password');
-            $table->string('mail');
+            $table->string('email');
             $table->integer('price')->default(3);
             $table->integer('volume')->default(3);
             $table->integer('kotteri')->default(3);
@@ -36,6 +36,6 @@ class CreateUserTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('user');
+        Schema::dropIfExists('users');
     }
 }
