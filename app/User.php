@@ -6,6 +6,9 @@ use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
+use App\UserHistory;
+use App\Store;
+
 class User extends Authenticatable
 {
 
@@ -39,4 +42,28 @@ class User extends Authenticatable
     protected $casts = [
         'email_verified_at' => 'datetime',
     ];
+
+    public function recommend($user_id)
+    {
+        $store = new Store;
+        $wiki = new Wiki;
+        $userHistory = new UserHistory();
+        $recommendList = [];
+        $resultChart = new ResultChart;
+        $wentStoreList = $userHistory->select('store_id')->where('user_id', $user_id)->get();
+        foreach ($store->whereNotIn('id', $wentStoreList)->get() as $store) {
+            $wikiData = $wiki::where('store_id', $store->id)->get()->first();
+            if ($wikiData == null) {
+                $resultChartData = null;
+            } else {
+                $resultChartData = $resultChart::where('wiki_id', $wikiData->id)->get()->first();
+            }
+            $recommendList[] = [
+                'store'=>$store,
+                'wiki'=>$wikiData,
+                'resultChart'=>$resultChartData
+            ];
+        }
+        return json_encode($recommendList);
+    }
 }
