@@ -18,4 +18,10 @@ class UserController extends Controller
         $password = User::password();
         
     }
+
+    public function recommend(Request $request) {
+        $user = new User;
+        $recommendList = $user->recommend($request->id);
+        return $recommendList;
+    }
 }
