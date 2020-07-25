@@ -1,6 +1,6 @@
 <template>
     <div class="flip">
-        <div class="front" style="background-image: url()">
+        <div class="front">
             <h1 class="text-shadow">お店１</h1>
         </div>
         <div class="back">
@@ -12,7 +12,7 @@
 </template>
 
 <script>
-    
+
 </script>
 
 <style lang="scss" scoped>
@@ -38,7 +38,9 @@ h1 {
 // base
 .flip {
     position: relative;
-    >.front,
+    >.front{
+        background-color: #636b6f;
+    }
     >.back {
         display: block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
@@ -51,8 +53,8 @@ h1 {
     >.back {
         position: absolute;
         opacity: 0;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         transform: rotateY(-180deg);
