@@ -11,6 +11,6 @@
 <div id="app" class="wrap">
 {{--    <search-form-component></search-form-component>--}}
 {{--    <menubar-not-login-component></menubar-not-login-component>--}}
-    <search-view-component></search-view-component>
+    <search-view></search-view>
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>
