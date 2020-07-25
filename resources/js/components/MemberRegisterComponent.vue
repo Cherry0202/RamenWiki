@@ -5,7 +5,8 @@
         <div class="mainbox">
             <div class="topbox"></div>
             <!-- ログイン会員登録切替タブ -->
-            <div class="tab_a">SIGN IN</div>
+            <a href="/login" class="tab_a">SIGN IN</a>
+            <!-- <router-link to="/login">SIGN IN</router-link> -->
             <div class="tab_b">
                 <span class="text">SIGN UP</span>
                 <div class="box1"></div>
@@ -15,7 +16,8 @@
             </div>
             <!-- フォーム部分 -->
             <div class="bottom_box">
-                <a href="" class="return">︎︎⬅︎︎</a>
+                <a href="/login" class="return">︎︎⬅︎︎</a>
+                <!-- <router-link to="/loginp" class="return">⬅︎</router-link> -->
                 <form action="" method="post">
                     <input
                         type="email"
@@ -94,6 +96,7 @@ export default {
     margin-top: -10%;
     border-right: transparent;
     border-bottom: transparent;
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -106,6 +109,7 @@ export default {
     border-bottom: transparent;
     border-left: transparent;
     border-right: transparent;
+    text-decoration: none;
     text-align: center;
     color: gray;
     font-family: "Gibson";

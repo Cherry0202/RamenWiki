@@ -31,6 +31,11 @@ Vue.component(
     require("./components/LoginComponent").default
 );
 
+Vue.component(
+    "member-register-component",
+    require("./components/MemberRegisterComponent").default
+);
+
 const app = new Vue({
     el: "#app"
 });
