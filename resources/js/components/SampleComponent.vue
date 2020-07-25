@@ -5,6 +5,8 @@
         </p>
         <button @click="countDown">−１</button>
         <button @click="countUp">＋１</button>
+<!--       他のコンポーネントも使うことができるよ！ -->
+        <example-component></example-component>
     </div>
 </template>
 
