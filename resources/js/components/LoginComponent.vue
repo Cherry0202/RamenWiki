@@ -12,10 +12,12 @@
                 <div class="box3"></div>
                 <div class="box4"></div>
             </div>
-            <div class="tab_b">SIGN UP</div>
+            <a href="/register" class="tab_b">SIGN UP</a>
+            <!-- <router-link to="/register">SIGN UP</router-link> -->
 
             <!-- フォーム部分 -->
             <div class="bottom_box">
+                <a href="" class="return">︎︎⬅︎︎</a>
                 <form action="" method="post">
                     <input
                         type="email"
@@ -79,6 +81,7 @@ export default {
     border-bottom: transparent;
     border-left: transparent;
     border-right: transparent;
+    text-decoration: none;
     display: flex;
     flex-wrap: wrap;
 }
@@ -90,6 +93,7 @@ export default {
     margin-top: -10%;
     border-right: transparent;
     border-bottom: transparent;
+    text-decoration: none;
     text-align: center;
     color: gray;
     font-family: "Gibson";
@@ -139,6 +143,14 @@ export default {
     justify-content: center;
 }
 /* フォーム部分 */
+.return {
+    width: 20px;
+    height: 20px;
+    font-size: 1.5em;
+    color: white;
+    text-decoration: none;
+    margin-top: 7%;
+}
 .email {
     width: 327px;
     height: 52px;
