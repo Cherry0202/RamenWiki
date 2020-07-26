@@ -50,8 +50,8 @@ export default {
 /* 全体 */
 .wrap {
     margin: 0;
-    width: 100vw;
-    height: auto;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -59,8 +59,8 @@ export default {
 
 /* メイン画面 */
 .mainbox {
-    width: 375px;
-    height: 812px;
+    width: 100%;
+    height: 100%;
     margin-top: 1%;
     border: solid 1px #707070;
     display: flex;
@@ -71,6 +71,7 @@ export default {
     width: 100%;
     height: 12%;
 }
+
 /* ログイン会員登録切替タブ */
 .tab_a {
     padding-top: 4%;
@@ -84,6 +85,7 @@ export default {
     text-decoration: none;
     display: flex;
     flex-wrap: wrap;
+    font-size: 2em;
 }
 .tab_b {
     padding-top: 4%;
@@ -96,6 +98,7 @@ export default {
     text-decoration: none;
     text-align: center;
     color: gray;
+    font-size: 2em;
     font-family: "Gibson";
 }
 .tab_b:hover {
@@ -109,85 +112,97 @@ export default {
 /* グラデーションライン */
 .box1 {
     width: 25%;
-    height: 15%;
+    height: 20%;
     background-color: #665eff;
-    margin-left: -65%;
+    margin-left: -58.5%;
     margin-top: 15%;
 }
 .box2 {
     width: 25%;
-    height: 15%;
+    height: 20%;
     background-color: #5773ff;
     margin-top: 15%;
 }
 .box3 {
     width: 25%;
-    height: 15%;
+    height: 20%;
     background-color: #3497fd;
     margin-top: 15%;
 }
 .box4 {
     width: 25.4%;
-    height: 15%;
+    height: 20%;
     background-color: #3acce1;
     margin-top: 15%;
 }
 
 /* 背景画像 */
 .bottom_box {
-    width: 375px;
-    height: 705px;
+    width: 100%;
+    height: 87%;
     background-image: url("back_image.png");
     background-size: 101%;
     display: flex;
     justify-content: center;
 }
+
 /* フォーム部分 */
+form {
+    width: 100%;
+}
 .return {
-    width: 20px;
-    height: 20px;
-    font-size: 1.5em;
+    width: 10%;
+    height: 8%;
+    font-size: 4em;
     color: white;
     text-decoration: none;
     margin-top: 7%;
+    margin-left: 5%;
 }
 .email {
-    width: 327px;
-    height: 52px;
-    border-radius: 12px;
+    width: 80%;
+    height: 5.8%;
+    border-radius: 20px;
     border: none;
     box-shadow: 2px 2px 4px gray;
     margin-top: 40%;
+    margin-left: 3%;
     outline: none;
+    font-size: 2.5em;
 }
 .password {
-    width: 327px;
-    height: 52px;
-    margin-top: 15%;
-    margin-bottom: 15%;
-    border-radius: 12px;
+    width: 80%;
+    height: 5.8%;
+    margin-top: 20%;
+    margin-bottom: 25%;
+    margin-left: 3%;
+    border-radius: 20px;
     border: none;
     box-shadow: 2px 2px 4px gray;
     outline: none;
+    font-size: 2.5em;
 }
 ::placeholder {
     font-family: "Gibson";
     padding-left: 4%;
 }
 .link_text {
-    margin-left: 28%;
+    margin-left: 22%;
     font-family: "Gibson";
-    font-size: 12px;
+    font-size: 30px;
     text-decoration: none;
     color: gray;
+    width: 100%;
+    height: 100%;
 }
 .link_text:hover {
     color: #665eff;
 }
 .button {
-    width: 327px;
-    height: 52px;
-    margin-top: 15%;
+    width: 80%;
+    height: 5%;
+    margin-top: 20%;
+    margin-left: 3%;
     background-color: #3acce1;
     border: none;
     color: white;
@@ -198,6 +213,7 @@ export default {
     -o-transition: all 0.3s ease;
     transition: all 0.3s ease;
     outline: none;
+    font-size: 2em;
 }
 .button:hover {
     background-color: #5773ff;
