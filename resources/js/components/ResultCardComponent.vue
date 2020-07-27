@@ -1,10 +1,13 @@
 <template>
     <div v-if="results.length === 0" :class="{display:none}"></div>
     <div v-else class="card-wrapper">
-        <div v-for="result in results" :key="index" class="card" >
-            <h1>{{ result['store'].store_name }}</h1>
-            <button v-on:click="postStoreId">{{ result['store'].id}}</button>
-        </div>
+        <router-link v-for="result in results" :key="index" :to="{ name: 'wiki', params: { id: result['store'].id } }" class="card">
+            {{result['store'].store_name}}
+        </router-link>
+        <!--        <div v-for="result in results" :key="index" class="card" >-->
+<!--            <h1>{{ result['store'].store_name }}</h1>-->
+<!--            <button v-on:click="postStoreId">{{ result['store'].id}}</button>-->
+<!--        </div>-->
     </div>
 </template>
 
@@ -17,7 +20,7 @@
         methods: {
             postStoreId(){
                 axios.get('/wiki/1')
-                // axios.post('/wiki',this.result["store"].id)
+                // axios.post('/wiki',this)
                 //     .then(response => {
                 //         console.log(response);
                 //     })
