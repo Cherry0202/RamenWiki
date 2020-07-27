@@ -96,6 +96,15 @@
 </template>
 
 <script>
+    export default {
+        name: 'WikiPage',
+        created() {
+            axios.post('/wiki',this.result["store"].id)
+                .then(response => {
+                    console.log(response);
+                })
+        }
+    }
 </script>
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
