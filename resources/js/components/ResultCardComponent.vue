@@ -3,6 +3,7 @@
     <div v-else class="card-wrapper">
         <div v-for="result in results" :key="index" class="card" >
             <h1>{{ result['store'].store_name }}</h1>
+            <button v-on:click="postStoreId">{{ result['store'].id}}</button>
         </div>
     </div>
 </template>
@@ -12,6 +13,15 @@
         name: "ResultCardComponent",
         props: {
             results: []
+        },
+        methods: {
+            postStoreId(){
+                axios.get('/wiki/1')
+                // axios.post('/wiki',this.result["store"].id)
+                //     .then(response => {
+                //         console.log(response);
+                //     })
+            }
         }
     }
 </script>
