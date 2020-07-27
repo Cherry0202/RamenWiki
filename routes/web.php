@@ -20,6 +20,8 @@ Route::get('/home', 'HomeController@index')->name('home');
 Route::post('/', 'UserHistoryController@history')->name('history');
 Route::post('/wiki', 'WikiController@select');
 
+Route::post('/wiki/detail', 'WikiController@select_join');
+
 Route::post('/wiki/register', 'WikiController@register');
 
 Route::post('/wiki/delete', 'WikiController@delete');
