@@ -50,3 +50,7 @@ Route::post('user/recommend', 'UserController@recommend');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/wiki/{id}', function () {
+    return view('wiki');
+});
