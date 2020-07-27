@@ -22,7 +22,7 @@
 
                 <div class="Honbun">
                     <p>
-                        {{$route.params.id}}
+                        {{ text }}
                     <br>
                     hoge
                     <br>
@@ -35,7 +35,8 @@
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
 
                 <div class="chart">
-                    <img src="../Ozawa_files/chart.png">
+<!--                    <img src="../Ozawa_files/chart.png">-->
+                    <h1>投稿者{{ user_sum }}人の平均</h1>
                 </div>
 
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
@@ -100,15 +101,20 @@
         name: 'WikiPage',
         data: function(){
           return{
-              store_id: this.$route.id,
+              store_id: this.$route.params.id,
+              text: String,
+              user_sum: Number,
           }
         },
-        created() {
-            console.log(this.$route.params.id);
-            // axios.post('/wiki/')
-            //     .then(response => {
-            //         console.log(response);
-            //     })
+        created: function() {
+            const url = `/wiki`;
+            axios.post(url,{
+                store_id: this.store_id
+            }).then(response => {
+                console.log(response.data.response);
+                this.text = response.data.response.text
+                this.user_sum = response.data.response.store_user_sum
+            })
         }
     }
 </script>
