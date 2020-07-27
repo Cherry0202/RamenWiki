@@ -95,6 +95,6 @@ class Wiki extends Model
 
     public function wiki_join($id)
     {
-        return DB::select('SELECT * FROM wiki JOIN result_chart ON wiki.id = result_chart.wiki_id where wiki.store_id = ?',[$id]);
+        return DB::select('SELECT * FROM wiki JOIN result_chart  ON wiki.id = result_chart.wiki_id  JOIN store ON wiki.store_id = store.id where wiki.store_id = ?',[$id]);
     }
 }
