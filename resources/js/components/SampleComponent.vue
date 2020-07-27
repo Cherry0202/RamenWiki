@@ -5,6 +5,8 @@
         </p>
         <button @click="countDown">−１</button>
         <button @click="countUp">＋１</button>
+<!--       他のコンポーネントも使うことができるよ！ -->
+        <example-component></example-component>
     </div>
 </template>
 
@@ -34,7 +36,6 @@
         }
     }
 </script>
-
 <style scoped lang="scss">
     .wrap{
         width: 20vw;
