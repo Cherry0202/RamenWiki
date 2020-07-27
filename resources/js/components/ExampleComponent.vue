@@ -41,7 +41,6 @@
             justify-content: center;
             align-items: center;
             color: white;
-
         }
     }
 </style>
