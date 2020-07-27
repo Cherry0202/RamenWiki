@@ -2084,6 +2084,37 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js&":
+/*!****************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js& ***!
+  \****************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/SampleComponent.vue?vue&type=script&lang=js&":
 /*!**************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/SampleComponent.vue?vue&type=script&lang=js& ***!
@@ -2425,6 +2456,25 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 // module
 exports.push([module.i, "\n.main[data-v-036841a5]{\n    width: 375px;\n    height: 812px;\n    padding-top: 1px;\n    background-color: #2A2E43;\n}\n.box_01[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  5px 3px 5px 3px;\n    border-radius: 10px;\n}\n.box_02[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    position: relative;\n    min-height: 600px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\nh1[data-v-036841a5]{\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n    margin: 4px;\n    text-align: center;\n}\n#midashi_02[data-v-036841a5]{\n    color: red;\n}\n#span[data-v-036841a5]{\n    color: red;\n}\n.button_wrapper[data-v-036841a5]{\n    text-align: center;\n}\n.img_wrapper[data-v-036841a5]{\n    text-align: center;\n    margin-bottom: 50px;\n}\nbutton[data-v-036841a5]{\n    background-color: #393838;\n    color: white;\n    font-size: 17px;\n    padding: 5px;\n}\np[data-v-036841a5]{\n    font-size: 23px;\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n}\n\n\n\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&":
+/*!***********************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n    .main{\n        width: 375px;\n        min-height: 812px;\n        padding-top: 1px;\n        background-color: #2A2E43;\n    }\n*/\n.box[data-v-6a9ba36c]{\n        width: 330px;\n        height: 250px;\n        background-color: #353A50;\n        /*\n        margin: 20px 20px 20px 20px;\n        */\n        padding:  10px 8px 10px 8px;\n        border-radius: 10px;\n}\nbutton[data-v-6a9ba36c]{\n        background-color: #393838;\n        color: white;\n        font-size: 17px;\n        padding: 5px;\n}\np[data-v-6a9ba36c]{\n        color: white;\n        font-size: 15px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        display: inline;\n        margin-left: 15px;\n}\n.small_wrapper[data-v-6a9ba36c]{\n        text-align: center;\n}\n#small[data-v-6a9ba36c]{\n        font-size: 5px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        text-align: center;\n        display: inline;\n        margin-left: 0px;\n}\nh3[data-v-6a9ba36c]{\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        color: white;\n        margin-left: 15px;\n}\n.button1[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: rgb(42, 188, 209,0.25);\n        color: white;\n        padding: 5px 15px 5px 15px;\n        margin-right: 5px;\n        /*\n        margin-left: 70px;\n        */\n}\n.button2[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: #2ABCD1;\n        color: white;\n        padding: 5px 15px 5px 15px;\n        /*\n        margin-left: 10px;\n        */\n}\n.btn[data-v-6a9ba36c]{\n        width: 120px;\n}\n.btn[data-v-6a9ba36c]:hover{\n    opacity: 0.8;\n}\n.centerman[data-v-6a9ba36c]{\n        width: 100%;\n        height: auto;\n        display: flex;\n        justify-content: center;\n}\n.line[data-v-6a9ba36c]{\n        margin: 0px 40px 10px 40px;\n        text-align: center;\n        margin-top: 2.5px;\n}\n.password[data-v-6a9ba36c]{\n        background-color: #353A50;\n        border: 0 solid;\n        border-bottom: 1px solid white;\n        color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -20333,6 +20383,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&":
+/*!***************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/WikiPage.vue?vue&type=style&index=1&id=3d2e076c&scoped=true&lang=css&":
 /*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/WikiPage.vue?vue&type=style&index=1&id=3d2e076c&scoped=true&lang=css& ***!
@@ -21301,6 +21381,79 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("div", { staticClass: "button_wrapper" }, [
           _c("button", [_vm._v("Ramen Wiki ホームへ")])
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true&":
+/*!********************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true& ***!
+  \********************************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "box" }, [
+      _c("h3", [_vm._v("パスワード変更")]),
+      _vm._v(" "),
+      _c("hr", { attrs: { color: "#707070" } }),
+      _vm._v(" "),
+      _c("form", { attrs: { action: "" } }, [
+        _c("p", [_vm._v("旧パスワード：")]),
+        _c("input", { staticClass: "password", attrs: { type: "password" } }),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", [_vm._v("新パスワード：")]),
+        _c("input", { staticClass: "password", attrs: { type: "password" } }),
+        _c("br"),
+        _vm._v(" "),
+        _c("p", [_vm._v("確認　　　　：")]),
+        _c("input", { staticClass: "password", attrs: { type: "password" } }),
+        _c("br"),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("br"),
+        _vm._v(" "),
+        _c("div", { staticClass: "small_wrapper" }, [
+          _c("p", { attrs: { id: "small" } }, [
+            _vm._v("入力し、Nextボタンを押してください…")
+          ])
+        ]),
+        _vm._v(" "),
+        _c("hr", { staticClass: "line", attrs: { size: "1", noshade: "" } }),
+        _vm._v(" "),
+        _c("div", { staticClass: "centerman" }, [
+          _c("input", {
+            staticClass: "button1 btn",
+            attrs: { type: "button", value: "Cancel" }
+          }),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "button2 btn",
+            attrs: { type: "submit", value: "Next" }
+          })
         ])
       ])
     ])
@@ -33956,6 +34109,7 @@ Vue.component('example-component', __webpack_require__(/*! ./components/ExampleC
 Vue.component('sample-component', __webpack_require__(/*! ./components/SampleComponent.vue */ "./resources/js/components/SampleComponent.vue")["default"]);
 Vue.component('wiki-page', __webpack_require__(/*! ./components/WikiPage.vue */ "./resources/js/components/WikiPage.vue")["default"]);
 Vue.component('wiki-edit', __webpack_require__(/*! ./components/Wikiedit.vue */ "./resources/js/components/Wikiedit.vue")["default"]);
+Vue.component('mypage-passchange', __webpack_require__(/*! ./components/Mypage_Passchange.vue */ "./resources/js/components/Mypage_Passchange.vue")["default"]);
 Vue.component('ai-page', __webpack_require__(/*! ./components/AIPage.vue */ "./resources/js/components/AIPage.vue")["default"]);
 Vue.component('goodbye-page', __webpack_require__(/*! ./components/Goodbye.vue */ "./resources/js/components/Goodbye.vue")["default"]);
 Vue.component('goodbyebye-page', __webpack_require__(/*! ./components/Goodbye_bye.vue */ "./resources/js/components/Goodbye_bye.vue")["default"]);
@@ -34367,6 +34521,96 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Goodbye_bye_vue_vue_type_template_id_036841a5_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Goodbye_bye_vue_vue_type_template_id_036841a5_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Mypage_Passchange.vue":
+/*!*******************************************************!*\
+  !*** ./resources/js/components/Mypage_Passchange.vue ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true& */ "./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true&");
+/* harmony import */ var _Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Mypage_Passchange.vue?vue&type=script&lang=js& */ "./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& */ "./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_3__["default"])(
+  _Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "6a9ba36c",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Mypage_Passchange.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js&":
+/*!********************************************************************************!*\
+  !*** ./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js& ***!
+  \********************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Mypage_Passchange.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&":
+/*!****************************************************************************************************************!*\
+  !*** ./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& ***!
+  \****************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=style&index=0&id=6a9ba36c&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_style_index_0_id_6a9ba36c_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true&":
+/*!**************************************************************************************************!*\
+  !*** ./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true& ***!
+  \**************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Mypage_Passchange.vue?vue&type=template&id=6a9ba36c&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Mypage_Passchange_vue_vue_type_template_id_6a9ba36c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 
