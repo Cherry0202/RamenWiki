@@ -4,7 +4,7 @@
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
                 <div class="grad"></div>
-                <p class="name">らーめん江畑</p>
+                <p class="name">{{ store_name }}</p>
                 <p class="yasi">⬅</p>
             </div>
             <div class="main_line">
@@ -47,7 +47,7 @@
                     <div class="phone_g">
                         <img class="phone" src="../Ozawa_files/phone.png">
                         <p>
-                            000-000-0000
+                            {{phone_number}}
                         </p>
                     </div>
                     <hr>
@@ -102,8 +102,10 @@
         data: function(){
           return{
               store_id: this.$route.params.id,
+              store_name: String,
               text: String,
               user_sum: Number,
+              phone_number: String,
           }
         },
         created: function() {
@@ -111,8 +113,10 @@
             axios.post(url,{store_id:this.store_id})
         .then(response => {
             console.log(response.data.result[0]);
+            this.store_name = response.data.result[0].store_name;
             this.text = response.data.result[0].text;
             this.user_sum = response.data.result[0].store_user_sum;
+            this.phone_number = response.data.result[0].phone_number;
         })
         }
     }
