@@ -11,6 +11,7 @@
                 <p>新パスワード：</p><input type="password" class="password"><br>
                 <p>確認　　　　：</p><input type="password" class="password"><br>
                 <br>
+                <br>
             </div>
             <div class="small_wrapper"><p id="small">入力し、Nextボタンを押してください…</p></div>
             <hr class="line" size="1" noshade>
@@ -40,7 +41,7 @@
     }
 */
     .box{
-        font-family: flex;
+        font-family: flop;
         width: 330px;
         height: 250px;
         background-color: #353A50;
@@ -81,7 +82,7 @@
     }
 
     h3{
-        font-family: flex;
+        font-family: flop;
         color: white;
         margin-left: 15px;
         margin-right: 15px;

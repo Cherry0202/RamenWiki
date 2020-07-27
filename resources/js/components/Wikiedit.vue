@@ -120,7 +120,7 @@
             left: 50%;
             z-index: 40;
             transform: translateX(-50%);
-            font-family: flex;
+            font-family: flop;
             font-size: 20px;
             color: #fff;
             white-space: nowrap
