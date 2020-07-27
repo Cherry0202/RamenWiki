@@ -52,7 +52,8 @@
                     </div>
                     <hr>
                     <!--  Map  -->
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141904177!2d139.6983826156727!3d35.68960668019239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1594865322873!5m2!1sja!2sjp" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+<!--                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141904177!2d139.6983826156727!3d35.68960668019239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1594865322873!5m2!1sja!2sjp" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>-->
+                    <iframe src="https://maps.google.co.jp/maps?output=embed&q=よってこや 新宿南口店" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                     <hr>
 
                     <p class="Sub_Midashi">最新レビュー</p>
@@ -106,6 +107,8 @@
               text: String,
               user_sum: Number,
               phone_number: String,
+              lat: Number,
+              lng: Number
           }
         },
         created: function() {
@@ -117,6 +120,8 @@
             this.text = response.data.result[0].text;
             this.user_sum = response.data.result[0].store_user_sum;
             this.phone_number = response.data.result[0].phone_number;
+            this.lat = response.data.result[0].lat;
+            this.lng = response.data.result[0].lng;
         })
         }
     }
