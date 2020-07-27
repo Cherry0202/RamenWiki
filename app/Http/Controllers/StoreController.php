@@ -11,4 +11,11 @@ class StoreController extends Controller
         $store_info = json_encode(Store::all());
         return $store_info;
     }
+
+    public function storeAll(Request $request)
+    {
+        $store = new Store;
+        $storeAll = $store->storeAll();
+        return $storeAll;
+    }
 }

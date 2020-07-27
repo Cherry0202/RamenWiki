@@ -43,6 +43,9 @@ Route::get('/login', function () {
 Route::get('/register', function () {
     return view('memberregister');
 });
+Route::post('store/all', 'StoreController@storeAll');
+
+Route::post('user/recommend', 'UserController@recommend');
 
 Route::get('/', function () {
     return view('welcome');

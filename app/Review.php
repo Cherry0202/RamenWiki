@@ -46,15 +46,23 @@ class Review extends Model
         $review = new Review();
         $review_flag = Review::all()->where('chart_log_id',$register->chart_log_id)->where('user_id',$register->user_id)->first();
         if($review_flag){
+            $imagefile = $register->file('imagefile');
+            $temp_path = $imagefile->store('public/review');
+            $read_temp_path = str_replace('public/', 'storage/', $temp_path); //追加
             $review_flag->chart_log_id = $register->chart_log_id;
             $review_flag->text = $register->text;
             $review_flag->user_id = $register->user_id;
+            $review_flag->image = $read_temp_path;
             $review_flag->save();
             return $review_flag;
         }else {
             $review->chart_log_id = $register->chart_log_id;
             $review->text = $register->text;
             $review->user_id = $register->user_id;
+            $imagefile = $register->file('imagefile');
+            $temp_path = $imagefile->store('public/review');
+            $read_temp_path = str_replace('public/', 'storage/', $temp_path);
+            $review->image = $read_temp_path;
             $review->save();
             return $review;
         }
