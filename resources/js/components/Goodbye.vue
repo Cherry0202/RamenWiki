@@ -1,6 +1,6 @@
 <template>
     
-    <div class="main">
+    <div class="main2">
         <div class="box_01">
             <p id="midashi_01"><b>RamenWikiのアカウント削除</b></p>
         </div>
@@ -40,9 +40,9 @@
 
 <style scoped lang="css">
 
-    .main{
+.main2{
     width: 375px;
-    min-height: 812px;
+    height: 812px;
     padding-top: 1px;
     background-color: #2A2E43;
 }

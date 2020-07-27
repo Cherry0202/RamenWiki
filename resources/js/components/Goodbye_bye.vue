@@ -26,7 +26,7 @@
 <style scoped lang="css">
     .main{
     width: 375px;
-    min-height: 812px;
+    height: 812px;
     padding-top: 1px;
     background-color: #2A2E43;
 }

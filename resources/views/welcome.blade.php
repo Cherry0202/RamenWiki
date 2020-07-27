@@ -5,10 +5,12 @@
 
 <div id="app" class="wrap">
     <wiki-page></wiki-page>
+    <wiki-edit></wiki-edit>
     <ai-page></ai-page>
+    <!--
     <goodbye-page></goodbye-page>
     <goodbyebye-page></goodbye-page>
-
+    -->
     
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>

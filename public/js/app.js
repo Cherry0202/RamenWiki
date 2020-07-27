@@ -2231,6 +2231,50 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=script&lang=js&":
+/*!*******************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib??ref--4-0!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=script&lang=js& ***!
+  \*******************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -2303,7 +2347,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wrap[data-v-3d2e076c] {\n  width: 375px;\n  height: 1000px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wrap .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wrap .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wrap .main_photo .name[data-v-3d2e076c] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.wrap .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wrap .main_line[data-v-3d2e076c] {\n  width: 375px;\n  height: auto;\n}\n.wrap .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wrap .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wrap .main_text hr[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 3%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wrap .icon li[data-v-3d2e076c] {\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wrap .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wrap .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wrap .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wrap .chart img[data-v-3d2e076c] {\n  position: absolute;\n  top: 85%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .second_text[data-v-3d2e076c] {\n  position: absolute;\n  top: 100%;\n  width: 375px;\n  height: auto;\n  background-color: #2A2E43;\n}\n.wrap .second_text hr[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .second_text .phone_g[data-v-3d2e076c] {\n  margin-top: 30px;\n  margin-bottom: 30px;\n  display: flex;\n  position: relative;\n  left: 100%;\n  transform: translateX(-80%);\n}\n.wrap .second_text .phone_g p[data-v-3d2e076c] {\n  margin-left: 20px;\n  color: #A9A9A9;\n}\n.wrap .second_text iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wrap .second_text .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wrap .second_text .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
+exports.push([module.i, ".wrap[data-v-3d2e076c] {\n  width: 375px;\n  height: 1000px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wrap .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wrap .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wrap .main_photo .name[data-v-3d2e076c] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.wrap .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wrap .main_line[data-v-3d2e076c] {\n  position: relative;\n  top: 63%;\n  margin-top: 20px;\n  width: 375px;\n  height: auto;\n  z-index: 40;\n}\n.wrap .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wrap .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wrap .main_text hr[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 5%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wrap .icon li[data-v-3d2e076c] {\n  margin-top: 20px;\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wrap .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wrap .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wrap .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wrap .chart img[data-v-3d2e076c] {\n  position: absolute;\n  top: 86%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wrap .second_text[data-v-3d2e076c] {\n  position: absolute;\n  top: 100%;\n  width: 375px;\n  height: auto;\n  background-color: #2A2E43;\n}\n.wrap .second_text hr[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wrap .second_text .phone_g[data-v-3d2e076c] {\n  margin-top: 30px;\n  margin-bottom: 30px;\n  display: flex;\n  position: relative;\n  left: 100%;\n  transform: translateX(-80%);\n}\n.wrap .second_text .phone_g p[data-v-3d2e076c] {\n  margin-left: 20px;\n  color: #A9A9A9;\n}\n.wrap .second_text iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wrap .second_text .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wrap .second_text .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, ".main3[data-v-09d16e25] {\n  width: 375px;\n  height: 812px;\n  padding-top: 1px;\n  background-color: #2A2E43;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.main3 .main_photo img[data-v-09d16e25] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.main3 .main_photo .grad[data-v-09d16e25] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.main3 .main_photo .name[data-v-09d16e25] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.main3 .main_photo .yasi[data-v-09d16e25] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.main3 .main_lines[data-v-09d16e25] {\n  width: 375px;\n  height: auto;\n  z-index: 13;\n  position: absolute;\n  top: 32%;\n}\n.main3 .main_lines img[data-v-09d16e25] {\n  width: 100%;\n}\n.main3 .main_lines .background[data-v-09d16e25] {\n  width: 100%;\n  height: 40px;\n  background-color: #2a2e43;\n}\n.main3 .formmmm[data-v-09d16e25] {\n  margin-top: 350px;\n  z-index: 20;\n  width: 375px;\n  height: 400px;\n  display: grid;\n  justify-items: center;\n  background-color: blue;\n}\n.main3 .formmmm .mmmmmm[data-v-09d16e25] {\n  position: absolute;\n  top: 35%;\n  left: 50%;\n  z-index: 40;\n  transform: translateX(-50%);\n  font-family: flex;\n  font-size: 20px;\n  color: #fff;\n  white-space: nowrap;\n}\n.main3 .formmmm textarea[data-v-09d16e25] {\n  width: 90%;\n  height: 70%;\n  resize: none;\n  background: transparent;\n  border: 1px solid rgba(255, 255, 255, 0.6);\n  border-radius: 2px;\n  color: #fff;\n  font-family: \"Exo\", sans-serif;\n  font-size: 16px;\n  font-weight: 400;\n  padding: 4px;\n}", ""]);
 
 // exports
 
@@ -2342,7 +2405,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.main[data-v-c561bc14]{\n    width: 375px;\n    min-height: 812px;\n    padding-top: 1px;\n    background-color: #2A2E43;\n}\n.box_01[data-v-c561bc14]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\n.box_02[data-v-c561bc14]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    position: relative;\n    min-height: 630px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\n#midashi_01[data-v-c561bc14]{\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n    font-size: 23px;\n}\n#midashi_02[data-v-c561bc14]{\n    color: red;\n}\n#span[data-v-c561bc14]{\n    color: red;\n}\n.button1[data-v-c561bc14]{\n    position: absolute; left: 80px; bottom: 20px;\n    background-color: #393838;\n    color: white;\n    padding: 5px;\n}\n.button2[data-v-c561bc14]{\n    position: absolute; right: 80px; bottom: 20px;\n    background-color: #393838;\n    color: white;\n    padding: 5px;\n}\np[data-v-c561bc14]{\n    font-size: 15px;\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n}\ntextarea[data-v-c561bc14]{\n    width: 100%;\n    display: flex;\n    align-items: center;\n    resize: none;\n}\n", ""]);
+exports.push([module.i, "\n.main2[data-v-c561bc14]{\n    width: 375px;\n    height: 812px;\n    padding-top: 1px;\n    background-color: #2A2E43;\n}\n.box_01[data-v-c561bc14]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\n.box_02[data-v-c561bc14]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    position: relative;\n    min-height: 630px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\n#midashi_01[data-v-c561bc14]{\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n    font-size: 23px;\n}\n#midashi_02[data-v-c561bc14]{\n    color: red;\n}\n#span[data-v-c561bc14]{\n    color: red;\n}\n.button1[data-v-c561bc14]{\n    position: absolute; left: 80px; bottom: 20px;\n    background-color: #393838;\n    color: white;\n    padding: 5px;\n}\n.button2[data-v-c561bc14]{\n    position: absolute; right: 80px; bottom: 20px;\n    background-color: #393838;\n    color: white;\n    padding: 5px;\n}\np[data-v-c561bc14]{\n    font-size: 15px;\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n}\ntextarea[data-v-c561bc14]{\n    width: 100%;\n    display: flex;\n    align-items: center;\n    resize: none;\n}\n", ""]);
 
 // exports
 
@@ -2361,7 +2424,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n.main[data-v-036841a5]{\n    width: 375px;\n    min-height: 812px;\n    padding-top: 1px;\n    background-color: #2A2E43;\n}\n.box_01[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  5px 3px 5px 3px;\n    border-radius: 10px;\n}\n.box_02[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    position: relative;\n    min-height: 600px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\nh1[data-v-036841a5]{\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n    margin: 4px;\n    text-align: center;\n}\n#midashi_02[data-v-036841a5]{\n    color: red;\n}\n#span[data-v-036841a5]{\n    color: red;\n}\n.button_wrapper[data-v-036841a5]{\n    text-align: center;\n}\n.img_wrapper[data-v-036841a5]{\n    text-align: center;\n    margin-bottom: 50px;\n}\nbutton[data-v-036841a5]{\n    background-color: #393838;\n    color: white;\n    font-size: 17px;\n    padding: 5px;\n}\np[data-v-036841a5]{\n    font-size: 23px;\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n}\n\n\n\n\n", ""]);
+exports.push([module.i, "\n.main[data-v-036841a5]{\n    width: 375px;\n    height: 812px;\n    padding-top: 1px;\n    background-color: #2A2E43;\n}\n.box_01[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  5px 3px 5px 3px;\n    border-radius: 10px;\n}\n.box_02[data-v-036841a5]{\n    background-color: #EDF0F5;\n    margin: 20px 13px 20px 13px;\n    padding:  10px 8px 10px 8px;\n    position: relative;\n    min-height: 600px;\n    border-radius: 10px;/*隗偵�荳ｸ縺ｿ*/\n}\nh1[data-v-036841a5]{\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n    margin: 4px;\n    text-align: center;\n}\n#midashi_02[data-v-036841a5]{\n    color: red;\n}\n#span[data-v-036841a5]{\n    color: red;\n}\n.button_wrapper[data-v-036841a5]{\n    text-align: center;\n}\n.img_wrapper[data-v-036841a5]{\n    text-align: center;\n    margin-bottom: 50px;\n}\nbutton[data-v-036841a5]{\n    background-color: #393838;\n    color: white;\n    font-size: 17px;\n    padding: 5px;\n}\np[data-v-036841a5]{\n    font-size: 23px;\n    font-family: 'M PLUS Rounded 1c', sans-serif;\n}\n\n\n\n\n", ""]);
 
 // exports
 
@@ -2381,7 +2444,26 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\n    font-family: 'MyFont';\n    src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Bold.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf")) + ");\n}\n\n/*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n    padding: 0;\n    max-width: 300px;\n    margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n    display: block;\n    margin: 1.5px 0;\n    padding : 11px 12px;\n    color :#DCDCDC;\n    font-weight: bold;\n    background :#3c4052;\n    cursor :pointer;\n    transition: all 0.5s;\n    border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n    background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n    display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n    height: 0;\n    padding: 0;\n    overflow: hidden;\n    opacity: 0;\n    transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n    height: auto;\n    padding: 5px;\n    background: #BAD3FF;\n    opacity: 1;\n    border-radius: 5px;\n}\n\n\n/*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n    width: 80%;\n    position: relative;\n    left: 9.5%;\n    display: inline-block;\n    padding: 0.3em 1em;\n    text-decoration: none;\n    border-radius: 3px;\n    transition: .4s;\n    text-align: center;\n    padding: 10px 0 10px 0;\n    margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n    color: #67c5ff;\n    border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n    background: #67c5ff;\n    color: white;\n}\n", ""]);
+exports.push([module.i, "\n@font-face {\n        font-family: 'MyFont';\n        src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Bold.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf")) + ");\n}\n\n    /*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n        padding: 0;\n        max-width: 300px;\n        margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n        display: block;\n        margin: 1.5px 0;\n        padding : 11px 12px;\n        color :#DCDCDC;\n        font-weight: bold;\n        background :#3c4052;\n        cursor :pointer;\n        transition: all 0.5s;\n        border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n        background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n        display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n        height: 0;\n        padding: 0;\n        overflow: hidden;\n        opacity: 0;\n        transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n        height: auto;\n        padding: 5px;\n        background: #BAD3FF;\n        opacity: 1;\n        border-radius: 5px;\n}\n\n\n    /*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n        width: 80%;\n        position: relative;\n        left: 9.5%;\n        display: inline-block;\n        padding: 0.3em 1em;\n        text-decoration: none;\n        border-radius: 3px;\n        transition: .4s;\n        text-align: center;\n        padding: 10px 0 10px 0;\n        margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n        background: #67c5ff;\n        color: white;\n}\n.edit[data-v-3d2e076c]{\n    position: absolute;\n    left: 70%;\n    top: 33%;\n    background: #fff;\n    border: 1px solid #fff;\n    cursor: pointer;\n    border-radius: 2px;\n    color: #a18d6c;\n    font-family: 'Exo', sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n}\n.edit[data-v-3d2e076c]:hover{\n    opacity: 0.8;\n}\n\n", ""]);
+
+// exports
+
+
+/***/ }),
+
+/***/ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&":
+/*!**************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& ***!
+  \**************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loader/lib/css-base.js */ "./node_modules/css-loader/lib/css-base.js")(false);
+// imports
+
+
+// module
+exports.push([module.i, "\n.mmmmmm[data-v-09d16e25] {\n  position: relative;\n  padding: 0.25em 1em;\n  border-top: solid 1px #fff;\n  border-bottom: solid 1px #fff;\n}\n.mmmmmm[data-v-09d16e25]:before, .mmmmmm[data-v-09d16e25]:after {\n  content: '';\n  position: absolute;\n  top: -7px;\n  width: 1px;\n  height: calc(100% + 14px);\n  background-color: #fff;\n}\n.mmmmmm[data-v-09d16e25]:before {\n  left: 7px;\n}\n.mmmmmm[data-v-09d16e25]:after {\n  right: 7px;\n}\n.textarea1[data-v-09d16e25]::-moz-placeholder{\n    color: rgba(255,255,255,0.6);\n}\n.textarea1[data-v-09d16e25]:-ms-input-placeholder{\n    color: rgba(255,255,255,0.6);\n}\n.textarea1[data-v-09d16e25]::-ms-input-placeholder{\n    color: rgba(255,255,255,0.6);\n}\n.textarea1[data-v-09d16e25]::placeholder{\n    color: rgba(255,255,255,0.6);\n}\n\n\n\n", ""]);
 
 // exports
 
@@ -20131,6 +20213,36 @@ if(false) {}
 
 /***/ }),
 
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--7-2!./node_modules/sass-loader/dist/cjs.js??ref--7-3!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& */ "./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
 /***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/AIPage.vue?vue&type=style&index=1&id=ee27cd3c&scoped=true&lang=css&":
 /*!****************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/AIPage.vue?vue&type=style&index=1&id=ee27cd3c&scoped=true&lang=css& ***!
@@ -20230,6 +20342,36 @@ if(false) {}
 
 
 var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./WikiPage.vue?vue&type=style&index=1&id=3d2e076c&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/WikiPage.vue?vue&type=style&index=1&id=3d2e076c&scoped=true&lang=css&");
+
+if(typeof content === 'string') content = [[module.i, content, '']];
+
+var transform;
+var insertInto;
+
+
+
+var options = {"hmr":true}
+
+options.transform = transform
+options.insertInto = undefined;
+
+var update = __webpack_require__(/*! ../../../node_modules/style-loader/lib/addStyles.js */ "./node_modules/style-loader/lib/addStyles.js")(content, options);
+
+if(content.locals) module.exports = content.locals;
+
+if(false) {}
+
+/***/ }),
+
+/***/ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&":
+/*!******************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/style-loader!./node_modules/css-loader??ref--6-1!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src??ref--6-2!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& ***!
+  \******************************************************************************************************************************************************************************************************************************************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports, __webpack_require__) {
+
+
+var content = __webpack_require__(/*! !../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& */ "./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&");
 
 if(typeof content === 'string') content = [[module.i, content, '']];
 
@@ -21032,7 +21174,7 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "main" }, [
+    return _c("div", { staticClass: "main2" }, [
       _c("div", { staticClass: "box_01" }, [
         _c("p", { attrs: { id: "midashi_01" } }, [
           _c("b", [_vm._v("RamenWikiのアカウント削除")])
@@ -21219,40 +21361,47 @@ var render = function() {
   var _h = _vm.$createElement
   var _c = _vm._self._c || _h
   return _c("div", { staticClass: "wrap" }, [
-    _vm._m(0),
-    _vm._v(" "),
-    _vm._m(1),
-    _vm._v(" "),
-    _c(
-      "div",
-      { staticClass: "main_text" },
-      [
-        _c("p", { staticClass: "Midashi" }, [_vm._v("店舗詳細")]),
-        _vm._v(" "),
-        _c("ui", { staticClass: "icon" }, [
-          _c("li", [
-            _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon1.png */ "./resources/js/Ozawa_files/icon1.png") } })
+    _c("form", { attrs: { method: "post", action: "#" } }, [
+      _vm._m(0),
+      _vm._v(" "),
+      _vm._m(1),
+      _vm._v(" "),
+      _c(
+        "div",
+        { staticClass: "main_text" },
+        [
+          _c("p", { staticClass: "Midashi" }, [_vm._v("店舗詳細")]),
+          _vm._v(" "),
+          _c("input", {
+            staticClass: "edit",
+            attrs: { type: "button", value: "　Edit　" }
+          }),
+          _vm._v(" "),
+          _c("ui", { staticClass: "icon" }, [
+            _c("li", [
+              _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon1.png */ "./resources/js/Ozawa_files/icon1.png") } })
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon2.jpg */ "./resources/js/Ozawa_files/icon2.jpg") } })
+            ]),
+            _vm._v(" "),
+            _c("li", [
+              _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon3.png */ "./resources/js/Ozawa_files/icon3.png") } })
+            ])
           ]),
           _vm._v(" "),
-          _c("li", [
-            _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon2.jpg */ "./resources/js/Ozawa_files/icon2.jpg") } })
-          ]),
+          _vm._m(2),
           _vm._v(" "),
-          _c("li", [
-            _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/icon3.png */ "./resources/js/Ozawa_files/icon3.png") } })
-          ])
-        ]),
-        _vm._v(" "),
-        _vm._m(2),
-        _vm._v(" "),
-        _c("hr"),
-        _vm._v(" "),
-        _vm._m(3),
-        _vm._v(" "),
-        _vm._m(4)
-      ],
-      1
-    )
+          _c("hr"),
+          _vm._v(" "),
+          _vm._m(3),
+          _vm._v(" "),
+          _vm._m(4)
+        ],
+        1
+      )
+    ])
   ])
 }
 var staticRenderFns = [
@@ -21397,6 +21546,81 @@ var staticRenderFns = [
         _vm._v(" "),
         _c("a", { staticClass: "btn4", attrs: { href: "#" } }, [
           _vm._v("GoogleMapでルート案内する")
+        ])
+      ])
+    ])
+  }
+]
+render._withStripped = true
+
+
+
+/***/ }),
+
+/***/ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true&":
+/*!***********************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/vue-loader/lib??vue-loader-options!./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true& ***!
+  \***********************************************************************************************************************************************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "render", function() { return render; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return staticRenderFns; });
+var render = function() {
+  var _vm = this
+  var _h = _vm.$createElement
+  var _c = _vm._self._c || _h
+  return _vm._m(0)
+}
+var staticRenderFns = [
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "main3" }, [
+      _c("form", { attrs: { method: "post", action: "#" } }, [
+        _c("div", { staticClass: "main_photo" }, [
+          _c("img", {
+            attrs: {
+              alt: "photo",
+              src: __webpack_require__(/*! ../Ozawa_files/Sample_ramenshot.jpg */ "./resources/js/Ozawa_files/Sample_ramenshot.jpg")
+            }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "grad" }),
+          _vm._v(" "),
+          _c("p", { staticClass: "name" }, [_vm._v("らーめん江畑")]),
+          _vm._v(" "),
+          _c("p", { staticClass: "yasi" }, [_vm._v("⬅")])
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "main_lines" }, [
+          _c("img", {
+            attrs: { alt: "line", src: __webpack_require__(/*! ../Ozawa_files/ColorLine.png */ "./resources/js/Ozawa_files/ColorLine.png") }
+          }),
+          _vm._v(" "),
+          _c("div", { staticClass: "background" })
+        ]),
+        _vm._v(" "),
+        _c("div", { staticClass: "formmmm" }, [
+          _c("p", { staticClass: "mmmmmm" }, [
+            _vm._v("　　店舗詳細編集画面　　")
+          ]),
+          _vm._v(" "),
+          _c("textarea", {
+            staticClass: "textarea1",
+            attrs: {
+              name: "edit_wiki",
+              rows: "4",
+              cols: "40",
+              placeholder: "編集内容を記述してください..."
+            }
+          }),
+          _c("br"),
+          _vm._v(" "),
+          _c("input", { attrs: { type: "submit", value: "送信" } })
         ])
       ])
     ])
@@ -33728,6 +33952,7 @@ window.Vue = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.common.
 Vue.component('example-component', __webpack_require__(/*! ./components/ExampleComponent.vue */ "./resources/js/components/ExampleComponent.vue")["default"]);
 Vue.component('sample-component', __webpack_require__(/*! ./components/SampleComponent.vue */ "./resources/js/components/SampleComponent.vue")["default"]);
 Vue.component('wiki-page', __webpack_require__(/*! ./components/WikiPage.vue */ "./resources/js/components/WikiPage.vue")["default"]);
+Vue.component('wiki-edit', __webpack_require__(/*! ./components/Wikiedit.vue */ "./resources/js/components/Wikiedit.vue")["default"]);
 Vue.component('ai-page', __webpack_require__(/*! ./components/AIPage.vue */ "./resources/js/components/AIPage.vue")["default"]);
 Vue.component('goodbye-page', __webpack_require__(/*! ./components/Goodbye.vue */ "./resources/js/components/Goodbye.vue")["default"]);
 Vue.component('goodbyebye-page', __webpack_require__(/*! ./components/Goodbye_bye.vue */ "./resources/js/components/Goodbye_bye.vue")["default"]);
@@ -34334,6 +34559,114 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_WikiPage_vue_vue_type_template_id_3d2e076c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
 
 /* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_WikiPage_vue_vue_type_template_id_3d2e076c_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
+
+
+
+/***/ }),
+
+/***/ "./resources/js/components/Wikiedit.vue":
+/*!**********************************************!*\
+  !*** ./resources/js/components/Wikiedit.vue ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true& */ "./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true&");
+/* harmony import */ var _Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Wikiedit.vue?vue&type=script&lang=js& */ "./resources/js/components/Wikiedit.vue?vue&type=script&lang=js&");
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+/* harmony import */ var _Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& */ "./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&");
+/* harmony import */ var _Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& */ "./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ../../../node_modules/vue-loader/lib/runtime/componentNormalizer.js */ "./node_modules/vue-loader/lib/runtime/componentNormalizer.js");
+
+
+
+
+
+
+
+/* normalize component */
+
+var component = Object(_node_modules_vue_loader_lib_runtime_componentNormalizer_js__WEBPACK_IMPORTED_MODULE_4__["default"])(
+  _Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_1__["default"],
+  _Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"],
+  _Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"],
+  false,
+  null,
+  "09d16e25",
+  null
+  
+)
+
+/* hot reload */
+if (false) { var api; }
+component.options.__file = "resources/js/components/Wikiedit.vue"
+/* harmony default export */ __webpack_exports__["default"] = (component.exports);
+
+/***/ }),
+
+/***/ "./resources/js/components/Wikiedit.vue?vue&type=script&lang=js&":
+/*!***********************************************************************!*\
+  !*** ./resources/js/components/Wikiedit.vue?vue&type=script&lang=js& ***!
+  \***********************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib??ref--4-0!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=script&lang=js& */ "./node_modules/babel-loader/lib/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=script&lang=js&");
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_babel_loader_lib_index_js_ref_4_0_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_script_lang_js___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&":
+/*!********************************************************************************************************!*\
+  !*** ./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& ***!
+  \********************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--7-2!../../../node_modules/sass-loader/dist/cjs.js??ref--7-3!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/sass-loader/dist/cjs.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=0&id=09d16e25&scoped=true&lang=scss&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_7_2_node_modules_sass_loader_dist_cjs_js_ref_7_3_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_0_id_09d16e25_scoped_true_lang_scss___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&":
+/*!*******************************************************************************************************!*\
+  !*** ./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& ***!
+  \*******************************************************************************************************/
+/*! no static exports found */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/style-loader!../../../node_modules/css-loader??ref--6-1!../../../node_modules/vue-loader/lib/loaders/stylePostLoader.js!../../../node_modules/postcss-loader/src??ref--6-2!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css& */ "./node_modules/style-loader/index.js!./node_modules/css-loader/index.js?!./node_modules/vue-loader/lib/loaders/stylePostLoader.js!./node_modules/postcss-loader/src/index.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=style&index=1&id=09d16e25&scoped=true&lang=css&");
+/* harmony import */ var _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__);
+/* harmony reexport (unknown) */ for(var __WEBPACK_IMPORT_KEY__ in _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__) if(__WEBPACK_IMPORT_KEY__ !== 'default') (function(key) { __webpack_require__.d(__webpack_exports__, key, function() { return _node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0__[key]; }) }(__WEBPACK_IMPORT_KEY__));
+ /* harmony default export */ __webpack_exports__["default"] = (_node_modules_style_loader_index_js_node_modules_css_loader_index_js_ref_6_1_node_modules_vue_loader_lib_loaders_stylePostLoader_js_node_modules_postcss_loader_src_index_js_ref_6_2_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_style_index_1_id_09d16e25_scoped_true_lang_css___WEBPACK_IMPORTED_MODULE_0___default.a); 
+
+/***/ }),
+
+/***/ "./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true&":
+/*!*****************************************************************************************!*\
+  !*** ./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true& ***!
+  \*****************************************************************************************/
+/*! exports provided: render, staticRenderFns */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!../../../node_modules/vue-loader/lib??vue-loader-options!./Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true& */ "./node_modules/vue-loader/lib/loaders/templateLoader.js?!./node_modules/vue-loader/lib/index.js?!./resources/js/components/Wikiedit.vue?vue&type=template&id=09d16e25&scoped=true&");
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "render", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__["render"]; });
+
+/* harmony reexport (safe) */ __webpack_require__.d(__webpack_exports__, "staticRenderFns", function() { return _node_modules_vue_loader_lib_loaders_templateLoader_js_vue_loader_options_node_modules_vue_loader_lib_index_js_vue_loader_options_Wikiedit_vue_vue_type_template_id_09d16e25_scoped_true___WEBPACK_IMPORTED_MODULE_0__["staticRenderFns"]; });
 
 
 

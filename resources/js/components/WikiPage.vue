@@ -1,5 +1,6 @@
 <template>
     <div class="wrap">
+    <form method="post" action="#">
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
                 <div class="grad"></div>
@@ -11,6 +12,7 @@
             </div>
             <div class="main_text">
                 <p class="Midashi">店舗詳細</p>
+                <input type="button" class="edit" value="　Edit　">
                 <ui class="icon">
                     <li><img src="../Ozawa_files/icon1.png"></li>
                     <li><img src="../Ozawa_files/icon2.jpg"></li>
@@ -89,6 +91,7 @@
 
                 </div>
             </div>
+    </form>
     </div>
 </template>
 
@@ -153,8 +156,12 @@
             }
         }
         .main_line{
+            position: relative;
+            top: 63%;
+            margin-top: 20px;
             width: 375px;
             height: auto;
+            z-index: 40;
             img{
                 width: 100%;
             }
@@ -182,7 +189,7 @@
             position: relative;
             width: 100%;
             height: auto;
-            top: 3%;
+            top: 5%;
             //right: 0;
             //bottom: 0;
             //left: 0;
@@ -190,6 +197,7 @@
             flex-wrap:wrap;
             
             li {
+                margin-top: 20px;
                 list-style: none;
                 width: calc(100%/5);
                 padding:0 5px;
@@ -222,7 +230,7 @@
         .chart{
             img {
                 position: absolute;
-                top: 85%;
+                top: 86%;
                 left: 50%;
                 transform: translate(-50%,-50%);
 
@@ -364,4 +372,25 @@
         background: #67c5ff;
         color: white;
     }
+
+
+
+
+.edit{
+    position: absolute;
+    left: 70%;
+    top: 33%;
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+.edit:hover{
+    opacity: 0.8;
+}
+
 </style>
