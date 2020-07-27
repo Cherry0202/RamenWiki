@@ -1,13 +1,17 @@
 <template>
     <div class="box">
         <h3>パスワード変更</h3>
+        <!--
         <hr color="#707070">
+        -->
         <form action="">
-            <p>旧パスワード：</p><input type="password" class="password"><br>
-            <p>新パスワード：</p><input type="password" class="password"><br>
-            <p>確認　　　　：</p><input type="password" class="password"><br>
-            <br>
-            <br>
+            <div class="centergirl">
+                <p>旧パスワード：</p><input type="password" class="password"><br>
+                <br>
+                <p>新パスワード：</p><input type="password" class="password"><br>
+                <p>確認　　　　：</p><input type="password" class="password"><br>
+                <br>
+            </div>
             <div class="small_wrapper"><p id="small">入力し、Nextボタンを押してください…</p></div>
             <hr class="line" size="1" noshade>
             <div class="centerman">
@@ -36,6 +40,7 @@
     }
 */
     .box{
+        font-family: flex;
         width: 330px;
         height: 250px;
         background-color: #353A50;
@@ -76,9 +81,12 @@
     }
 
     h3{
-        font-family: 'M PLUS Rounded 1c', sans-serif;
+        font-family: flex;
         color: white;
         margin-left: 15px;
+        margin-right: 15px;
+        padding-bottom: 7px;
+        border-bottom: double;
     }
 
     .button1{
@@ -114,6 +122,9 @@
         height: auto;
         display: flex;
         justify-content: center;
+    }
+    .centergirl{
+        margin-left: 20px;
     }
 
     .line{

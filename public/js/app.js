@@ -2112,6 +2112,10 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
 
 /***/ }),
 
@@ -2474,7 +2478,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n    .main{\n        width: 375px;\n        min-height: 812px;\n        padding-top: 1px;\n        background-color: #2A2E43;\n    }\n*/\n.box[data-v-6a9ba36c]{\n        width: 330px;\n        height: 250px;\n        background-color: #353A50;\n        /*\n        margin: 20px 20px 20px 20px;\n        */\n        padding:  10px 8px 10px 8px;\n        border-radius: 10px;\n}\nbutton[data-v-6a9ba36c]{\n        background-color: #393838;\n        color: white;\n        font-size: 17px;\n        padding: 5px;\n}\np[data-v-6a9ba36c]{\n        color: white;\n        font-size: 15px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        display: inline;\n        margin-left: 15px;\n}\n.small_wrapper[data-v-6a9ba36c]{\n        text-align: center;\n}\n#small[data-v-6a9ba36c]{\n        font-size: 5px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        text-align: center;\n        display: inline;\n        margin-left: 0px;\n}\nh3[data-v-6a9ba36c]{\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        color: white;\n        margin-left: 15px;\n}\n.button1[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: rgb(42, 188, 209,0.25);\n        color: white;\n        padding: 5px 15px 5px 15px;\n        margin-right: 5px;\n        /*\n        margin-left: 70px;\n        */\n}\n.button2[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: #2ABCD1;\n        color: white;\n        padding: 5px 15px 5px 15px;\n        /*\n        margin-left: 10px;\n        */\n}\n.btn[data-v-6a9ba36c]{\n        width: 120px;\n}\n.btn[data-v-6a9ba36c]:hover{\n    opacity: 0.8;\n}\n.centerman[data-v-6a9ba36c]{\n        width: 100%;\n        height: auto;\n        display: flex;\n        justify-content: center;\n}\n.line[data-v-6a9ba36c]{\n        margin: 0px 40px 10px 40px;\n        text-align: center;\n        margin-top: 2.5px;\n}\n.password[data-v-6a9ba36c]{\n        background-color: #353A50;\n        border: 0 solid;\n        border-bottom: 1px solid white;\n        color: white;\n}\n\n", ""]);
+exports.push([module.i, "\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n/*\n    .main{\n        width: 375px;\n        min-height: 812px;\n        padding-top: 1px;\n        background-color: #2A2E43;\n    }\n*/\n.box[data-v-6a9ba36c]{\n        font-family: flex;\n        width: 330px;\n        height: 250px;\n        background-color: #353A50;\n        /*\n        margin: 20px 20px 20px 20px;\n        */\n        padding:  10px 8px 10px 8px;\n        border-radius: 10px;\n}\nbutton[data-v-6a9ba36c]{\n        background-color: #393838;\n        color: white;\n        font-size: 17px;\n        padding: 5px;\n}\np[data-v-6a9ba36c]{\n        color: white;\n        font-size: 15px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        display: inline;\n        margin-left: 15px;\n}\n.small_wrapper[data-v-6a9ba36c]{\n        text-align: center;\n}\n#small[data-v-6a9ba36c]{\n        font-size: 5px;\n        font-family: 'M PLUS Rounded 1c', sans-serif;\n        text-align: center;\n        display: inline;\n        margin-left: 0px;\n}\nh3[data-v-6a9ba36c]{\n        font-family: flex;\n        color: white;\n        margin-left: 15px;\n        margin-right: 15px;\n        padding-bottom: 7px;\n        border-bottom: double;\n}\n.button1[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: rgb(42, 188, 209,0.25);\n        color: white;\n        padding: 5px 15px 5px 15px;\n        margin-right: 5px;\n        /*\n        margin-left: 70px;\n        */\n}\n.button2[data-v-6a9ba36c]{\n        border: #2ABCD1;\n        border-radius: 10px;\n        background-color: #2ABCD1;\n        color: white;\n        padding: 5px 15px 5px 15px;\n        /*\n        margin-left: 10px;\n        */\n}\n.btn[data-v-6a9ba36c]{\n        width: 120px;\n}\n.btn[data-v-6a9ba36c]:hover{\n    opacity: 0.8;\n}\n.centerman[data-v-6a9ba36c]{\n        width: 100%;\n        height: auto;\n        display: flex;\n        justify-content: center;\n}\n.centergirl[data-v-6a9ba36c]{\n        margin-left: 20px;\n}\n.line[data-v-6a9ba36c]{\n        margin: 0px 40px 10px 40px;\n        text-align: center;\n        margin-top: 2.5px;\n}\n.password[data-v-6a9ba36c]{\n        background-color: #353A50;\n        border: 0 solid;\n        border-bottom: 1px solid white;\n        color: white;\n}\n\n", ""]);
 
 // exports
 
@@ -21417,24 +21421,24 @@ var staticRenderFns = [
     return _c("div", { staticClass: "box" }, [
       _c("h3", [_vm._v("パスワード変更")]),
       _vm._v(" "),
-      _c("hr", { attrs: { color: "#707070" } }),
-      _vm._v(" "),
       _c("form", { attrs: { action: "" } }, [
-        _c("p", [_vm._v("旧パスワード：")]),
-        _c("input", { staticClass: "password", attrs: { type: "password" } }),
-        _c("br"),
-        _vm._v(" "),
-        _c("p", [_vm._v("新パスワード：")]),
-        _c("input", { staticClass: "password", attrs: { type: "password" } }),
-        _c("br"),
-        _vm._v(" "),
-        _c("p", [_vm._v("確認　　　　：")]),
-        _c("input", { staticClass: "password", attrs: { type: "password" } }),
-        _c("br"),
-        _vm._v(" "),
-        _c("br"),
-        _vm._v(" "),
-        _c("br"),
+        _c("div", { staticClass: "centergirl" }, [
+          _c("p", [_vm._v("旧パスワード：")]),
+          _c("input", { staticClass: "password", attrs: { type: "password" } }),
+          _c("br"),
+          _vm._v(" "),
+          _c("br"),
+          _vm._v(" "),
+          _c("p", [_vm._v("新パスワード：")]),
+          _c("input", { staticClass: "password", attrs: { type: "password" } }),
+          _c("br"),
+          _vm._v(" "),
+          _c("p", [_vm._v("確認　　　　：")]),
+          _c("input", { staticClass: "password", attrs: { type: "password" } }),
+          _c("br"),
+          _vm._v(" "),
+          _c("br")
+        ]),
         _vm._v(" "),
         _c("div", { staticClass: "small_wrapper" }, [
           _c("p", { attrs: { id: "small" } }, [
