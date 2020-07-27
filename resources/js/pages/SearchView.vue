@@ -22,7 +22,6 @@
             </div>
             <div class="text3"><h1>{{results.length}}</h1></div>
         </div>
-
     </div>
 </template>
 
