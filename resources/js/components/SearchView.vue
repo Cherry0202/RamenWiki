@@ -62,8 +62,12 @@
                 function(position){
                 let coords = position.coords;
                 // 緯度経度を取得
-                this.maplocation.lat = coords.latitude;
-                this.maplocation.lng = coords.longitude;
+                //this.maplocation.lat = coords.latitude;
+                //this.maplocation.lng = coords.longitude;
+
+                //HAL東京の緯度経度
+                this.maplocation.lat = 35.6915718;
+                this.maplocation.lng = 139.6970973
                 // 地図読み込み完了時のイベント
                 this.$gmapApiPromiseLazy().then(() => {
                     google.maps.event.addListenerOnce(this.$refs.mapRef.$mapObject, 'idle',
