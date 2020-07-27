@@ -7,9 +7,15 @@ use App\Wiki;
 use App\WikiLog;
 use App\ChartLog;
 use Illuminate\Http\Response;
+use Illuminate\Support\Facades\DB;
 
 class WikiController extends Controller
 {
+    public function select_join(Request $request){
+        $wiki = new Wiki();
+        $result = $wiki->wiki_join($request->store_id);
+        return response()->json(['result'=>$result],Response::HTTP_OK);
+    }
 
     // 店舗ごとのWiki取得
     public function select(Request $request){

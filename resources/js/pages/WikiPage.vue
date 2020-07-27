@@ -107,14 +107,13 @@
           }
         },
         created: function() {
-            const url = `/wiki`;
-            axios.post(url,{
-                store_id: this.store_id
-            }).then(response => {
-                console.log(response.data.response);
-                this.text = response.data.response.text
-                this.user_sum = response.data.response.store_user_sum
-            })
+            const url = '/wiki/detail';
+            axios.post(url,{store_id:this.store_id})
+        .then(response => {
+            console.log(response.data.result[0]);
+            this.text = response.data.result[0].text;
+            this.user_sum = response.data.result[0].store_user_sum;
+        })
         }
     }
 </script>

@@ -6,6 +6,7 @@ use Facade\FlareClient\Http\Response;
 use Illuminate\Database\Eloquent\Model;
 use Illuminate\Database\Eloquent\SoftDeletes;
 use Illuminate\Support\Facades\Http;
+use Illuminate\Support\Facades\DB;
 
 class Wiki extends Model
 {
@@ -90,5 +91,10 @@ class Wiki extends Model
         }else {
             return false;
         }
+    }
+
+    public function wiki_join($id)
+    {
+        return DB::select('SELECT * FROM wiki JOIN result_chart  ON wiki.id = result_chart.wiki_id  JOIN store ON wiki.store_id = store.id where wiki.store_id = ?',[$id]);
     }
 }
