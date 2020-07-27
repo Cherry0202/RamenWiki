@@ -19,7 +19,7 @@
                     <li><img src="../Ozawa_files/icon3.png"></li>
                 </ui>
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
-                
+
                 <div class="Honbun">
                     <p>
                     hogehoge
@@ -81,7 +81,7 @@
                     </div>
 
                     <hr>
-                    
+
                     <div class="Buttons">
                         <a href="#" class="btn1">レビューを書く</a>
                         <a href="#" class="btn2">すべてのレビューを見る</a>
@@ -116,7 +116,7 @@
             img{
                 width: 375px;
                 height: 300px;
-                object-fit: cover; 
+                object-fit: cover;
                 position: absolute;
                 top: 0;
                 right: 0;
@@ -180,7 +180,7 @@
             hr{
                 border-width: 1px 0px 0px 0px;
                 border-style: solid;
-                border-color: #cdcdcd; 
+                border-color: #cdcdcd;
                 margin-right: 20px;
                 margin-left: 20px;
             }
@@ -195,7 +195,7 @@
             //left: 0;
             display: flex;
             flex-wrap:wrap;
-            
+
             li {
                 margin-top: 20px;
                 list-style: none;
@@ -207,8 +207,8 @@
                 left: 15%;
                 img {
                     transform: translate(-50%,-50%);
-                    max-width: 100%; 
-                    height: auto; 
+                    max-width: 100%;
+                    height: auto;
                     //border:solid 1px #ccc; //dbg
                 }
             }
@@ -250,7 +250,7 @@
                 margin-top: 20px;
                 border-width: 1px 0px 0px 0px;
                 border-style: solid;
-                border-color: #cdcdcd; 
+                border-color: #cdcdcd;
                 margin-right: 20px;
                 margin-left: 20px;
             }

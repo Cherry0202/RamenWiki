@@ -18,6 +18,5 @@
     <goodbye-page></goodbye-page>
     <goodbyebye-page></goodbye-page>
     -->
-
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>
