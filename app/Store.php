@@ -29,4 +29,25 @@ class Store extends Model
         }
         return json_encode($storeData);
     }
+
+    public function storeAll()
+    {
+        $storeData = [];
+        $wiki = new Wiki;
+        $resultChart = new ResultChart;
+        foreach ($this->get() as $store) {
+            $wikiData = $wiki::where('store_id', $store->id)->get()->first();
+            if ($wikiData == null) {
+                $resultChartData = null;
+            } else {
+                $resultChartData = $resultChart::where('wiki_id', $wikiData->id)->get()->first();
+            }
+            $storeData[] = [
+                'store'=>$store,
+                'wiki'=>$wikiData,
+                'resultChart'=>$resultChartData
+            ];
+        }
+        return json_encode($storeData);
+    }
 }
