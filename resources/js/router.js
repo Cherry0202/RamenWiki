@@ -16,7 +16,7 @@ const routes = [
         component: Search
     },
     {
-        path: '/wiki/_id',
+        path: '/wiki/:id',
         component: Wiki,
         name: 'wiki'
     }
