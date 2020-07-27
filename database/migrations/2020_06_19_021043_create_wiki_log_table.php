@@ -18,7 +18,7 @@ class CreateWikiLogTable extends Migration
             $table->unsignedInteger('user_id');
             $table->timestamp('created_at')->useCurrent();
             $table->timestamp('updated_at')->useCurrent();
-            $table->foreign('user_id')->references('id')->on('user');
+            $table->foreign('user_id')->references('id')->on('users');
             $table->foreign('wiki_id')->references('id')->on('wiki');
         });
     }
