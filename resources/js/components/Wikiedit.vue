@@ -16,8 +16,8 @@
         
             <div class="formmmm">
                     <p class="mmmmmm">　　店舗詳細編集画面　　</p>
-                    <textarea class="textarea1" name="edit_wiki" rows="4" cols="40" placeholder="編集内容を記述してください..."></textarea><br>
-                    <input type="submit" value="送信">
+                    <textarea class="textarea1" name="edit_wiki" rows="8" cols="40" placeholder="編集内容を記述してください..."></textarea><br>
+                    <input class="submitbtn" type="submit" value="送信">
                 
             </div>
 
@@ -107,13 +107,13 @@
         }
     }
     .formmmm{
-        margin-top: 350px;
+        margin-top: 380px;
         z-index: 20;
         width: 375px;
         height: 400px;
         display: grid;
         justify-items:center;
-        background-color: blue; //dbg
+        //background-color: blue; //dbg
         .mmmmmm{ 
             position: absolute;
             top: 35%;
@@ -127,7 +127,6 @@
         }
         textarea{
             width: 90%;
-            height: 70%;
             resize: none;
             background: transparent;
             border: 1px solid rgba(255,255,255,0.6);
@@ -177,6 +176,25 @@
     color: rgba(255,255,255,0.6);
 }
 
+.submitbtn{
+    position: absolute;
+    width: 250px;
+    left: 50%;
+    top: 88%;
+    transform: translateX(-50%);
+    background: #fff;
+    border: 1px solid #fff;
+    cursor: pointer;
+    border-radius: 2px;
+    color: #a18d6c;
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    z-index: 70;
+}
+.submitbtn:hover{
+    opacity: 0.8;
+}
 
 
 </style>
