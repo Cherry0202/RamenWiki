@@ -22,7 +22,7 @@
 
                 <div class="Honbun">
                     <p>
-                    hogehoge
+                        {{$route.params.id}}
                     <br>
                     hoge
                     <br>
@@ -98,11 +98,17 @@
 <script>
     export default {
         name: 'WikiPage',
+        data: function(){
+          return{
+              store_id: this.$route.id,
+          }
+        },
         created() {
-            axios.post('/wiki',this.result["store"].id)
-                .then(response => {
-                    console.log(response);
-                })
+            console.log(this.$route.params.id);
+            // axios.post('/wiki/')
+            //     .then(response => {
+            //         console.log(response);
+            //     })
         }
     }
 </script>
