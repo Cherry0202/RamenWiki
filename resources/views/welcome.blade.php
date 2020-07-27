@@ -10,13 +10,6 @@
 </head>
 
 <div id="app" class="wrap">
-    <wiki-page></wiki-page>
-    <wiki-edit></wiki-edit>
-    <ai-page></ai-page>
-    <mypage-passchange></mypage-passchange>
-    <!--
-    <goodbye-page></goodbye-page>
-    <goodbyebye-page></goodbye-page>
-    -->
+<search-view></search-view>
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>
