@@ -10,6 +10,6 @@
 </head>
 
 <div id="app" class="wrap">
-    <search-view></search-view>
+    <wiki-page></wiki-page>
 </div>
 <script src="{{ mix('/js/app.js')  }}"></script>

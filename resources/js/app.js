@@ -2,11 +2,19 @@ require("./bootstrap");
 
 window.Vue = require("vue");
 
+import VueRouter from 'vue-router'; // Vue Routerの読み込み
+import Vue from 'vue'
+// ルーティングの定義をインポートする
+import router from './router'
+import App from './components/App'
+
+Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
+
 /* ここに作ったコンポーネントを記載する */
-Vue.component('wiki-page', require('./components/WikiPage.vue').default);
-Vue.component('wiki-edit', require('./components/Wikiedit.vue').default);
+Vue.component('wiki-page', require('./pages/WikiPage.vue').default);
+Vue.component('wiki-edit', require('./pages/Wikiedit.vue').default);
 Vue.component('mypage-passchange', require('./components/Mypage_Passchange.vue').default);
-Vue.component('ai-page', require('./components/AIPage.vue').default);
+Vue.component('ai-page', require('./pages/AIPage.vue').default);
 Vue.component('goodbye-page', require('./components/Goodbye.vue').default);
 Vue.component('goodbyebye-page', require('./components/Goodbye_bye.vue').default);
 Vue.component(
@@ -47,6 +55,12 @@ Vue.component("review-detail", require("./pages/ReviewDetail").default);
 Vue.component("review-list", require("./pages/ReviewList").default);
 Vue.component("create-view", require("./pages/CreateReview").default);
 
+
+
+// Vue.jsの実行
 const app = new Vue({
-    el: "#app"
+    el: '#app',
+    router,
+    components: { App }, // ルートコンポーネントの使用を宣言する
+    template: '<App />' // ルートコンポーネントを描画する
 });
