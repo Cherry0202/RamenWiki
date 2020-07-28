@@ -2003,6 +2003,24 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
+//
 
 /***/ }),
 
@@ -6714,7 +6732,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 exports.push([module.i, "@import url(https://fonts.googleapis.com/css?family=Roboto+Mono);", ""]);
 
 // module
-exports.push([module.i, "*[data-v-3751f895] {\n  box-sizing: border-box;\n  font-weight: normal;\n}\nbody[data-v-3751f895] {\n  color: #555;\n  background: #222;\n  text-align: center;\n  font-family: \"Roboto Mono\";\n  padding: 1em;\n}\nh1[data-v-3751f895] {\n  font-size: 2.2em;\n}\n.flip[data-v-3751f895] {\n  position: relative;\n}\n.flip > .front[data-v-3751f895],\n.flip > .back[data-v-3751f895] {\n  display: block;\n  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition-duration: 0.5s;\n  transition-property: transform, opacity;\n}\n.flip > .front[data-v-3751f895] {\n  transform: rotateY(0deg);\n}\n.flip > .back[data-v-3751f895] {\n  position: absolute;\n  opacity: 0;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  transform: rotateY(-180deg);\n}\n.flip:hover > .front[data-v-3751f895] {\n  transform: rotateY(180deg);\n}\n.flip:hover > .back[data-v-3751f895] {\n  opacity: 1;\n  transform: rotateY(0deg);\n}\n.flip.flip-vertical > .back[data-v-3751f895] {\n  transform: rotateX(-180deg);\n}\n.flip.flip-vertical:hover > .front[data-v-3751f895] {\n  transform: rotateX(180deg);\n}\n.flip.flip-vertical:hover > .back[data-v-3751f895] {\n  transform: rotateX(0deg);\n}\n.flip[data-v-3751f895] {\n  position: relative;\n  display: inline-block;\n  margin-right: 2px;\n  margin-bottom: 1em;\n  width: 150px;\n}\n.flip > .front[data-v-3751f895],\n.flip > .back[data-v-3751f895] {\n  display: block;\n  color: white;\n  width: inherit;\n  background-size: cover !important;\n  background-position: center !important;\n  height: 170px;\n  padding: 1em 2em;\n  background: #313131;\n  border-radius: 10px;\n}\n.flip > .front p[data-v-3751f895],\n.flip > .back p[data-v-3751f895] {\n  font-size: 0.9125rem;\n  line-height: 160%;\n  color: #999;\n}\n.text-shadow[data-v-3751f895] {\n  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);\n}", ""]);
+exports.push([module.i, "*[data-v-3751f895] {\n  box-sizing: border-box;\n  font-weight: normal;\n}\nbody[data-v-3751f895] {\n  color: #555;\n  background: #222;\n  text-align: left;\n  font-family: \"Roboto Mono\";\n  padding: 1em;\n  margin: 0;\n}\n.flip[data-v-3751f895] {\n  position: relative;\n}\n.flip > .front[data-v-3751f895],\n.flip > .back[data-v-3751f895] {\n  display: inline-block;\n  transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);\n  transition-duration: 0.5s;\n  transition-property: transform, opacity;\n}\n.flip > .front[data-v-3751f895] {\n  transform: rotateY(0deg);\n}\n.flip > .back[data-v-3751f895] {\n  position: absolute;\n  opacity: 0;\n  top: 0px;\n  left: 0px;\n  width: 100%;\n  height: 100%;\n  transform: rotateY(-180deg);\n}\n.flip:hover > .front[data-v-3751f895] {\n  transform: rotateY(180deg);\n}\n.flip:hover > .back[data-v-3751f895] {\n  opacity: 1;\n  transform: rotateY(0deg);\n}\n.flip.flip-vertical > .back[data-v-3751f895] {\n  transform: rotateX(-180deg);\n}\n.flip.flip-vertical:hover > .front[data-v-3751f895] {\n  transform: rotateX(180deg);\n}\n.flip.flip-vertical:hover > .back[data-v-3751f895] {\n  transform: rotateX(0deg);\n}\n.flip[data-v-3751f895] {\n  position: relative;\n  margin-right: 1px;\n  margin-bottom: 1em;\n}\n.flip > .front[data-v-3751f895],\n.flip > .back[data-v-3751f895] {\n  color: white;\n  width: 300px;\n  background-size: cover !important;\n  background-position: center !important;\n  height: 340px;\n  background: #313131;\n  border-radius: 10px;\n}\n.store[data-v-3751f895] {\n  margin: 10px;\n}\nh4[data-v-3751f895] {\n  font-family: \"Gibson\";\n  text-size: 14px;\n}\np[data-v-3751f895] {\n  font-family: \"Gibson\";\n  text-size: 12px;\n  color: gray;\n}\n.buttons[data-v-3751f895] {\n  padding: 5px;\n  text-align: center;\n}\n.btn[data-v-3751f895] {\n  border-radius: 5px;\n  padding: 10px 20px;\n  width: 290px;\n  height: 40px;\n  font-size: 16px;\n  text-align: center;\n  text-decoration: none;\n  margin: 5px;\n  color: #fff;\n  position: relative;\n  display: inline-block;\n}\n.btn[data-v-3751f895]:active {\n  transform: translate(0px, 5px);\n  -webkit-transform: translate(0px, 5px);\n  box-shadow: 0px 1px 0px 0px;\n}\n.red[data-v-3751f895] {\n  background-color: #e74c3c;\n  box-shadow: 0px 5px 0px 0px #CE3323;\n}\n.red[data-v-3751f895]:hover {\n  background-color: #FF6656;\n}\n.text-shadow[data-v-3751f895] {\n  text-shadow: 1px 1px rgba(0, 0, 0, 0.04), 2px 2px rgba(0, 0, 0, 0.04), 3px 3px rgba(0, 0, 0, 0.04), 4px 4px rgba(0, 0, 0, 0.04), 0.125rem 0.125rem rgba(0, 0, 0, 0.04), 6px 6px rgba(0, 0, 0, 0.04), 7px 7px rgba(0, 0, 0, 0.04), 8px 8px rgba(0, 0, 0, 0.04), 9px 9px rgba(0, 0, 0, 0.04), 0.3125rem 0.3125rem rgba(0, 0, 0, 0.04), 11px 11px rgba(0, 0, 0, 0.04), 12px 12px rgba(0, 0, 0, 0.04), 13px 13px rgba(0, 0, 0, 0.04), 14px 14px rgba(0, 0, 0, 0.04), 0.625rem 0.625rem rgba(0, 0, 0, 0.04), 16px 16px rgba(0, 0, 0, 0.04), 17px 17px rgba(0, 0, 0, 0.04), 18px 18px rgba(0, 0, 0, 0.04), 19px 19px rgba(0, 0, 0, 0.04), 1.25rem 1.25rem rgba(0, 0, 0, 0.04);\n}", ""]);
 
 // exports
 
@@ -38823,17 +38841,65 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "flip" }, [
-      _c(
-        "div",
-        { staticClass: "front", staticStyle: { "background-image": "url()" } },
-        [_c("h1", { staticClass: "text-shadow" }, [_vm._v("お店１")])]
-      ),
-      _vm._v(" "),
-      _c("div", { staticClass: "back" }, [
-        _c("h2", [_vm._v("詳細")]),
+    return _c("div", { staticStyle: { display: "flex" } }, [
+      _c("div", { staticClass: "flip" }, [
+        _c(
+          "div",
+          { staticClass: "front", staticStyle: { display: "inline-block" } },
+          [
+            _c("div", { staticClass: "card" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                staticStyle: {
+                  height: "280px",
+                  width: "100%",
+                  display: "block"
+                },
+                attrs: {
+                  src:
+                    "https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ=="
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card_deteil" }, [
+                _c("div", { staticClass: "store" }, [
+                  _c("h4", [_vm._v("お店名")]),
+                  _vm._v(" "),
+                  _c("p", [_vm._v("1.0km")])
+                ])
+              ])
+            ])
+          ]
+        ),
         _vm._v(" "),
-        _c("p", [_vm._v("ここにチャート、店舗情報表示")])
+        _c(
+          "div",
+          { staticClass: "back", staticStyle: { display: "inline-block" } },
+          [
+            _c("div", { staticClass: "card" }, [
+              _c("img", {
+                staticClass: "card-img-top",
+                staticStyle: {
+                  height: "280px",
+                  width: "100%",
+                  display: "block"
+                },
+                attrs: {
+                  src:
+                    "https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false"
+                }
+              }),
+              _vm._v(" "),
+              _c("div", { staticClass: "card_detail" }, [
+                _c("div", { staticClass: "button" }, [
+                  _c("a", { staticClass: "btn red", attrs: { href: "#" } }, [
+                    _vm._v("店舗詳細")
+                  ])
+                ])
+              ])
+            ])
+          ]
+        )
       ])
     ])
   }
