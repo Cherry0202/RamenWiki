@@ -178,6 +178,17 @@
             .text2{
                 width: 85%;
                 /*background-color: #3AC;*/
+                h2 {
+                    font-size: 50px;
+                    color: white;
+                    padding-left: 30px;
+                    padding-top: 11px;
+                }
+                p{
+                    font-size: 40px;
+                    color: white;
+                    padding-left: 30px;
+                }
             }
             .text3{
                 width: 15%;
@@ -186,7 +197,9 @@
                 justify-content: center;
                 align-items: center;
                 h1{
-                    font-size: 62px;
+                    font-size: 100px;
+                    color: #9EA7CC;
+                    padding-left: 30px;
                 }
             }
         }
