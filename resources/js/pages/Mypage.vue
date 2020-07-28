@@ -47,7 +47,7 @@
 export default {
   data() {
     return {
-      tab : 3,
+      tab : 1,
       username : 'username'
     }
   }
