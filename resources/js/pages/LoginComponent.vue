@@ -12,8 +12,8 @@
                 <div class="box3"></div>
                 <div class="box4"></div>
             </div>
-            <a href="/register" class="tab_b">SIGN UP</a>
-            <!-- <router-link to="/register">SIGN UP</router-link> -->
+<!--            <a href="/register" class="tab_b">SIGN UP</a>-->
+             <router-link to="/register" class="tab_b">SIGN UP</router-link>
 
             <!-- フォーム部分 -->
             <div class="bottom_box">
@@ -114,7 +114,7 @@ export default {
     width: 25%;
     height: 20%;
     background-color: #665eff;
-    margin-left: -58.5%;
+    margin-left: -61%;
     margin-top: 15%;
 }
 .box2 {
@@ -130,7 +130,7 @@ export default {
     margin-top: 15%;
 }
 .box4 {
-    width: 25.4%;
+    width: 25%;
     height: 20%;
     background-color: #3acce1;
     margin-top: 15%;
@@ -140,7 +140,7 @@ export default {
 .bottom_box {
     width: 100%;
     height: 87%;
-    background-image: url("back_image.png");
+    background-image: url("../components/back_image.png");
     background-size: 101%;
     display: flex;
     justify-content: center;
