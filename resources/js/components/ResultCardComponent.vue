@@ -1,10 +1,6 @@
 <template>
-    <!-- <div v-if="results.length === 0" :class="{display:none}"></div>
-    <div v-else class="card-wrapper">
-        <router-link v-for="result in results" :key="index" :to="{ name: 'wiki', params: { id: result['store'].id } }" class="card">
-            {{result['store'].store_name}}
-        </router-link> -->
-    <div style="display: flex;">
+    <div style="display: flex;" class="wrap">
+    <div style="display: flex;" v-for="result in results" :key="index">
         <div class="flip">
             <div class="front" style="display: inline-block;">
                 <div class="card">
@@ -24,18 +20,25 @@
                     <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 280px; width: 100%; display: block;">
                     <div class="card_detail">
                         <div class="button">
-                            <a href="#" class="btn red">店舗詳細</a>
+                            <router-link class="btn red" :to="{ name: 'wiki', params: { id: result['store'].id } }">
+                                店舗詳細
+                            </router-link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
 
 </template>
 
 <script>
-
+export default {
+    props: {
+        results: null
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -53,6 +56,11 @@ body {
   font-family: 'Roboto Mono';
   padding: 1em;
   margin:0;
+}
+.wrap {
+    width: 100vw;
+    height: 338px;
+    overflow-x: scroll;
 }
 
 // base
