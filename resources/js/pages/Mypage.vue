@@ -1,7 +1,7 @@
 <template>
   <div class="mypage">
     <div class="header">
-      <h1>ここには画像が入ります</h1>  
+      <h1>{{ username }}</h1>  
     </div>
     <div id="nav">
       <ul>
@@ -18,7 +18,7 @@
             'tab-no': tab != 2
             }"
           @click="tab = 2"
-        >画像投稿</li>
+        >写真一覧</li>
         <li
           :class="{
             'tab': tab === 3,
@@ -33,10 +33,10 @@
         user
       </div>
       <div v-show="tab === 2">
-        image
+        <myimage></myimage>
       </div>
       <div v-show="tab === 3">
-        review
+        <myreview></myreview>
       </div>
     </div>
 
@@ -47,57 +47,13 @@
 export default {
   data() {
     return {
-      tab : 1
+      tab : 3,
+      username : 'username'
     }
   }
 }
 </script>
 
 <style>
-
-  .mypage {
-    background-color: #2A2E43;
-    color: white;
-  }
-
-  .header {
-    width: 100%;
-    height: 30%;
-    background-color: red;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-
-  #nav ul {
-    list-style: none;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    height: 5%;
-  }
-
-  #nav ul li {
-    /* background-color: #353A50; */
-    font-size: 28px;
-    width: calc(100%/3);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    border-radius: 20px;
-  }
-
-  .content {
-    height: 65%;
-  }
-
-  .tab {
-    background-color: #3ACCE1;
-  }
-
-  .tab-no {
-    background-color: #353A50;
-  }
 
 </style>
