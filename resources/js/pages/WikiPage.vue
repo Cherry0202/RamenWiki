@@ -98,10 +98,15 @@
 </template>
 
 <script>
+    import Vue from 'vue'
+    import VueHead from 'vue-head'
+
+    Vue.use(VueHead)
     export default {
         name: 'WikiPage',
         data: function(){
           return{
+              screenwidth: 375,
               store_id: this.$route.params.id,
               store_name: String,
               text: String,
@@ -123,7 +128,10 @@
             this.lat = response.data.result[0].lat;
             this.lng = response.data.result[0].lng;
         })
-        }
+        },
+        // meta: [
+        //     { name: 'viewport', content: 'width=375' }
+        // ]
     }
 </script>
 
@@ -134,9 +142,6 @@
         height: 1000px;
         display: flex;
         flex-direction: column;
-        //border: dashed 2px #5b8bd0;
-        //border-radius: 5px;
-        //padding: 3px;
         background-color: #2A2E43;
         justify-content: center;
         align-items: center;
