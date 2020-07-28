@@ -18,23 +18,27 @@
             <div class="bottom_box">
                 <a href="/login" class="return">︎︎⬅︎︎</a>
                 <!-- <router-link to="/loginp" class="return">⬅︎</router-link> -->
-                <form action="" method="post">
+                <form>
                     <input
-                        type="email"
+                        v-model="user.user_name"
+                        type="text"
                         class="namebox"
                         placeholder="UserName"
                     /><br />
                     <input
+                        v-model="user.email"
                         type="email"
                         class="email"
                         placeholder="Email"
                     /><br />
                     <input
+                        v-model="user.password"
                         type="password"
                         class="password"
                         placeholder="Password"
                     /><br />
                     <input
+                        v-model="user.re_password"
                         type="password"
                         class="passwordplus"
                         placeholder="Confirm Password"
@@ -47,7 +51,8 @@
                             />利用規約に同意する<br />
                         </label>
                     </p>
-                    <input type="submit" value="CONTINUE" class="button" />
+<!--                    <input type="submit" value="CONTINUE" class="button" />-->
+                    <button class="button" v-on:click="check">CONTINUE</button>
                 </form>
             </div>
         </div>
@@ -55,11 +60,26 @@
 </template>
 
 <script>
-export default {
-    created() {
-        console.log("member-register-component");
-    }
-};
+    export default {
+        data() {
+            return{
+                user:{
+                    user_name: null,
+                    email: null,
+                    password: null,
+                    re_password: null
+                }
+            }
+        },
+        methods: {
+            check() {
+                console.log(this.user);
+                if (this.user.password !== this.user.re_password){
+                    console.log("パスワードが一致しません");
+                }
+            }
+        }
+    };
 </script>
 
 <style scoped lang="scss">

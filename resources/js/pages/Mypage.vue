@@ -1,7 +1,7 @@
 <template>
   <div class="mypage">
     <div class="header">
-      <h1>{{ username }}</h1>  
+      <h1>{{ user.name }}</h1>
     </div>
     <div id="nav">
       <ul>
@@ -39,18 +39,33 @@
         <myreview></myreview>
       </div>
     </div>
-
-  </div>  
+  </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      tab : 1,
-      username : 'username'
+    import axios from "axios";
+    export default {
+    data() {
+        return {
+        tab : 1,
+        user:{
+            id: 1,
+            name: "hoge",
+            password: "hogehoge",
+            email: "hoge@hoge.com"
+        }
     }
-  }
+  },
+    created() {
+      console.log("hoge")
+      axios.get('localhost:8080/user')
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err=>{
+            console.log(err);
+        })
+    }
 }
 </script>
 

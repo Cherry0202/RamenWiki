@@ -7,6 +7,7 @@ import Search from './pages/SearchView'
 import Wiki from './pages/WikiPage'
 import Login from './pages/LoginComponent'
 import Register from './pages/MemberRegisterComponent'
+import Mypage from "./pages/Mypage";
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -33,6 +34,11 @@ const routes = [
         path: '/register',
         component: Register,
         name: 'register'
+    },
+    {
+        path: '/mypage',
+        component: Mypage,
+        name: 'mypage'
     }
 ]
 
