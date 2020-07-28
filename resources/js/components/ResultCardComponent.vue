@@ -18,7 +18,7 @@
             <div class="back"  style="display: inline-block;">
                 <div class="card">
                     <!-- チャート表示 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 280px; width: 100%; display: block;">
+                    <img class="card-img-top" src="../Ozawa_files/chart.png" style="height: 280px; width: 100%; display: block;">
                     <div class="card_detail">
                         <div class="button">
                             <router-link class="btn red" :to="{ name: 'wiki', params: { id: result['store'].id } }">
