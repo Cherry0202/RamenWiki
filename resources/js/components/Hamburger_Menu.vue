@@ -28,12 +28,14 @@
                         <a href="#">Home</a>
                     </div>
                     <div class="button-div">
-                        <form @submit.prevent="login">
+                        <div class="button-wrapper">
+<!--                        <form @submit.prevent="login">-->
                             <button class="buttonop1" type="submit">ログイン</button>
-                        </form>
-                        <form @submit.prevent="signup">
+<!--                        </form>-->
+<!--                        <form @submit.prevent="signup">-->
                             <button class="buttonop2" type="submit">会員登録</button>
-                        </form>
+<!--                        </form>-->
+                        </div>
                     </div>
                 </div>
             </div>
@@ -61,12 +63,12 @@
 
 <style scoped lang="scss">
     #wrapper{
-        width: 100vw;
+        width: 85vw;
         height: 80vh;
         /*background-color: #ffed4a;*/
         position: fixed;
         /*TODO:z-index*/
-        z-index: 3;
+        z-index: 4;
         .hamburger_btn {
             position: fixed; /*常に最上部に表示したいので固定*/
             top: 0;
@@ -143,9 +145,12 @@
             // bottom: 0;
             // left: 0;
             #background-wrap{
-                height: 200px;
+                /*height: 200px;*/
+                height: 30vh;
                 background-image: url("../images/lll.png");
-                background-size:375px 200px;
+                /*background-size: 375px 200px;*/
+                background-size: cover;
+                background-repeat: no-repeat;
                 .upper-wrap{
                     .yazirusi{
                         padding-top: 10px;
@@ -153,17 +158,17 @@
                         width: 40px;
                     }
                     .icons{
-                        height: 55px;
-                        width: 55px;
+                        width: 185px;
                         display: flex;
-                        padding-top: 20px;
-                        padding-left: 30px;
+                        padding-top: 105px;
+                        padding-left: 84px;
                     }
                     .loginstatus{
                         margin: 0;
-                        padding-top: 10px; ;
-                        padding-left: 30px;
+                        padding-top: 40px;
+                        padding-left: 84px;
                         color: white;
+                        font-size: 60px;
                     }
                 }
             }
@@ -188,68 +193,88 @@
                 }
             }
             #footer{
-                height:400px;
+                /*height:400px;*/
+                height: 70vh;
                 background-color: #F2F2F2;
                 display: block;
+                position: relative;
+                justify-content: center;
                 .under-wrap{
                     //-color: #552233;
                     padding-top: 20px;
                     padding-left:30px ;
                     height: 200px;
                     .home{
-                        height: 25px;
-                        width: 25px;
-                        padding-top: 30px;
+                        width: 80px;
+                        padding-top: 90px;
+                        padding-left: 60px;
                     }
+                }
                 }
                 .under-wrap,a{
                     padding-top: 30px;
-                    font-size: 30px;
+                    font-size: 80px;
                     font-family: Franklin Gothic Medium;
                     color: gray;
                     text-decoration: none;
                 }
-                .button-div{
+                .button-div {
                     // background-color: #002211;
-                    height: 170px;
-                    display: block;
-                    margin-left: 50px;
-                    .buttonop1{
-                        display       : inline-block;
-                        border-radius : 20%;          /* 角丸       */
-                        font-size     : 20pt;        /* 文字サイズ */
-                        text-align    : center;      /* 文字位置   */
-                        cursor        : pointer;     /* カーソル   */
-                        padding       : 13px 63px;   /* 余白       */
-                        background    : #00e6e6;     /* 背景色     */
-                        color         : #ffffff;     /* 文字色     */
-                        line-height   : 1em;         /* 1行の高さ  */
-                        transition    : .3s;         /* なめらか変化 */
-                        border        : 2px solid #00e6e6;    /* 枠の指定 */
-                    }
-                    .buttonop1:hover{
-                        color         : #00e6e6;     /* 背景色     */
-                        background    : #ffffff;     /* 文字色     */
-                    }
-                    .buttonop2{
-                        display       : inline-block;
-                        border-radius : 20%;          /* 角丸       */
-                        font-size     : 20pt;        /* 文字サイズ */
-                        text-align    : center;      /* 文字位置   */
-                        cursor        : pointer;     /* カーソル   */
-                        padding       : 13px 63px;   /* 余白       */
-                        background    : #202f55;     /* 背景色     */
-                        color         : #ffffff;     /* 文字色     */
-                        line-height   : 1em;         /* 1行の高さ  */
-                        transition    : .3s;         /* なめらか変化 */
-                        border        : 2px solid #202f55;    /* 枠の指定 */
-                    }
-                    .buttonop2:hover{
-                        color         : #202f55;     /* 背景色     */
-                        background    : #ffffff;     /* 文字色     */
+                    display: flex;
+                    /* margin-left: 50px; */
+                    position: absolute;
+                    /* margin-left: 50px; */
+                    width: 100%;
+                    height: 100%;
+                    justify-content: center;
+                    /*align-items: flex-end;*/
+                    .button-wrapper {
+                        position: relative;
+                        top: 800px;
+                        text-align: center;
+                        .buttonop1 {
+                            border-radius: 35px;
+                            width: 50vw;
+                            height: 140px;
+                            font-size: 20pt;
+                            text-align: center;
+                            cursor: pointer;
+                            padding: 13px 63px;
+                            background: #00e6e6;
+                            color: #ffffff;
+                            line-height: 1em;
+                            transition: 0.3s;
+                            border: 2px solid #00e6e6;
+                            margin-bottom: 30px;
+                        }
+
+                        .buttonop1:hover {
+                            color: #00e6e6; /* 背景色     */
+                            background: #ffffff; /* 文字色     */
+                        }
+
+                        .buttonop2 {
+                            display: inline-block;
+                            border-radius: 35px;
+                            width: 50vw;
+                            height: 140px;
+                            font-size: 20pt;
+                            text-align: center;
+                            cursor: pointer;
+                            padding: 13px 63px;
+                            background: #353A50;
+                            color: #ffffff;
+                            line-height: 1em;
+                            transition: 0.3s;
+                            border: 2px solid #00e6e6;
+                        }
+
+                        .buttonop2:hover {
+                            color: #202f55; /* 背景色     */
+                            background: #ffffff; /* 文字色     */
+                        }
                     }
                 }
             }
         }
-    }
 </style>
