@@ -60,6 +60,7 @@ Vue.component("recommend-ramen", require("./pages/RecommendRamen").default);
 Vue.component("review-detail", require("./pages/ReviewDetail").default);
 Vue.component("review-list", require("./pages/ReviewList").default);
 Vue.component("create-view", require("./pages/CreateReview").default);
+Vue.component('myuser', require('./components/MypageUserComponent').default);
 
 
 
