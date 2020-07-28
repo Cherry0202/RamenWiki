@@ -11,14 +11,17 @@
 </head>
 
 <div id="app" class="wrap">
-    <wiki-edit></wiki-edit>
+
     <!--
+        おわりました
         <ai-page></ai-page>
+        <wiki-edit></wiki-edit>
+        <goodbye-page></goodbye-page>
+        <goodbyebye-page></goodbye-page>
+        <mypage-passchange></mypage-passchange>
+
+        まだおわてません
     <wiki-page></wiki-page>
-    <ai-page></ai-page>
-    <mypage-passchange></mypage-passchange>
-    <goodbye-page></goodbye-page>
-    <goodbyebye-page></goodbye-page>
     -->
 
 </div>
