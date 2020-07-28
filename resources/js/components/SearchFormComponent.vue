@@ -33,7 +33,7 @@
 
 <style lang="scss" scoped>
     .searcher{
-        background-color: #339b4d;
+        /*background-color: #339b4d;*/
         height: 60px;
         .search-container{
             width: 260px;
@@ -66,7 +66,7 @@
             width: 50px;
             height: 50px;
             top: -43px;
-            right: -5px;
+            right: -250px;
         }
     }
 </style>

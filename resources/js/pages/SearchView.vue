@@ -1,33 +1,37 @@
 <template>
     <div class="wrap">
-        <div id="google-map">
-            <div class= "header">
-                <div class="menu-all">
-                    <a href="#" class="button">MENU</a>
-<!--                    <menubar-not-login-component></menubar-not-login-component>-->
+        <div id="main">
+            <hamburger_-menu></hamburger_-menu>
+            <search-form-component @postLists="getLists"></search-form-component>
+<!--            <img src="../Ozawa_files/map-sample.png" alt="">-->
+            <div class="g-map">
+<!--                ここにgoogle map-->
+            </div>
+            <div class="card-wrapper">
+            hogehogehogehge
+                <result-card-component :results="results"></result-card-component>
+            </div>
+            <div id="under-color-block">
+                <div class="block1"></div>
+                <div class="block2"></div>
+                <div class="block3"></div>
+                <div class="block4"></div>
+            </div>
+            <div id="ramen-menu-bar">
+                <div class="text2">
+                    <h2>Nearby</h2>
+                    <p>近くのラーメン店</p>
                 </div>
-                <search-form-component @postLists="getLists"></search-form-component>
+                <div class="text3"><h1>{{results.length}}</h1></div>
             </div>
-        </div>
-        <result-card-component :results="results"></result-card-component>
-        <div id="under-color-block">
-            <div class="block1"></div>
-            <div class="block2"></div>
-            <div class="block3"></div>
-            <div class="block4"></div>
-        </div>
-        <div id="ramen-menu-bar">
-            <div class="text2">
-                <h2>Nearby</h2>
-                <p>近くのラーメン店</p>
-            </div>
-            <div class="text3"><h1>{{results.length}}</h1></div>
         </div>
     </div>
 </template>
 
 <script>
+    import Hamburger_Menu from "../components/Hamburger_Menu";
     export default {
+        components: {Hamburger_Menu},
         data() {
             return {
                 maplocation:{lat:0, lng:0},
@@ -50,7 +54,7 @@
     .wrap{
         width: 100vw;
         height: 100vh;
-        background-color: whitesmoke;
+        /*background-color: whitesmoke;*/
         position: relative;
         /*top: 0;*/
         /*right: 0;*/
@@ -58,7 +62,7 @@
         /*left: 0;*/
         .header{
             display: flex;
-            background-color: #339b4d;
+            /*background-color: #339b4d;*/
         }
         .menu-all{
             background-color: #3ACCE1;
@@ -80,8 +84,12 @@
             }
         }
         .searcher{
-            background-color: #339b4d;
-            height: 60px;
+            /*background-color: #339b4d;*/
+            height: 100px;
+            position: absolute;
+            width: 100vw;
+            top: 0;
+            z-index: 3;
             .search-container{
             width: 260px;
             display: block;
@@ -116,10 +124,29 @@
             right: -5px;
             }
         }
-        #google-map{
+        #main{
+            position: relative;
             width: 100%;
-            height: 91%;
+            height: 100%;
             background-color: #2A2E43;
+            .g-map {
+                background-color: whitesmoke;
+                width: 100%;
+                position: absolute;
+                top: 0;
+                height: 100vh;
+                z-index: 1;
+                background-image: url("../Ozawa_files/map-sample.png");
+                background-repeat: no-repeat;
+                background-size: cover;
+            }
+            .card-wrapper {
+                /*background-color: #636b6f;*/
+                width: 100%;
+                position: absolute;
+                z-index: 2;
+                bottom: 177px;
+            }
         }
         #under-color-block{
             display: flex;
@@ -144,15 +171,18 @@
         #ramen-menu-bar{
             background-color: #2A2E43;
             display: flex;
-            height: 9%;
+            height: 8%;
             width: 100%;
+            position: absolute;
+            z-index: 2;
+            bottom: 0;
             .text2{
                 width: 85%;
-                background-color: #3AC;
+                /*background-color: #3AC;*/
             }
             .text3{
                 width: 15%;
-                background-color: #CE1;
+                /*background-color: #CE1;*/
                 display: flex;
                 justify-content: center;
                 align-items: center;
