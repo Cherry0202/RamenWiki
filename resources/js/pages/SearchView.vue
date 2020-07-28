@@ -47,40 +47,9 @@
     export default {
         data() {
             return {
-                    maplocation:{lat:0, lng:0},
-                    makers:[]
-            }
-        },
-        async mounted() {
-            // 現在地の取得
-            if (navigator.geolocation) {
-            navigator.geolocation.getCurrentPosition(
-                function(position){
-                let coords = position.coords;
-                // 緯度経度を取得
-                //this.maplocation.lat = coords.latitude;
-                //this.maplocation.lng = coords.longitude;
-
-                //HAL東京の緯度経度
-                this.maplocation.lat = 35.6915718;
-                this.maplocation.lng = 139.6970973
-                // 地図読み込み完了時のイベント
-                this.$gmapApiPromiseLazy().then(() => {
-                    google.maps.event.addListenerOnce(this.$refs.mapRef.$mapObject, 'idle',
-                    function() { this.setPlaceMakers() }.bind(this)
-                    );
-                });
-                }.bind(this),
-                function(error) {
-                // エラーの場合は東京駅周辺に移動
-                this.maplocation.lat = 35.6813092;
-                this.maplocation.lng = 139.7677269;
-                }
-            );
-            } else {
-            // 現在地取得不可の場合は東京駅周辺に移動
-            this.maplocation.lat = 35.6813092;
-            this.maplocation.lng = 139.7677269;
+                maplocation:{lat:0, lng:0},
+                makers:[],
+                results: [],
             }
         },
         // async mounted() {

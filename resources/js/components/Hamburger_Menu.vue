@@ -11,8 +11,8 @@
         <div class="menu" v-show="ActiveBtn">
             <div id="background-wrap">
                 <div class="upper-wrap">
-                    <img class= "yazirusi" src="..\images\sozai1.png"/>
-                    <img class="icons" src="..\images\sozais2.png"/>
+                    <img class= "yazirusi" src="../images/sozai1.png"/>
+                    <img class="icons" src="../images/sozais2.png"/>
                     <h2 class="loginstatus">未ログイン</h2>
                 </div>
             </div>
@@ -24,8 +24,8 @@
             </div>
             <div id="footer">
                 <div class="under-wrap">
-                    <img class="home" src="..\images\home.png"/>
-                    <a href="#">Home</a>          
+                    <img class="home" src="../images/home.png"/>
+                    <a href="#">Home</a>
                 </div>
                 <div class="button-div">
                     <div class = "loginbutton">
@@ -167,7 +167,7 @@
                    padding-left: 30px;
                    color: white;
                }
-            }           
+            }
         }
         #under-color-block{
             display: flex;
@@ -187,7 +187,7 @@
             .block4{
                 width: 25%;
                 background-color: #3ACCE1;
-            }            
+            }
         }
         #footer{
             height:557px;
@@ -213,6 +213,7 @@
             }
             .button-div{
                 // background-color: #002211;
+<<<<<<< HEAD
                 height: 170px;  
                 display: block; 
                 margin-left: 75px;
@@ -220,6 +221,11 @@
                 .signupbutton{
                     padding-top: 20px;
                 }
+=======
+                height: 170px;
+                display: block;
+                margin-left: 50px;
+>>>>>>> e77cf927fbf483cf7fbf03eceacd08294f9f99f8
                 .buttonop1{
                     display       : inline-block;
                     border-radius : 20%;          /* 角丸       */
@@ -231,7 +237,7 @@
                     color         : #ffffff;     /* 文字色     */
                     line-height   : 1em;         /* 1行の高さ  */
                     transition    : .3s;         /* なめらか変化 */
-                    border        : 2px solid #00e6e6;    /* 枠の指定 */ 
+                    border        : 2px solid #00e6e6;    /* 枠の指定 */
                 }
                 .buttonop1:hover{
                     color         : #00e6e6;     /* 背景色     */
@@ -248,7 +254,7 @@
                     color         : #ffffff;     /* 文字色     */
                     line-height   : 1em;         /* 1行の高さ  */
                     transition    : .3s;         /* なめらか変化 */
-                    border        : 2px solid #202f55;    /* 枠の指定 */ 
+                    border        : 2px solid #202f55;    /* 枠の指定 */
                 }
                 .buttonop2:hover{
                     color         : #202f55;     /* 背景色     */
