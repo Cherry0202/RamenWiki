@@ -17,21 +17,24 @@
 
             <!-- フォーム部分 -->
             <div class="bottom_box">
-                <a href="" class="return">︎︎⬅︎︎</a>
-                <form action="" method="post">
+                <a href="" class="return">︎⬅︎</a>
+                <form>
                     <input
+                        v-model="user.email"
                         type="email"
                         class="email"
                         placeholder="Email"
                     /><br />
                     <input
+                        v-model="user.password"
                         type="password"
                         class="password"
                         placeholder="Password"
                     /><br />
                     <a href="" class="link_text">パスワードを忘れた方へ</a
                     ><br />
-                    <input type="submit" value="CONTINUE" class="button" />
+<!--                    <input type="submit" value="CONTINUE" class="button" />-->
+                    <button class="button" v-on:click="check">CONTINUE</button>
                 </form>
             </div>
         </div>
@@ -40,8 +43,19 @@
 
 <script>
 export default {
-    created() {
-        console.log("login-component");
+    data() {
+        return{
+            user:{
+                email: null,
+                password: null
+            }
+        }
+    },
+    methods: {
+        check() {
+            console.log(this.user.email);
+            console.log(this.user.password);
+        }
     }
 };
 </script>
