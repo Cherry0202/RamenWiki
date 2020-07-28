@@ -1,7 +1,7 @@
 <template>
   <div class="mypage">
     <div class="header">
-      <h1>{{ username }}</h1>  
+      <h1>{{ username }}</h1>
     </div>
     <div id="nav">
       <ul>
@@ -40,17 +40,31 @@
       </div>
     </div>
 
-  </div>  
+  </div>
 </template>
 
 <script>
-export default {
-  data() {
-    return {
-      tab : 1,
-      username : 'username'
+    import axios from "axios";
+    axios.defaults.headers.common['Access-Control-Allow-Origin'] = '*';
+    export default {
+    data() {
+        return {
+        tab : 1,
+        username : 'username'
     }
-  }
+  },
+    created() {
+      console.log("hoge")
+      axios.get('localhost:8080/user',{
+          headers: {}
+    })
+        .then(response => {
+            console.log(response);
+        })
+        .catch(err=>{
+            console.log(err);
+        })
+    }
 }
 </script>
 
