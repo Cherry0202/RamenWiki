@@ -8,7 +8,6 @@
 <!--                ここにgoogle map-->
             </div>
             <div class="card-wrapper">
-            hogehogehogehge
                 <result-card-component :results="results"></result-card-component>
             </div>
             <div id="under-color-block">

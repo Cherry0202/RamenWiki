@@ -15,7 +15,6 @@
                     <div class="card_deteil">
                         <div class="store">
                             <h4>{{result['store'].store_name}}</h4>
-<!--                            <p>{{result['store'].id}}</p>-->
                         </div>
                     </div>
                 </div>
@@ -84,7 +83,7 @@ img {
     position: relative;
     margin-left: 18px;
     >.front{
-        background-color: #636b6f;
+        /*background-color: #636b6f;*/
     }
     >.back {
         display: inline-block;
