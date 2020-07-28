@@ -30,7 +30,7 @@
 </template>
 
 <script>
-    
+
 </script>
 
 <style lang="scss" scoped>
@@ -53,7 +53,9 @@ body {
 // base
 .flip {
     position: relative;
-    >.front,
+    >.front{
+        background-color: #636b6f;
+    }
     >.back {
         display: inline-block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
@@ -66,8 +68,8 @@ body {
     >.back {
         position: absolute;
         opacity: 0;
-        top: 0px;
-        left: 0px;
+        top: 0;
+        left: 0;
         width: 100%;
         height: 100%;
         transform: rotateY(-180deg);
