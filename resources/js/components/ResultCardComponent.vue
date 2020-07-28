@@ -9,9 +9,6 @@
                     <div v-if="result['store'].id%2 === 1">
                     <img class="card-img-top" src="../Ozawa_files/Sample_ramenshot.jpg" style="height: 280px; width: 100%; display: block;">
                     </div>
-<!--                    <div v-if="result['store'].id === 2">-->
-<!--                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 280px; width: 100%; display: block;">-->
-<!--                    </div>-->
                     <div v-else>
                         <img class="card-img-top" src="https://dancyu.jp/images/mm2074.jpg" style="height: 280px; width: 100%; display: block;">
                     </div>
