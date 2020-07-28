@@ -1,5 +1,6 @@
 <template>
-    <div style="display: flex;" class="wrap">
+    <div v-if="results.length == 0" style="display: none;"></div>
+    <div v-else style="display: flex;" class="wrap">
     <div style="display: flex;" v-for="result in results" :key="index">
         <div class="flip">
             <div class="front" style="display: inline-block;">
