@@ -4,6 +4,7 @@
             <div class= "header">
                 <div class="menu-all">
                     <a href="#" class="button">MENU</a>
+<!--                    <menubar-not-login-component></menubar-not-login-component>-->
                 </div>
                 <search-form-component @postLists="getLists"></search-form-component>
             </div>
