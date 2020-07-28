@@ -64,7 +64,7 @@
   <style scoped lang="scss">
   #app{
         width: 375px;
-        height: 100vh;
+        height: 812px;
         //background-color: #aa0066;
         .hamburger_btn {
         //position: fixed; /*常に最上部に表示したいので固定*/
@@ -126,6 +126,7 @@
         }
         .menu {
         background-color: rgba(197, 197, 197, 0.671);
+        height: 812px;
         //padding: 2rem 1rem;
         //position: fixed;
         // width: 20rem;
@@ -187,7 +188,7 @@
             }            
         }
         #footer{
-            height:400px;
+            height:557px;
             background-color: #F2F2F2;
             //display: block;
             .under-wrap{
@@ -281,7 +282,7 @@
                 // background-color: #002211;
                 height: 110px;  
                 display: flex; 
-                margin-top:85px;
+                margin-top:155px;
                 margin-left: 30px;
                 .inlogoutframe{
                     padding-right: 13px;
