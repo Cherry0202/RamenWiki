@@ -1,11 +1,26 @@
 <template>
-    <div class="flip">
-        <div class="front">
-            <h1 class="text-shadow">お店１</h1>
-        </div>
-        <div class="back">
-        <h2>詳細</h2>
-        <p>ここにチャート、店舗情報表示</p>
+    <div style="display: flex;">
+        <div class="flip">
+            <div class="front" style="display: inline-block;">
+                <div class="card">
+                    <!-- 店舗写真 -->
+                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 120px; width: 100%; display: block;">
+                    <div class="card_deteil">
+                        <h4>お店名</h4>
+                    </div>
+                </div>
+            </div>
+            <div class="back"  style="display: inline-block;">
+                <div class="card">
+                    <!-- チャート表示 -->
+                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 120px; width: 100%; display: block;">
+                    <div class="card_detail">
+                        <div class="button">
+                            <a href="#" class="btn red">店舗詳細</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
@@ -26,13 +41,10 @@
 body {
   color: #555;
   background: #222;
-  text-align: center;
+  text-align: left;
   font-family: 'Roboto Mono';
   padding: 1em;
-}
-
-h1 {
-  font-size: 2.2em;
+  margin:0;
 }
 
 // base
@@ -42,7 +54,7 @@ h1 {
         background-color: #636b6f;
     }
     >.back {
-        display: block;
+        display: inline-block;
         transition-timing-function: cubic-bezier(.175, .885, .32, 1.275);
         transition-duration: .5s;
         transition-property: transform, opacity;
@@ -86,27 +98,53 @@ h1 {
 // custom
 .flip {
     position: relative;
-    display: inline-block;
-    margin-right: 2px;
+    margin-right: 1px;
     margin-bottom: 1em;
-    width: 150px;
     >.front,
     >.back {
-      display: block;
-      color: white;
-      width: inherit;
-      background-size: cover!important;
-      background-position: center!important;
-      height: 170px;
-      padding: 1em 2em;
-      background: #313131;
-      border-radius: 10px;
-      p {
-        font-size: 0.9125rem;
-        line-height: 160%;
-        color: #999;
-      }
+        color: white;
+        width: 150px;
+        background-size: cover!important;
+        background-position: center!important;
+        height: 170px;
+        background: #313131;
+        border-radius: 10px;
     }
+}
+
+//button
+.buttons {
+  padding: 5px;
+  text-align: center;
+}
+
+.btn {
+  border-radius: 5px;
+  padding: 10px 20px;
+  width: 140px;
+  height:40px;
+  font-size: 16px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px;
+  color: #fff;
+  position: relative;
+  display: inline-block;
+}
+
+.btn:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  box-shadow: 0px 1px 0px 0px;
+}
+
+.red {
+  background-color: #e74c3c;
+  box-shadow: 0px 5px 0px 0px #CE3323;
+}
+
+.red:hover {
+  background-color: #FF6656;
 }
 
 .text-shadow {
