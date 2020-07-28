@@ -52,3 +52,7 @@ Route::post('user/recommend', 'UserController@recommend');
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('/mypage', function() {
+    return view('mypage');
+});
