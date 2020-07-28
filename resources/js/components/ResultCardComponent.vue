@@ -1,16 +1,24 @@
 <template>
     <div v-if="results.length == 0" style="display: none;"></div>
     <div v-else style="display: flex;" class="wrap">
-    <div style="display: flex;" v-for="result in results" :key="index">
+    <div class="frip-wrap" v-for="result in results" :key="index">
         <div class="flip">
             <div class="front" style="display: inline-block;">
                 <div class="card">
                     <!-- 店舗写真 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 280px; width: 100%; display: block;">
+                    <div v-if="result['store'].id%2 === 1">
+                    <img class="card-img-top" src="../Ozawa_files/Sample_ramenshot.jpg" style="height: 280px; width: 100%; display: block;">
+                    </div>
+<!--                    <div v-if="result['store'].id === 2">-->
+<!--                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 280px; width: 100%; display: block;">-->
+<!--                    </div>-->
+                    <div v-else>
+                        <img class="card-img-top" src="https://dancyu.jp/images/mm2074.jpg" style="height: 280px; width: 100%; display: block;">
+                    </div>
                     <div class="card_deteil">
                         <div class="store">
-                            <h4>お店名</h4>
-                            <p>1.0km</p>
+                            <h4>{{result['store'].store_name}}</h4>
+<!--                            <p>{{result['store'].id}}</p>-->
                         </div>
                     </div>
                 </div>
@@ -58,15 +66,26 @@ body {
   padding: 1em;
   margin:0;
 }
+img {
+    border-radius:10px;
+}
+.frip-wrap {
+    display: flex;
+    justify-content: space-between;
+}
 .wrap {
     width: 100vw;
     height: 338px;
     overflow-x: scroll;
 }
+.card {
+    margin: 0px;
+}
 
 // base
 .flip {
     position: relative;
+    margin-left: 18px;
     >.front{
         background-color: #636b6f;
     }
