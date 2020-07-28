@@ -4,6 +4,8 @@ import VueRouter from 'vue-router'
 // ページコンポーネントをインポートする
 import Search from './pages/SearchView'
 import Wiki from './pages/WikiPage'
+import Login from './pages/LoginComponent'
+import Register from './pages/MemberRegisterComponent'
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -19,6 +21,16 @@ const routes = [
         path: '/wiki/:id',
         component: Wiki,
         name: 'wiki'
+    },
+    {
+        path: '/login',
+        component: Login,
+        name: 'login'
+    },
+    {
+        path: '/register',
+        component: Register,
+        name: 'register'
     }
 ]
 
