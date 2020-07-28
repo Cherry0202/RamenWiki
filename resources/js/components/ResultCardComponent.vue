@@ -4,16 +4,19 @@
             <div class="front" style="display: inline-block;">
                 <div class="card">
                     <!-- 店舗写真 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 120px; width: 100%; display: block;">
+                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 280px; width: 100%; display: block;">
                     <div class="card_deteil">
-                        <h4>お店名</h4>
+                        <div class="store">
+                            <h4>お店名</h4>
+                            <p>1.0km</p>
+                        </div>
                     </div>
                 </div>
             </div>
             <div class="back"  style="display: inline-block;">
                 <div class="card">
                     <!-- チャート表示 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 120px; width: 100%; display: block;">
+                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 280px; width: 100%; display: block;">
                     <div class="card_detail">
                         <div class="button">
                             <a href="#" class="btn red">店舗詳細</a>
@@ -103,13 +106,28 @@ body {
     >.front,
     >.back {
         color: white;
-        width: 150px;
+        width: 300px;
         background-size: cover!important;
         background-position: center!important;
-        height: 170px;
+        height: 340px;
         background: #313131;
         border-radius: 10px;
     }
+}
+
+.store {
+    margin: 10px;
+}
+
+h4 {
+    font-family: "Gibson";
+    text-size: 14px;
+}
+
+p {
+    font-family: "Gibson";
+    text-size: 12px;
+    color: gray;
 }
 
 //button
@@ -121,7 +139,7 @@ body {
 .btn {
   border-radius: 5px;
   padding: 10px 20px;
-  width: 140px;
+  width: 290px;
   height:40px;
   font-size: 16px;
   text-align: center;
