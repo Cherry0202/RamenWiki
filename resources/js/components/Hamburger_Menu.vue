@@ -28,12 +28,16 @@
                     <a href="#">Home</a>          
                 </div>
                 <div class="button-div">
-                    <form @submit.prevent="login">
-                        <button class="buttonop1" type="submit">ログイン</button>
-                    </form>
-                    <form @submit.prevent="signup">
-                        <button class="buttonop2" type="submit">会員登録</button>
-                    </form>
+                    <div class = "loginbutton">
+                        <form @submit.prevent="login">
+                            <button class="buttonop1" type="submit">ログイン</button>
+                        </form>
+                    </div>
+                    <div class = "signupbutton">
+                        <form @submit.prevent="signup">
+                            <button class="buttonop2" type="submit">会員登録</button>
+                        </form>
+                    </div>
                 </div>  
             </div>
         </div>
@@ -124,6 +128,7 @@
         }
         .menu {
         background-color: rgba(197, 197, 197, 0.671);
+        height: 767px;
         //padding: 2rem 1rem;
         //position: fixed;
         // width: 20rem;
@@ -185,7 +190,7 @@
             }            
         }
         #footer{
-            height:400px;
+            height:557px;
             background-color: #F2F2F2;
             display: block;
             .under-wrap{
@@ -194,8 +199,8 @@
                 padding-left:30px ;
                 height: 200px;
                 .home{
-                    height: 25px;
-                    width: 25px;
+                    height: 20px;
+                    width: 20px;
                     padding-top: 30px;
                 }
             }
@@ -210,7 +215,11 @@
                 // background-color: #002211;
                 height: 170px;  
                 display: block; 
-                margin-left: 50px;
+                margin-left: 75px;
+                padding-top: 130px;
+                .signupbutton{
+                    padding-top: 20px;
+                }
                 .buttonop1{
                     display       : inline-block;
                     border-radius : 20%;          /* 角丸       */
