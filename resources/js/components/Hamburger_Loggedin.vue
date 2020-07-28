@@ -126,7 +126,7 @@
         }
         .menu {
         background-color: rgba(197, 197, 197, 0.671);
-        height: 812px;
+        height: 767px;
         //padding: 2rem 1rem;
         //position: fixed;
         // width: 20rem;
@@ -193,7 +193,7 @@
             //display: block;
             .under-wrap{
                 //-color: #552233;
-                padding-top: 20px;
+                padding-top: 40px;
                 padding-left:30px ;
                 height: 250px;
                 display: block;
@@ -282,7 +282,7 @@
                 // background-color: #002211;
                 height: 110px;  
                 display: flex; 
-                margin-top:155px;
+                margin-top:195px;
                 margin-left: 30px;
                 .inlogoutframe{
                     padding-right: 13px;
