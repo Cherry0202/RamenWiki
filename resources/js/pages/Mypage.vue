@@ -30,7 +30,7 @@
     </div>
     <div class="content">
       <div v-show="tab === 1">
-        user
+        <myuser></myuser>
       </div>
       <div v-show="tab === 2">
         <myimage></myimage>
