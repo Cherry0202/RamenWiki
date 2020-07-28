@@ -7,6 +7,12 @@ import Vue from 'vue'
 // ルーティングの定義をインポートする
 import router from './router'
 import App from './components/App'
+Vue.component('mypage', require('./pages/Mypage').default);
+Vue.component('myimage', require('./components/MypageImageComponent').default)
+Vue.component('Photo', require('./components/Photo').default)
+Vue.component('myreview', require('./components/MypageReviewComponent').default)
+Vue.component('Review', require('./components/Review').default)
+
 
 Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 
@@ -54,6 +60,7 @@ Vue.component("recommend-ramen", require("./pages/RecommendRamen").default);
 Vue.component("review-detail", require("./pages/ReviewDetail").default);
 Vue.component("review-list", require("./pages/ReviewList").default);
 Vue.component("create-view", require("./pages/CreateReview").default);
+Vue.component('myuser', require('./components/MypageUserComponent').default);
 
 
 
