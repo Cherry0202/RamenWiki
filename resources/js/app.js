@@ -19,11 +19,11 @@ Vue.component('goodbye-page', require('./components/Goodbye.vue').default);
 Vue.component('goodbyebye-page', require('./components/Goodbye_bye.vue').default);
 Vue.component(
     "login-component",
-    require("./components/LoginComponent").default
+    require("./pages/LoginComponent").default
 );
 Vue.component(
     "member-register-component",
-    require("./components/MemberRegisterComponent").default
+    require("./pages/MemberRegisterComponent").default
 );
 Vue.component(
     "example-component",
