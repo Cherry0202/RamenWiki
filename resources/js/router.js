@@ -1,5 +1,6 @@
 import Vue from 'vue'
 import VueRouter from 'vue-router'
+import Meta from 'vue-meta'
 
 // ページコンポーネントをインポートする
 import Search from './pages/SearchView'
@@ -10,6 +11,7 @@ import Register from './pages/MemberRegisterComponent'
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
 Vue.use(VueRouter)
+Vue.use(Meta)
 
 // パスとコンポーネントのマッピング
 const routes = [
