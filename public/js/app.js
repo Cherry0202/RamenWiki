@@ -2569,7 +2569,6 @@ __webpack_require__.r(__webpack_exports__);
 //
 //
 //
-//
 
 /***/ }),
 
@@ -7457,7 +7456,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".main3[data-v-09d16e25] {\n  width: 375px;\n  height: 812px;\n  padding-top: 1px;\n  background-color: #2A2E43;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.main3 .main_photo img[data-v-09d16e25] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.main3 .main_photo .grad[data-v-09d16e25] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.main3 .main_photo .name[data-v-09d16e25] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.main3 .main_photo .yasi[data-v-09d16e25] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.main3 .main_lines[data-v-09d16e25] {\n  width: 375px;\n  height: auto;\n  z-index: 13;\n  position: absolute;\n  top: 32%;\n}\n.main3 .main_lines img[data-v-09d16e25] {\n  width: 100%;\n}\n.main3 .main_lines .background[data-v-09d16e25] {\n  width: 100%;\n  height: 40px;\n  background-color: #2a2e43;\n}\n.main3 .formmmm[data-v-09d16e25] {\n  margin-top: 380px;\n  z-index: 20;\n  width: 375px;\n  height: 400px;\n  display: grid;\n  justify-items: center;\n}\n.main3 .formmmm .mmmmmm[data-v-09d16e25] {\n  position: absolute;\n  top: 35%;\n  left: 50%;\n  z-index: 40;\n  transform: translateX(-50%);\n  font-family: flop;\n  font-size: 20px;\n  color: #fff;\n  white-space: nowrap;\n}\n.main3 .formmmm textarea[data-v-09d16e25] {\n  width: 90%;\n  resize: none;\n  background: transparent;\n  border: 1px solid rgba(255, 255, 255, 0.6);\n  border-radius: 2px;\n  color: #fff;\n  font-family: \"Exo\", sans-serif;\n  font-size: 16px;\n  font-weight: 400;\n  padding: 4px;\n}", ""]);
+exports.push([module.i, ".main3[data-v-09d16e25] {\n  width: 375px;\n  height: 812px;\n  padding-top: 1px;\n  background-color: #2A2E43;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.main3 .main_photo img[data-v-09d16e25] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.main3 .main_photo .grad[data-v-09d16e25] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.main3 .main_photo .name[data-v-09d16e25] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.main3 .main_photo .yasi[data-v-09d16e25] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.main3 .main_lines[data-v-09d16e25] {\n  width: 375px;\n  height: auto;\n  z-index: 13;\n  position: absolute;\n  top: 32%;\n}\n.main3 .main_lines img[data-v-09d16e25] {\n  width: 100%;\n}\n.main3 .main_lines .background[data-v-09d16e25] {\n  width: 100%;\n  height: 40px;\n  background-color: #2a2e43;\n}\n.main3 .formmmm[data-v-09d16e25] {\n  margin-top: 380px;\n  z-index: 20;\n  width: 375px;\n  height: 400px;\n  display: grid;\n  justify-items: center;\n}\n.main3 .formmmm .mmmmmm[data-v-09d16e25] {\n  position: absolute;\n  top: 38%;\n  left: 50%;\n  z-index: 40;\n  transform: translateX(-50%);\n  font-family: flop;\n  font-size: 20px;\n  color: #fff;\n  white-space: nowrap;\n}\n.main3 .formmmm textarea[data-v-09d16e25] {\n  width: 90%;\n  resize: none;\n  background: transparent;\n  border: 1px solid rgba(255, 255, 255, 0.6);\n  border-radius: 2px;\n  color: #fff;\n  font-family: \"Exo\", sans-serif;\n  font-size: 16px;\n  font-weight: 400;\n  padding: 4px;\n}", ""]);
 
 // exports
 
@@ -40859,9 +40858,7 @@ var staticRenderFns = [
           _vm._v(" "),
           _c("div", { staticClass: "grad" }),
           _vm._v(" "),
-          _c("p", { staticClass: "name" }, [_vm._v("らーめん江畑")]),
-          _vm._v(" "),
-          _c("p", { staticClass: "yasi" }, [_vm._v("⬅")])
+          _c("p", { staticClass: "name" }, [_vm._v("らーめん江畑")])
         ]),
         _vm._v(" "),
         _c("div", { staticClass: "main_lines" }, [

@@ -7,7 +7,6 @@
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
                 <div class="grad"></div>
                 <p class="name">らーめん江畑</p>
-                <p class="yasi">⬅</p>
             </div>
             <div class="main_lines">
                 <img alt="line" src="../Ozawa_files/ColorLine.png">
@@ -116,7 +115,7 @@
         //background-color: blue; //dbg
         .mmmmmm{ 
             position: absolute;
-            top: 35%;
+            top: 38%;
             left: 50%;
             z-index: 40;
             transform: translateX(-50%);

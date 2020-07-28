@@ -11,11 +11,10 @@
 </head>
 
 <div id="app" class="wrap">
-    
-    <ai-page></ai-page>
+    <wiki-edit></wiki-edit>
     <!--
-        <wiki-edit></wiki-edit>
-        <wiki-page></wiki-page>
+        <ai-page></ai-page>
+    <wiki-page></wiki-page>
     <ai-page></ai-page>
     <mypage-passchange></mypage-passchange>
     <goodbye-page></goodbye-page>
