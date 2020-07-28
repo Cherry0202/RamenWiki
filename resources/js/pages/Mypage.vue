@@ -39,7 +39,6 @@
         <myreview></myreview>
       </div>
     </div>
-
   </div>
 </template>
 
