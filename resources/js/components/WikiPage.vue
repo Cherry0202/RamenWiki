@@ -1,5 +1,5 @@
 <template>
-    <div class="wrap">
+    <div class="wraps">
     <form method="post" action="#">
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
@@ -100,8 +100,9 @@
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
-    .wrap {
-        width: 375px;
+    .wraps {
+        margin-right: 0;
+        width: 100%;
         height: 1000px;
         display: flex;
         flex-direction: column;

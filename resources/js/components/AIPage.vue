@@ -116,13 +116,13 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%,-50%);
+                align-items: center;
+                justify-content: center;
                 p{
                     font-family: 'MyFont3';
                     font-size: 30px;
                     white-space: nowrap;
                     margin-left: 20px;
-                    position: relative;
-                    top: 10%;
                     color: #454F63;
                 }
             }
@@ -139,7 +139,7 @@
         .Sen{
             width: 100%;
             position: absolute;
-            top: 17%;
+            top: 19%;
             left: 0%;
             //background-color: red; //dbg
         
