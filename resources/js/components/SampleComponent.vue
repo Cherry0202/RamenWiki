@@ -36,7 +36,6 @@
         }
     }
 </script>
-
 <style scoped lang="scss">
     .wrap{
         width: 20vw;
