@@ -47,7 +47,6 @@
     export default {
         data() {
             return {
-<<<<<<< HEAD
                     maplocation:{lat:0, lng:0},
                     makers:[]
             }
@@ -82,11 +81,6 @@
             // 現在地取得不可の場合は東京駅周辺に移動
             this.maplocation.lat = 35.6813092;
             this.maplocation.lng = 139.7677269;
-=======
-                maplocation:{lat:0, lng:0},
-                makers:[],
-                results: [],
->>>>>>> 2a705eea645021fdd4fd4ff437e3b41fd2084150
             }
         },
         // async mounted() {
