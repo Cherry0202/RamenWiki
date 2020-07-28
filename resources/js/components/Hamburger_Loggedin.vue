@@ -11,8 +11,8 @@
         <div class="menu" v-show="ActiveBtn">
             <div id="background-wrap">
                 <div class="upper-wrap">
-                    <img class= "yazirusi" src="..\images\sozai1.png"/>
-                    <img class="icons" src="..\images\sozais2.png"/>
+                    <img class= "yazirusi" src="../images/sozai1.png"/>
+                    <img class="icons" src="../images/sozais2.png"/>
                     <h2 class="loginstatus">ログインユーザー</h2>
                 </div>
             </div>
@@ -25,26 +25,26 @@
             <div id="footer">
                 <div class="under-wrap">
                     <div class ="homeframe">
-                        <div class="inhomeframe"><img class="homeimg" src="..\images\homes.png"/></div>
+                        <div class="inhomeframe"><img class="homeimg" src="../images/homes.png"/></div>
                         <div class="inhomeframe2"><a href="#">Home</a></div>
                     </div>
                     <div class ="mypageframe">
-                        <div class ="inmypageframe"><img class="mypageimg" src="..\images\mypage.png"/></div>
+                        <div class ="inmypageframe"><img class="mypageimg" src="../images/mypage.png"/></div>
                         <div class ="inmypageframe2"><a href="#">My Page</a></div>
                     </div>
                     <div class ="aiframe">
-                        <div class ="inaiframe"><img class="aiimg" src="..\images\ai.png"/></div>
+                        <div class ="inaiframe"><img class="aiimg" src="../images/ai.png"/></div>
                         <div class ="inaiframe2"><a href="#">aiのおすすめ</a></div>
                     </div>
                     <div class ="withdrawframe">
-                        <!--<div class ="inwithdrawframe"><img class="withdrawimg" src="..\images\home.png"/></div>-->
+                        <!--<div class ="inwithdrawframe"><img class="withdrawimg" src="../images/home.png"/></div>-->
                         <div class ="inwithdrawframe2"><a href="#">退会</a></div>
-                    </div>   
+                    </div>
                 </div>
                 <div class="button-div">
-                    <div class="inlogoutframe"><img class="logoutimg" src="..\images\logout.png"/></div>
+                    <div class="inlogoutframe"><img class="logoutimg" src="../images/logout.png"/></div>
                     <div class="inlogoutframe2"><a href="#">Log Out</a></div>
-                </div>  
+                </div>
             </div>
         </div>
     </transition>
@@ -165,7 +165,7 @@
                    padding-left: 30px;
                    color: white;
                }
-            }           
+            }
         }
         #under-color-block{
             display: flex;
@@ -185,7 +185,7 @@
             .block4{
                 width: 25%;
                 background-color: #3ACCE1;
-            }            
+            }
         }
         #footer{
             height:557px;
@@ -244,7 +244,7 @@
                             width: 20px;
                         }
                     }
-                    
+
                 }
                 .aiframe ,a{
                     width :250px;
@@ -265,7 +265,7 @@
                     .inwithdrawframe2{
                         padding-left: 30px ;
                     }
-                    
+
                 }
                 .withdrawframe ,a{
                     width: 200px;
@@ -280,8 +280,8 @@
             }
             .button-div{
                 // background-color: #002211;
-                height: 110px;  
-                display: flex; 
+                height: 110px;
+                display: flex;
                 margin-top:155px;
                 margin-left: 30px;
                 .inlogoutframe{
