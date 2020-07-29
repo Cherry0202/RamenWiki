@@ -6,7 +6,10 @@
                 <div class="grad">
                     <p class="name">よってこや 新宿南口店</p>
                 </div>
-                <p class="yasi">⬅</p>
+<!--                <p class="yasi">⬅</p>-->
+                <router-link class="yasi" :to="{ name: 'search-view2' }">
+                    ⬅
+                </router-link>
             </div>
             <div class="main_line">
                 <img alt="line" src="../Ozawa_files/ColorLine.png">
@@ -200,7 +203,7 @@
             }
             .yasi{
                 position: absolute;
-                top: 0%;
+                top: 1%;
                 left: 6%;
                 font-size: 20px;
                 z-index: 12;

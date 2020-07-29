@@ -4,13 +4,15 @@
         <div class="box-01">
             <div class="arrow-wrapper">
                 <!--       vue router -->
-                <div class="arrow">←</div>
+                <router-link class="arrow" :to="{ name: 'wiki-demo' }">
+                ⬅
+                </router-link>
             </div>
             <div class="title-wrapper">
                 <h1 class="store-name">よってこや 新宿南口店</h1>
             </div>
             <div class="mode-wrapper">
-                <h1 class="mode">詳細</h1>
+                <h1 class="mode">レビュー一覧</h1>
             </div>
             <div id="under-color-block">
                 <div class="block1"></div>
@@ -38,11 +40,6 @@
                         <img src="../Ozawa_files/chart2.png" alt="">
                     </div>
                 </div>
-<!--                <div class="review-list"></div>-->
-<!--                <div class="review-list"></div>-->
-<!--                <div class="review-list"></div>-->
-<!--                <div class="review-list"></div>-->
-<!--                <div class="review-list"></div>-->
             </div>
         </main>
     </div>
@@ -148,10 +145,32 @@
                     },                    {
                         "user_name":"hogehoge",
                         "text":"hoeghoege"
-                    },                    {
+                    },
+                    {
                         "user_name":"hogehoge",
                         "text":"hoeghoege"
                     },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    }
+
                 ]
             }
         }
@@ -171,7 +190,7 @@
         width: 100%;
         height: 214px;
         background-size: cover;
-        background-image: url("../Ozawa_files/Sample_ramenshot.jpg");
+        background-image: url("../Ozawa_files/ramen-mask.png");
     }
     .arrow-wrapper {
         width: 100%;
@@ -180,7 +199,8 @@
     .arrow {
         position: fixed;
         left: 10px;
-        top: 15px;
+        top: 1%;
+        font-size: 20px;
     }
     .title-wrapper {
         width: 100%;
