@@ -20,7 +20,6 @@ Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 Vue.component('wiki-page', require('./pages/WikiPage.vue').default);
 Vue.component('wiki-edit', require('./pages/Wikiedit.vue').default);
 Vue.component('mypage-passchange', require('./components/Mypage_Passchange.vue').default);
-Vue.component('ai-page', require('./pages/AIPage.vue').default);
 Vue.component('goodbye-page', require('./components/Goodbye.vue').default);
 Vue.component('goodbyebye-page', require('./components/Goodbye_bye.vue').default);
 Vue.component(
@@ -62,6 +61,7 @@ Vue.component("review-detail", require("./pages/ReviewDetail").default);
 Vue.component("review-list", require("./pages/ReviewList").default);
 Vue.component("create-view", require("./pages/CreateReview").default);
 Vue.component('myuser', require('./components/MypageUserComponent').default);
+Vue.component('aipage',require('./pages/AIPage'))
 
 
 

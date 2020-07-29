@@ -9,6 +9,7 @@ import Login from './pages/LoginComponent'
 import Register from './pages/MemberRegisterComponent'
 import Mypage from "./pages/Mypage";
 import SearchView2 from "./pages/SearchView2";
+import AI from "./pages/AIPage"
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -47,9 +48,9 @@ const routes = [
         name: 'mypage'
     },
     {
-        path: '/ok/mypage',
-        component: Mypage,
-        name: 'mypage2'
+        path: '/ai',
+        component: AI,
+        name: 'ai'
     }
 ]
 

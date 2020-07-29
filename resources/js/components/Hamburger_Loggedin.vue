@@ -40,7 +40,9 @@
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/ai.png"/>
-                            <a href="#">AIのおすすめ</a>
+                            <router-link :to="{ name: 'ai' }">
+                                AIのおすすめ
+                            </router-link>
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/icon-x.png"/>
