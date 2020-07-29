@@ -88,8 +88,9 @@
 
                 <div class="Buttons">
                     <a href="#" class="btn1">レビューを書く</a>
-                    <a href="#" class="btn2">すべてのレビューを見る</a>
-                    <a href="#" class="btn3">この店舗に行ったことがある</a>
+                    <router-link class="btn2" :to="{ name: 'review-list' }">
+                        全てのレビューをみる
+                    </router-link>                    <a href="#" class="btn3">この店舗に行ったことがある</a>
                     <a href="https://www.google.co.jp/maps/dir/%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%97+%E7%B7%8F%E5%90%88%E6%A0%A1%E8%88%8E%E3%82%B3%E3%82%AF%E3%83%BC%E3%83%B3%E3%82%BF%E3%83%AF+HAL%E6%9D%B1%E4%BA%AC/%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%93%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%93+%E3%82%88%E3%81%A3%E3%81%A6%E3%81%93%E3%82%84+%E6%96%B0%E5%AE%BF%E5%8D%97%E5%8F%A3%E5%BA%97/@35.690683,139.699802,16z/data=!4m8!4m7!1m2!1m1!1s0x60188cd6981dce11:0xee411b3fa3fc9f13!1m2!1m1!1s0x60188cdaf48693a1:0x4d4ff726e7fb4a72!3e2" class="btn4">GoogleMapでルート案内する</a>
                 </div>
             </div>
