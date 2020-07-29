@@ -128,11 +128,8 @@
             this.lng = response.data.result[0].lng;
         })
         },
-        metaInfo: {
-            meta: [
-                { charset: 'utf-8' },
-                { name: 'viewport', content: 'width=375' }
-            ]
+        head: {
+            meta: [{ name: 'viewport', content: 'width=375' }]
         }
     }
 </script>
