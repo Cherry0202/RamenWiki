@@ -46,6 +46,9 @@
                 console.log(hoge['store'].store_name);
             }
         },
+        head: {
+            meta: [{ name: 'viewport', content: '' }]
+        }
     }
 </script>
 
