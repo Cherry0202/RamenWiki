@@ -37,6 +37,29 @@ export default {
 }
 </script>
 
-<style>
+<style scoped lang="css">
+    *{
+        margin:0;
+        padding:0;
+    }
+    button{
+        background-color: transparent;
+        border: none;
+        cursor: pointer;
+        outline: none;
+        padding: 0;
+        appearance: none;
+    }
+    .wrap {
+        width: 100vw;
+        height: 100vh;
+    }
+    .box{
+        background-color: #353A50;
+        margin: 20px 20px 20px 20px;
+        padding: 10px 8px 10px 8px;
+        border-radius: 50px;
+        text-align: center;
+    }
 
 </style>

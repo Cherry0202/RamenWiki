@@ -45,6 +45,11 @@ const routes = [
         path: '/mypage',
         component: Mypage,
         name: 'mypage'
+    },
+    {
+        path: '/ok/mypage',
+        component: Mypage,
+        name: 'mypage2'
     }
 ]
 

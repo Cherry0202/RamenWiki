@@ -38,7 +38,7 @@
                        </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -47,8 +47,8 @@
                 <div class="photoimage2">
                     <!-- おすすめ店舗のラーメン画像 -->
                     <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
-                </div>  
-                <!-- おすすめ店舗の文章 -->  
+                </div>
+                <!-- おすすめ店舗の文章 -->
                 <div class="yayaya2">
                     <div class="topRamen_name">
                         <p>
@@ -63,10 +63,10 @@
                             </p>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
         </div>
-        
+
         <p class="under_sentence">
             あなたの趣味嗜好に合わせて、AIのおすすめ店舗も増加していきます。
         </p>
@@ -82,7 +82,7 @@
     .wrap {
         width: 375px;
         min-height: 812px;
-        max-height: auto;
+        /*max-height: auto;*/
         display: flex;
         flex-direction: column;
         background-color: #D5D7DB;
@@ -142,10 +142,10 @@
             top: 17%;
             left: 0%;
             //background-color: red; //dbg
-        
+
         }
-        
-        
+
+
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////  CSSにも記述あり
 
         .OsusumeRamen1{
@@ -167,7 +167,7 @@
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////  FIN
 
         .under_sentence{
-           font-family: 'MyFont2'; 
+           font-family: 'MyFont2';
            font-size: 10px;
            white-space: nowrap;
            position: relative;
@@ -227,7 +227,7 @@
         background-color: white;
         text-align: center;
         border-radius: 15px;
-        box-shadow: 
+        box-shadow:
             0 8px 10px 1px rgba(0,0,0,0.14),
             0 3px 14px 2px rgba(0,0,0,0.12),
             0 5px 5px -3px rgba(0,0,0,0.2)
@@ -238,7 +238,7 @@
         width: 120px;
         height: 120px;
         /*
-        background-color: darkblue; 
+        background-color: darkblue;
         */
         position: relative;
         border-radius: 15px;
@@ -247,7 +247,7 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        box-shadow: 
+        box-shadow:
                 0 8px 10px 1px rgba(0,0,0,0.14),
                 0 3px 14px 2px rgba(0,0,0,0.12),
                 0 5px 5px -3px rgba(0,0,0,0.2)
@@ -271,7 +271,7 @@
     .imagecovershot{
         width: 140px;
         height: 140px;
-        object-fit: cover; 
+        object-fit: cover;
         border-radius: 15px;
     }
 
@@ -287,7 +287,7 @@
         display: flex;
         -webkit-align-items: flex-start;
         align-items: flex-start;
-    
+
     }
     .yayaya1{
         left: 29.5%;
@@ -323,7 +323,7 @@
         font-size: 15px;
         color: #78849E;
         text-align: left;
-        
+
     }
 
 

@@ -26,11 +26,17 @@
                     <div class="under-wrap">
                         <div class="list-wrapper">
                             <img class="home" src="../images/home.png"/>
-                            <a href="#">Home</a>
+<!--                            <a href="#">Home</a>-->
+                            <router-link :to="{ name: 'search-view2' }">
+                                Home
+                            </router-link>
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/mypage.png"/>
-                            <a href="#">Mypage</a>
+<!--                            <a href="/mypage">Mypage</a>-->
+                            <router-link :to="{ name: 'mypage2' }">
+                                Mypage
+                            </router-link>
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/ai.png"/>
@@ -44,7 +50,9 @@
                     <div class="logout-wrapper">
                         <div class="list-wrapper">
                             <img class="home" src="../images/logout.png"/>
-                            <a class="log-text" href="#">Log Out</a>
+                            <router-link :to="{ path: '/' }">
+                                LogOut
+                            </router-link>
                         </div>
                     </div>
                 </div>
