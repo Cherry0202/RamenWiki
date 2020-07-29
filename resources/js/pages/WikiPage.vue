@@ -12,7 +12,10 @@
             </div>
             <div class="main_text">
                 <p class="Midashi">店舗詳細</p>
-                <input type="button" class="edit" value="　Edit　">
+<!--                <input type="button" class="edit" value="　Edit　">-->
+                <router-link :to="{ name: 'edit' }" class="edit">
+                    Edit
+                </router-link>
                 <ui class="icon">
                     <li><img src="../Ozawa_files/icon1.png"></li>
                     <li><img src="../Ozawa_files/icon2.jpg"></li>
