@@ -20,7 +20,7 @@
         },
         methods: {
             postKeyword(){
-                axios.post('/search',this.keyword)
+                axios.post('/search','')
                 .then( response => {
                     console.log(response.data);
                     this.lists = response.data
@@ -36,20 +36,21 @@
         /*background-color: #339b4d;*/
         height: 60px;
         .search-container{
-            width: 260px;
+            width: 343px;
             display: block;
             padding-left: 15px;
             padding-top: 23px;
-            margin: 0 auto;
+            margin-left: 198px;
         }
 
         input#search-bar{
-            margin: 0 auto;
-            width: 100%;
-            height: 35px;
-            font-size: 1rem;
+            width: 200%;
+            height: 100px;
             border: 1px solid #D0CFCE;
             outline: none;
+            border-radius: 23px;
+            font-size: 28px;
+            padding-left: 31px;
             &:focus{
                 border: 1px solid #008ABF;
                 transition: 0.35s ease;
@@ -63,10 +64,10 @@
         .search-icon{
             position: relative;
             float: right;
-            width: 50px;
-            height: 50px;
-            top: -43px;
-            right: -250px;
+            width: 120px;
+            /* height: 50px; */
+            top: -108px;
+            right: -770px;
         }
     }
 </style>
