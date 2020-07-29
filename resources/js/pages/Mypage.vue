@@ -2,6 +2,9 @@
   <div class="mypage">
     <div class="header">
       <h1>{{ user.name }}</h1>
+        <router-link class="arrow" :to="{ name: 'search-view2' }">
+            ⬅
+        </router-link>
     </div>
     <div id="nav">
       <ul>
@@ -69,6 +72,14 @@
 }
 </script>
 
-<style>
+<style lang="scss">
+    .arrow {
+        position: relative;
+        top: -238px;
+        font-size: 45px;
+        left: -510px;
+        text-decoration: none;
+        color: white;
+    }
 
 </style>
