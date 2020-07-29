@@ -23,7 +23,24 @@
     </div>
     <main class="contents-wrapper">
       <div class="contents">
-
+          <div class="user-name">
+              みそだいすきさんのレビュー
+          </div>
+          <div class="img-wrapper">
+              <div class="chart">
+                  <img src="../Ozawa_files/chart2.png" alt="">
+              </div>
+              <div class="review-img">
+                  <img class="card-img-top" src="../Ozawa_files/Sample_ramenshot.jpg">
+              </div>
+          </div>
+          <div class="text-wrapper">
+              <div class="review-text">
+              とてもおいしかったです。
+              <br>
+              家族に紹介したいです。
+              </div>
+          </div>
       </div>
     </main>
   </div>
@@ -47,6 +64,7 @@
     .box-01 {
         width: 100%;
         height: 214px;
+        background-size: cover;
         background-image: url("../Ozawa_files/ramen-mask.png");
     }
     .arrow-wrapper {
@@ -119,11 +137,62 @@
         height: 540px;
         background-color: #353A50;
         border-radius: 18px;
-        img {
-            width:auto;
-            height:auto;
-            max-width:100%;
-            max-height:100%;
+        .user-name{
+            width: 100%;
+            height: 15%;
+            font-size: large;
+            font-weight: bold;
+            text-align: center;
+            position: relative;
+            top: 17px;
+        }
+        .img-wrapper {
+            width: 100%;
+            height: 30%;
+            display: flex;
+            .chart {
+                width: 50%;
+                height: 100%;
+                /*background-color: #9561e2;*/
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width:auto;
+                    height:auto;
+                    max-width:95%;
+                    max-height:100%;
+                }
+            }
+            .review-img {
+                width: 50%;
+                height: 100%;
+                /*background-color: #552233;*/
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                img {
+                    width:auto;
+                    height:auto;
+                    max-width:95%;
+                    max-height:100%;
+                }
+            }
+        }
+        .text-wrapper{
+            width: 100%;
+            height: 57%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .review-text{
+                width: 80%;
+                height: 80%;
+                background-color: #2A2E43;
+                border-radius: 45px;
+                padding-left: 30px;
+                padding-top: 18px;
+            }
         }
     }
 </style>
