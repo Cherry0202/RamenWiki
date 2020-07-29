@@ -19,7 +19,10 @@
             <div class="formmmm">
                     <p class="mmmmmm">　　店舗詳細編集画面　　</p>
                     <textarea class="textarea1" name="edit_wiki" rows="8" cols="40" placeholder="編集内容を記述してください...">京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税) が看板メニュー。</textarea><br>
-                    <input class="submitbtn" type="submit" value="送信">
+<!--                    <input class="submitbtn" type="submit" value="送信">-->
+                    <router-link class="submitbtn" :to="{ name: 'wiki-demo' }">
+                        送信
+                    </router-link>
             </div>
 
 
@@ -196,6 +199,7 @@
     font-size: 14px;
     font-weight: 400;
     z-index: 70;
+    text-align: center;
 }
 .submitbtn:hover{
     opacity: 0.8;
