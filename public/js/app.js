@@ -7437,7 +7437,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, ".wraps[data-v-3d2e076c] {\n  margin-right: 0;\n  width: 100%;\n  height: 1000px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n}\n.wraps .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wraps .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wraps .main_photo .name[data-v-3d2e076c] {\n  font-family: \"MyFont\";\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  font-size: 30px;\n  z-index: 11;\n  color: white;\n}\n.wraps .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wraps .main_line[data-v-3d2e076c] {\n  position: relative;\n  top: 63%;\n  margin-top: 20px;\n  width: 375px;\n  height: auto;\n  z-index: 40;\n}\n.wraps .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wraps .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wraps .main_text hr[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wraps .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 5%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wraps .icon li[data-v-3d2e076c] {\n  margin-top: 20px;\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wraps .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wraps .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wraps .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wraps .chart img[data-v-3d2e076c] {\n  position: absolute;\n  top: 86%;\n  left: 50%;\n  transform: translate(-50%, -50%);\n}\n.wraps .second_text[data-v-3d2e076c] {\n  position: absolute;\n  top: 100%;\n  width: 375px;\n  height: auto;\n  background-color: #2A2E43;\n}\n.wraps .second_text hr[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wraps .second_text .phone_g[data-v-3d2e076c] {\n  margin-top: 30px;\n  margin-bottom: 30px;\n  display: flex;\n  position: relative;\n  left: 100%;\n  transform: translateX(-80%);\n}\n.wraps .second_text .phone_g p[data-v-3d2e076c] {\n  margin-left: 20px;\n  color: #A9A9A9;\n}\n.wraps .second_text iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wraps .second_text .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wraps .second_text .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
+exports.push([module.i, ".wraps[data-v-3d2e076c] {\n  margin-right: 0;\n  width: 375px;\n  min-height: 1800px;\n  display: flex;\n  flex-direction: column;\n  background-color: #2A2E43;\n  justify-content: center;\n  align-items: center;\n  position: relative;\n  /*\n  .second_text{\n      position: absolute;\n      top: 100%;\n      width: 375px;\n      height: auto;\n      background-color: #2A2E43;\n      //background-color: crimson; //dbg\n  */\n}\n.wraps .main_photo img[data-v-3d2e076c] {\n  width: 375px;\n  height: 300px;\n  -o-object-fit: cover;\n     object-fit: cover;\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n}\n.wraps .main_photo .grad[data-v-3d2e076c] {\n  position: absolute;\n  top: 0;\n  right: 0;\n  bottom: 0;\n  left: 0;\n  width: 375px;\n  height: 300px;\n  background: linear-gradient(to top, #3d3b3b, transparent);\n  z-index: 10;\n}\n.wraps .main_photo .name[data-v-3d2e076c] {\n  font-family: \"MyFont\";\n  /*\n  position: absolute;\n  top: 21%;\n  left: 19%;\n  transform: translateX(-25%);\n  */\n  margin: 230px 0 0 40px;\n  font-size: 30px;\n  z-index: 300;\n  color: white;\n}\n.wraps .main_photo .yasi[data-v-3d2e076c] {\n  position: absolute;\n  top: 0%;\n  left: 6%;\n  font-size: 20px;\n  z-index: 12;\n  color: white;\n}\n.wraps .main_line[data-v-3d2e076c] {\n  /*\n  position: relative;\n  top: 63%;\n  */\n  margin-top: 300px;\n  width: 375px;\n  height: auto;\n  z-index: 40;\n}\n.wraps .main_line img[data-v-3d2e076c] {\n  width: 100%;\n}\n.wraps .main_text .Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  position: relative;\n  top: -3%;\n  margin-left: 30px;\n}\n.wraps .main_text .hhhh[data-v-3d2e076c] {\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wraps .icon[data-v-3d2e076c] {\n  position: relative;\n  width: 100%;\n  height: auto;\n  top: 5%;\n  display: flex;\n  flex-wrap: wrap;\n}\n.wraps .icon li[data-v-3d2e076c] {\n  margin-top: 20px;\n  list-style: none;\n  width: calc(100%/5);\n  padding: 0 5px;\n  box-sizing: border-box;\n  position: relative;\n  top: 50%;\n  left: 15%;\n}\n.wraps .icon li img[data-v-3d2e076c] {\n  transform: translate(-50%, -50%);\n  max-width: 100%;\n  height: auto;\n}\n.wraps .Honbun[data-v-3d2e076c] {\n  position: relative;\n  width: 375px;\n  height: 200px;\n  color: #A9A9A9;\n}\n.wraps .Honbun p[data-v-3d2e076c] {\n  padding-left: 20px;\n  padding-right: 20px;\n}\n.wraps .chart[data-v-3d2e076c] {\n  width: 100%;\n  height: 300px;\n  background-color: red;\n  z-index: 500;\n}\n.wraps .chart img[data-v-3d2e076c] {\n  width: 100%;\n  height: 100%;\n}\n.wraps .hoge[data-v-3d2e076c] {\n  margin-top: 20px;\n  border-width: 1px 0px 0px 0px;\n  border-style: solid;\n  border-color: #cdcdcd;\n  margin-right: 20px;\n  margin-left: 20px;\n}\n.wraps .hoge2[data-v-3d2e076c] {\n  margin-top: 10px;\n}\n.wraps .phone_g[data-v-3d2e076c] {\n  margin-top: 10px;\n  margin-bottom: 10px;\n  width: 100%;\n  height: 100px;\n  display: flex;\n  align-items: center;\n  justify-content: center;\n}\n.wraps .phone_g .aaaaaaaaaaaaaaa[data-v-3d2e076c] {\n  display: flex;\n}\n.wraps .phone_g .aaaaaaaaaaaaaaa p[data-v-3d2e076c] {\n  margin-left: 30px;\n  color: #A9A9A9;\n}\n.wraps iframe[data-v-3d2e076c] {\n  margin-top: 20px;\n  margin-left: 40px;\n}\n.wraps .Sub_Midashi[data-v-3d2e076c] {\n  font-size: 25px;\n  color: white;\n  margin-top: 20px;\n  margin-left: 30px;\n}\n.wraps .Buttons[data-v-3d2e076c] {\n  width: 100%;\n  display: flex;\n  flex-direction: column;\n  margin: 20px 0 20px 0;\n}", ""]);
 
 // exports
 
@@ -7572,7 +7572,7 @@ exports = module.exports = __webpack_require__(/*! ../../../node_modules/css-loa
 
 
 // module
-exports.push([module.i, "\n@font-face {\n        font-family: 'MyFont';\n        src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Bold.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf")) + ");\n}\n\n    /*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n        padding: 0;\n        max-width: 300px;\n        margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n        display: block;\n        margin: 1.5px 0;\n        padding : 11px 12px;\n        color :#DCDCDC;\n        font-weight: bold;\n        background :#3c4052;\n        cursor :pointer;\n        transition: all 0.5s;\n        border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n        background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n        display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n        height: 0;\n        padding: 0;\n        overflow: hidden;\n        opacity: 0;\n        transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n        height: auto;\n        padding: 5px;\n        background: #BAD3FF;\n        opacity: 1;\n        border-radius: 5px;\n}\n\n\n    /*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n        width: 80%;\n        position: relative;\n        left: 9.5%;\n        display: inline-block;\n        padding: 0.3em 1em;\n        text-decoration: none;\n        border-radius: 3px;\n        transition: .4s;\n        text-align: center;\n        padding: 10px 0 10px 0;\n        margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n        background: #67c5ff;\n        color: white;\n}\n.edit[data-v-3d2e076c]{\n    position: absolute;\n    left: 70%;\n    top: 33%;\n    background: #fff;\n    border: 1px solid #fff;\n    cursor: pointer;\n    border-radius: 2px;\n    color: #a18d6c;\n    font-family: 'Exo', sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n}\n.edit[data-v-3d2e076c]:hover{\n    opacity: 0.8;\n}\n\n", ""]);
+exports.push([module.i, "\n@font-face {\n        font-family: 'MyFont';\n        src: url(" + escape(__webpack_require__(/*! ../Ozawa_files/NotoSerifJP-Bold.otf */ "./resources/js/Ozawa_files/NotoSerifJP-Bold.otf")) + ");\n}\n\n    /*********** レビュー ***********/\n.accbox[data-v-3d2e076c] {\n        padding: 0;\n        max-width: 300px;\n        margin-left: 37px;\n}\n.accbox label[data-v-3d2e076c] {\n        display: block;\n        margin: 1.5px 0;\n        padding : 11px 12px;\n        color :#DCDCDC;\n        font-weight: bold;\n        background :#3c4052;\n        cursor :pointer;\n        transition: all 0.5s;\n        border-radius: 5px;\n}\n.accbox label[data-v-3d2e076c]:hover {\n        background :#85baef;\n}\n.accbox input[data-v-3d2e076c] {\n        display: none;\n}\n.accbox .accshow[data-v-3d2e076c] {\n        height: 0;\n        padding: 0;\n        overflow: hidden;\n        opacity: 0;\n        transition: 0.8s;\n}\n.cssacc:checked + .accshow[data-v-3d2e076c] {\n        height: auto;\n        padding: 5px;\n        background: #BAD3FF;\n        opacity: 1;\n        border-radius: 5px;\n}\n\n\n    /*********** ボタン ***********/\n.btn1[data-v-3d2e076c],.btn2[data-v-3d2e076c],.btn3[data-v-3d2e076c],.btn4[data-v-3d2e076c] {\n        width: 80%;\n        position: relative;\n        left: 9.5%;\n        display: inline-block;\n        padding: 0.3em 1em;\n        text-decoration: none;\n        border-radius: 3px;\n        transition: .4s;\n        text-align: center;\n        padding: 10px 0 10px 0;\n        margin: 10px 0 10px 0;\n}\n.btn1[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn2[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn3[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn4[data-v-3d2e076c]{\n        color: #67c5ff;\n        border: solid 2px #67c5ff;\n}\n.btn1[data-v-3d2e076c]:hover,.btn2[data-v-3d2e076c]:hover,.btn3[data-v-3d2e076c]:hover,.btn4[data-v-3d2e076c]:hover {\n        background: #67c5ff;\n        color: white;\n}\n.edit[data-v-3d2e076c]{\n    position: absolute;\n    left: 70%;\n    top: 17.2%;\n    background: #fff;\n    border: 1px solid #fff;\n    cursor: pointer;\n    border-radius: 2px;\n    color: #a18d6c;\n    font-family: 'Exo', sans-serif;\n    font-size: 14px;\n    font-weight: 400;\n}\n.edit[data-v-3d2e076c]:hover{\n    opacity: 0.8;\n}\n\n", ""]);
 
 // exports
 
@@ -40660,11 +40660,39 @@ var render = function() {
           _vm._v(" "),
           _vm._m(2),
           _vm._v(" "),
-          _c("hr"),
+          _c("hr", { staticClass: "hhhh" }),
+          _vm._v(" "),
+          _c("div", { staticClass: "chart" }),
+          _vm._v(" "),
+          _c("hr", { staticClass: "hoge" }),
           _vm._v(" "),
           _vm._m(3),
           _vm._v(" "),
-          _vm._m(4)
+          _c("hr", { staticClass: "hoge hoge2" }),
+          _vm._v(" "),
+          _c("iframe", {
+            staticStyle: { border: "0" },
+            attrs: {
+              src:
+                "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141904177!2d139.6983826156727!3d35.68960668019239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1594865322873!5m2!1sja!2sjp",
+              width: "300",
+              height: "250",
+              frameborder: "0",
+              allowfullscreen: "",
+              "aria-hidden": "false",
+              tabindex: "0"
+            }
+          }),
+          _vm._v(" "),
+          _c("hr", { staticClass: "hoge" }),
+          _vm._v(" "),
+          _c("p", { staticClass: "Sub_Midashi" }, [_vm._v("最新レビュー")]),
+          _vm._v(" "),
+          _vm._m(4),
+          _vm._v(" "),
+          _c("hr", { staticClass: "hoge" }),
+          _vm._v(" "),
+          _vm._m(5)
         ],
         1
       )
@@ -40684,9 +40712,9 @@ var staticRenderFns = [
         }
       }),
       _vm._v(" "),
-      _c("div", { staticClass: "grad" }),
-      _vm._v(" "),
-      _c("p", { staticClass: "name" }, [_vm._v("らーめん江畑")]),
+      _c("div", { staticClass: "grad" }, [
+        _c("p", { staticClass: "name" }, [_vm._v("らーめん江畑")])
+      ]),
       _vm._v(" "),
       _c("p", { staticClass: "yasi" }, [_vm._v("⬅")])
     ])
@@ -40719,102 +40747,85 @@ var staticRenderFns = [
     var _vm = this
     var _h = _vm.$createElement
     var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "chart" }, [
-      _c("img", { attrs: { src: __webpack_require__(/*! ../Ozawa_files/chart.png */ "./resources/js/Ozawa_files/chart.png") } })
-    ])
-  },
-  function() {
-    var _vm = this
-    var _h = _vm.$createElement
-    var _c = _vm._self._c || _h
-    return _c("div", { staticClass: "second_text" }, [
-      _c("hr"),
-      _vm._v(" "),
-      _c("div", { staticClass: "phone_g" }, [
+    return _c("div", { staticClass: "phone_g" }, [
+      _c("div", { staticClass: "aaaaaaaaaaaaaaa" }, [
         _c("img", {
           staticClass: "phone",
           attrs: { src: __webpack_require__(/*! ../Ozawa_files/phone.png */ "./resources/js/Ozawa_files/phone.png") }
         }),
         _vm._v(" "),
         _c("p", [
-          _vm._v("\n                        000-000-0000\n                    ")
-        ])
-      ]),
-      _vm._v(" "),
-      _c("hr"),
-      _vm._v(" "),
-      _c("iframe", {
-        staticStyle: { border: "0" },
-        attrs: {
-          src:
-            "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141904177!2d139.6983826156727!3d35.68960668019239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1594865322873!5m2!1sja!2sjp",
-          width: "300",
-          height: "250",
-          frameborder: "0",
-          allowfullscreen: "",
-          "aria-hidden": "false",
-          tabindex: "0"
-        }
-      }),
-      _vm._v(" "),
-      _c("hr"),
-      _vm._v(" "),
-      _c("p", { staticClass: "Sub_Midashi" }, [_vm._v("最新レビュー")]),
-      _vm._v(" "),
-      _c("div", { staticClass: "accbox" }, [
-        _c("label", { attrs: { for: "label1" } }, [_vm._v("Username1")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "cssacc",
-          attrs: { type: "checkbox", id: "label1" }
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "accshow" }, [
-          _c("p", [
-            _vm._v(
-              "\n                        RRRRRR\n                        "
-            ),
-            _c("br"),
-            _vm._v(
-              "\n                        RRRRRRRRRRRRRRRRRRRRRR\n                        "
-            ),
-            _c("br")
-          ])
-        ]),
-        _vm._v(" "),
-        _c("label", { attrs: { for: "label2" } }, [_vm._v("Username2")]),
-        _vm._v(" "),
-        _c("input", {
-          staticClass: "cssacc",
-          attrs: { type: "checkbox", id: "label2" }
-        }),
-        _vm._v(" "),
-        _c("div", { staticClass: "accshow" }, [
-          _c("p", [
-            _vm._v("\n                        hoge\n                    ")
-          ])
-        ])
-      ]),
-      _vm._v(" "),
-      _c("hr"),
-      _vm._v(" "),
-      _c("div", { staticClass: "Buttons" }, [
-        _c("a", { staticClass: "btn1", attrs: { href: "#" } }, [
-          _vm._v("レビューを書く")
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "btn2", attrs: { href: "#" } }, [
-          _vm._v("すべてのレビューを見る")
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "btn3", attrs: { href: "#" } }, [
-          _vm._v("この店舗に行ったことがある")
-        ]),
-        _vm._v(" "),
-        _c("a", { staticClass: "btn4", attrs: { href: "#" } }, [
-          _vm._v("GoogleMapでルート案内する")
+          _vm._v(
+            "\n                            000-000-0000\n                        "
+          )
         ])
       ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "accbox" }, [
+      _c("label", { attrs: { for: "label1" } }, [_vm._v("Username1")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "cssacc",
+        attrs: { type: "checkbox", id: "label1" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "accshow" }, [
+        _c("p", [
+          _vm._v("\n                        RRRRRR\n                        "),
+          _c("br"),
+          _vm._v(
+            "\n                        RRRRRRRRRRRRRRRRRRRRRR\n                        "
+          ),
+          _c("br")
+        ])
+      ]),
+      _vm._v(" "),
+      _c("label", { attrs: { for: "label2" } }, [_vm._v("Username2")]),
+      _vm._v(" "),
+      _c("input", {
+        staticClass: "cssacc",
+        attrs: { type: "checkbox", id: "label2" }
+      }),
+      _vm._v(" "),
+      _c("div", { staticClass: "accshow" }, [
+        _c("p", [
+          _vm._v("\n                        hoge\n                    ")
+        ])
+      ])
+    ])
+  },
+  function() {
+    var _vm = this
+    var _h = _vm.$createElement
+    var _c = _vm._self._c || _h
+    return _c("div", { staticClass: "Buttons" }, [
+      _c("a", { staticClass: "btn1", attrs: { href: "#" } }, [
+        _vm._v("レビューを書く")
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "btn2", attrs: { href: "#" } }, [
+        _vm._v("すべてのレビューを見る")
+      ]),
+      _vm._v(" "),
+      _c("a", { staticClass: "btn3", attrs: { href: "#" } }, [
+        _vm._v("この店舗に行ったことがある")
+      ]),
+      _vm._v(" "),
+      _c(
+        "a",
+        {
+          staticClass: "btn4",
+          attrs: {
+            href: "https://www.google.com/maps/search/?api=1&query=HAL東京"
+          }
+        },
+        [_vm._v("GoogleMapでルート案内する")]
+      )
     ])
   }
 ]
@@ -53402,17 +53413,6 @@ module.exports = "/images/ai_marker.png?1bccfffcf625c10f73ef882aef7fa49b";
 /***/ (function(module, exports) {
 
 module.exports = "/images/aisatsu_kodomo_boy.png?1704a4944fbf972e558c1d41204713dd";
-
-/***/ }),
-
-/***/ "./resources/js/Ozawa_files/chart.png":
-/*!********************************************!*\
-  !*** ./resources/js/Ozawa_files/chart.png ***!
-  \********************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/images/chart.png?1df6132a58c5be8516b3bcf9acab0871";
 
 /***/ }),
 

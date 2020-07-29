@@ -11,7 +11,7 @@
 </head>
 
 <div id="app" class="wrap">
-
+<wiki-page></wiki-page>
     <!--
         おわりました
         <ai-page></ai-page>
@@ -21,7 +21,7 @@
         <mypage-passchange></mypage-passchange>
 
         まだおわてません
-    <wiki-page></wiki-page>
+        <wiki-page></wiki-page>
     -->
 
 </div>

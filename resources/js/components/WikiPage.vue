@@ -3,8 +3,9 @@
     <form method="post" action="#">
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
-                <div class="grad"></div>
-                <p class="name">らーめん江畑</p>
+                <div class="grad">
+                    <p class="name">らーめん江畑</p>
+                </div>
                 <p class="yasi">⬅</p>
             </div>
             <div class="main_line">
@@ -31,28 +32,28 @@
                 </div>
 
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
-                <hr>
+                <hr class="hhhh">
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
 
                 <div class="chart">
-                    <img src="../Ozawa_files/chart.png">
                 </div>
 
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
 
-                <div class="second_text">
-                    <hr>
+                    <hr class="hoge">
                     <div class="phone_g">
-                        <img class="phone" src="../Ozawa_files/phone.png">
-                        <p>
-                            000-000-0000
-                        </p>
+                        <div class="aaaaaaaaaaaaaaa">
+                            <img class="phone" src="../Ozawa_files/phone.png">
+                            <p>
+                                000-000-0000
+                            </p>
+                        </div>
                     </div>
-                    <hr>
+                    <hr class="hoge hoge2">
                     <!--  Map  -->
                     <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3240.4880141904177!2d139.6983826156727!3d35.68960668019239!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188cd0d6b1ba1f%3A0x1c32a1f1ecacfdd5!2z5paw5a6_6aeF!5e0!3m2!1sja!2sjp!4v1594865322873!5m2!1sja!2sjp" width="300" height="250" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
-                    <hr>
+                    <hr class="hoge">
 
                     <p class="Sub_Midashi">最新レビュー</p>
                     <div class="accbox">
@@ -80,16 +81,15 @@
                     <!----------------------------------------------------------------------------------------------------------------------------------------->
                     </div>
 
-                    <hr>
+                    <hr class="hoge">
                     
                     <div class="Buttons">
                         <a href="#" class="btn1">レビューを書く</a>
                         <a href="#" class="btn2">すべてのレビューを見る</a>
                         <a href="#" class="btn3">この店舗に行ったことがある</a>
-                        <a href="#" class="btn4">GoogleMapでルート案内する</a>
+                        <a href="https://www.google.com/maps/search/?api=1&query=HAL東京" class="btn4">GoogleMapでルート案内する</a>
                     </div>
 
-                </div>
             </div>
     </form>
     </div>
@@ -102,8 +102,8 @@
 <style scoped lang="scss">
     .wraps {
         margin-right: 0;
-        width: 100%;
-        height: 1000px;
+        width: 375px;
+        min-height: 1800px;
         display: flex;
         flex-direction: column;
         //border: dashed 2px #5b8bd0;
@@ -139,12 +139,15 @@
             }
             .name{
                 font-family: 'MyFont';
+                /*
                 position: absolute;
                 top: 21%;
                 left: 19%;
                 transform: translateX(-25%);
+                */
+                margin: 230px 0 0 40px;
                 font-size: 30px;
-                z-index: 11;
+                z-index: 300;
                 color: white;
             }
             .yasi{
@@ -157,9 +160,11 @@
             }
         }
         .main_line{
+            /*
             position: relative;
             top: 63%;
-            margin-top: 20px;
+            */
+            margin-top: 300px;
             width: 375px;
             height: auto;
             z-index: 40;
@@ -178,7 +183,7 @@
                 //left: 10%;
                 margin-left: 30px;
             }
-            hr{
+            .hhhh{
                 border-width: 1px 0px 0px 0px;
                 border-style: solid;
                 border-color: #cdcdcd; 
@@ -229,17 +234,19 @@
             }
         }
         .chart{
+            width: 100%;
+            height: 300px;
+            background-color: red;
+            z-index: 500;
             img {
-                position: absolute;
-                top: 86%;
-                left: 50%;
-                transform: translate(-50%,-50%);
-
+              width: 100%;
+              height: 100%;  
             }
         }
 
         ////////////////////////////////////////////////////////////////////////////////////
 
+        /*
         .second_text{
             position: absolute;
             top: 100%;
@@ -247,7 +254,8 @@
             height: auto;
             background-color: #2A2E43;
             //background-color: crimson; //dbg
-            hr{
+        */
+            .hoge{
                 margin-top: 20px;
                 border-width: 1px 0px 0px 0px;
                 border-style: solid;
@@ -255,17 +263,29 @@
                 margin-right: 20px;
                 margin-left: 20px;
             }
+            .hoge2{
+                margin-top: 10px;
+            }
+
+
+
+            ///////////////////////////////////////////////////////////////////////////
             .phone_g{
-                margin-top: 30px;
-                margin-bottom: 30px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                width: 100%;
+                height: 100px;
                 display: flex;
-                position: relative;
-                left: 100%;
-                transform: translateX(-80%);
-                p{
-                    margin-left: 20px;
-                    color: #A9A9A9;
+                align-items: center;
+                justify-content: center;
+                .aaaaaaaaaaaaaaa{
+                    display: flex;
+                    p{
+                        margin-left: 30px;
+                        color: #A9A9A9;
+                    }
                 }
+                
             }
             iframe{
                 margin-top: 20px;
@@ -283,9 +303,10 @@
                 flex-direction: column;
                 margin:20px 0 20px 0;
             }
+            /////////////////////////////////////////////////////////////////////////
+
 
         }
-    }
 
 </style>
 
@@ -294,6 +315,7 @@
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
 
 <style scoped lang="css">
+
     @font-face {
         font-family: 'MyFont';
         src: url(../Ozawa_files/NotoSerifJP-Bold.otf);
@@ -380,7 +402,7 @@
 .edit{
     position: absolute;
     left: 70%;
-    top: 33%;
+    top: 17.2%;
     background: #fff;
     border: 1px solid #fff;
     cursor: pointer;
