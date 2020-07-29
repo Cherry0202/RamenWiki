@@ -1,17 +1,12 @@
 <template>
     <div class="wrap">
-        <div class="grad"></div>
+        <div class="grad">←</div>
         <div class="Midashi">
             <div class="center">
                 <img class="ai" alt="man" src="../Ozawa_files/ai_marker.png">
                 <p>AIのおすすめ</p>
             </div>
         </div>
-
-        <!--
-        <img class="line" alt="line" src="../Ozawa_files/ColorLine.png">
-        -->
-
         <div class="Sen">
             <p class="title-border">あなたが今まで行ったことのない<br>素敵なラーメン店をご紹介します。</p>
         </div>
@@ -75,10 +70,8 @@
 </template>
 <script>
     export default {
-        mounted(){
-            const width = "width=375";
-            document.querySelector("meta[name='viewport']")
-            .setAttribute('content', width)
+        head: {
+            meta: [{ name: 'viewport', content: 'width=375' }]
         }
     }
 </script>

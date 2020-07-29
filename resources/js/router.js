@@ -48,9 +48,10 @@ const routes = [
         name: 'mypage'
     },
     {
-        path: '/ai',
+        path: '/aipage',
         component: AI,
-        name: 'ai'
+        name: 'ai',
+        meta: { name: 'viewport', content: 'width=375' }
     }
 ]
 
