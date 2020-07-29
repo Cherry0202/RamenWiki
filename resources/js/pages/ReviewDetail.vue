@@ -4,7 +4,7 @@
     <div class="box-01">
       <div class="arrow-wrapper">
 <!--       vue router -->
-          <router-link class="arrow" :to="{ name: 'wiki-demo' }">
+          <router-link class="arrow" :to="{ name: 'review-list' }">
               ⬅
           </router-link>
       </div>
@@ -12,7 +12,7 @@
         <h1 class="store-name">よってこや 新宿南口店</h1>
       </div>
       <div class="mode-wrapper">
-        <h1 class="mode">レビュー入力</h1>
+        <h1 class="mode">レビュー詳細</h1>
       </div>
       <div id="under-color-block">
         <div class="block1"></div>
@@ -36,28 +36,22 @@
 </script>
 
 <style scoped lang="scss">
-    <!--- CSS ----------------------------------------------------------------------------------------------------------->
-    <style lang="css">
-                     *{
-                         margin: 0;
-                         padding: 0;
-                     }
+    *{
+        margin: 0;
+        padding: 0;
+    }
     .main {
         width: 375px;
         height: 812px;
-        background-color: yellow;
     }
     .box-01 {
         width: 100%;
         height: 214px;
-        background-color: red;
-        /*img*/
-        /*background-image: ;*/
+        background-image: url("../Ozawa_files/ramen-mask.png");
     }
     .arrow-wrapper {
         width: 100%;
         height: 48%;
-        background-color: lightgray;
     }
     .arrow {
         position: fixed;
@@ -68,7 +62,6 @@
     .title-wrapper {
         width: 100%;
         height: 25%;
-        background-color: lightgreen;
         text-align: center;
     }
     .store-name {
@@ -79,7 +72,6 @@
     .mode-wrapper {
         width: 100%;
         height: 24%;
-        background-color: lightblue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -87,6 +79,7 @@
     .mode {
         font-size: 24px;
         color: white;
+        font-weight: 100;
     }
 
     #under-color-block {
@@ -124,8 +117,13 @@
     .contents {
         width: 338px;
         height: 540px;
-        background-color: #EDF0F5;
+        background-color: #353A50;
         border-radius: 18px;
+        img {
+            width:auto;
+            height:auto;
+            max-width:100%;
+            max-height:100%;
+        }
     }
-    </style>
 </style>

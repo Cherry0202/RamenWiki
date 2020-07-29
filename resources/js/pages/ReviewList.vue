@@ -23,10 +23,11 @@
         </div>
         <main class="contents-wrapper">
             <div class="contents">
-                <div
+                <router-link
                     class="review-list"
                     v-for="review in reviews"
                     :key="review.id"
+                    :to="{ name: 'review-detail' }"
                 >
                     <div class="user-content">
                         <div class="user-name">
@@ -39,7 +40,7 @@
                     <div class="chart">
                         <img src="../Ozawa_files/chart2.png" alt="">
                     </div>
-                </div>
+                </router-link>
             </div>
         </main>
     </div>
@@ -65,7 +66,7 @@
                     },
                     {
                         "user_name":"hogehoge",
-                        "text":"hoeghoege"
+                        "text":"hoeghoegeho"
                     },
                     {
                         "user_name":"hogehoge",
@@ -182,6 +183,9 @@
         margin: 0;
         padding: 0;
     }
+    a{
+        text-decoration: none;
+    }
     .main {
         width: 375px;
         height: 812px;
@@ -292,6 +296,7 @@
                 display: flex;
                 align-items: center;
                 padding-left: 10px;
+                overflow-y: scroll;
             }
         }
         .chart{
