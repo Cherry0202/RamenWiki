@@ -107,3 +107,104 @@
   display: block;
 }
 
+.no-review {
+  font-size: 32px;
+  background-color: #353A50;
+  padding: 4%;
+  text-align: center;
+}
+
+.no-photo {
+  margin: 4%;
+  font-size: 32px;
+  background-color: #353A50;
+  padding: 4%;
+  text-align: center;
+}
+
+.main {
+  width: 100%;
+  min-height: 812px;
+  padding-top: 10px;
+  background-color: #2A2E43;
+}
+
+.box {
+  background-color: #353A50;
+  margin: 20px 20px 20px 20px;
+  padding: 10px 8px 10px 8px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.main input {
+  background-color: #393838;
+  color: white;
+  font-size: 28px;
+  padding: 5px;
+}
+
+.box p {
+  color: white;
+  font-size: 28px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  display: inline;
+}
+
+.main .small_wrapper {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#small {
+  font-size: 16px;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align: center;
+  display: inline;
+  margin-left: 0px;
+}
+
+.main h3 {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  color: white;
+  margin-left: 15px;
+  font-size: 32px;
+}
+
+.main .button1 {
+  border: #2ABCD1;
+  border-radius: 10px;
+  background-color: rgba(42, 188, 209, 0.25);
+  color: white;
+  padding: 5px 15px 5px 15px;
+}
+
+.main .button2 {
+  border: #2ABCD1;
+  border-radius: 10px;
+  background-color: #2ABCD1;
+  color: white;
+  padding: 5px 15px 5px 15px;
+  margin-left: 10px;
+}
+
+#password {
+  background-color: #353A50;
+  border: 0 solid;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+.linelineline {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.linelineline hr {
+  margin: 0 auto;
+}
+
+.passwordline {
+  margin: 20px auto;
+}
+
