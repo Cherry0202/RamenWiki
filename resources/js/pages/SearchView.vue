@@ -135,7 +135,7 @@
                 top: 0;
                 height: 100vh;
                 z-index: 1;
-                background-image: url("../Ozawa_files/map-sample.png");
+                background-image: url("../Ozawa_files/sample-map2.png");
                 background-repeat: no-repeat;
                 background-size: cover;
             }
