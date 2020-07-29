@@ -73,16 +73,21 @@
 
     </div>
 </template>
-
 <script>
+    export default {
+        mounted(){
+            const width = "width=375";
+            document.querySelector("meta[name='viewport']")
+            .setAttribute('content', width)
+        }
+    }
 </script>
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
     .wrap {
         width: 375px;
-        min-height: 812px;
-        /*max-height: */
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         background-color: #D5D7DB;
@@ -139,10 +144,8 @@
         .Sen{
             width: 100%;
             position: absolute;
-            top: 19%;
-            left: 0%;
-            //background-color: red; //dbg
-
+            top: 18%;
+            left: 0;
         }
 
 
