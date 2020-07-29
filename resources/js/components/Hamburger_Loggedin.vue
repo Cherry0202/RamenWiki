@@ -46,7 +46,9 @@
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/icon-x.png"/>
-                            <a href="#">退会</a>
+                            <router-link :to="{ name: 'bye' }">
+                                退会
+                            </router-link>
                         </div>
                     </div>
                     <div class="logout-wrapper">
