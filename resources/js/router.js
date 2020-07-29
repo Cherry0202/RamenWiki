@@ -10,6 +10,7 @@ import Register from './pages/MemberRegisterComponent'
 import Mypage from "./pages/Mypage";
 import SearchView2 from "./pages/SearchView2";
 import AI from "./pages/AIPage"
+import WikiEdit from "./pages/Wikiedit"
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -51,6 +52,12 @@ const routes = [
         path: '/aipage',
         component: AI,
         name: 'ai',
+        meta: { name: 'viewport', content: 'width=375' }
+    },
+    {
+        path: '/edit',
+        component: WikiEdit,
+        name: 'edit',
         meta: { name: 'viewport', content: 'width=375' }
     }
 ]
