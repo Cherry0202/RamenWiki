@@ -24,8 +24,8 @@ Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 Vue.component('wiki-page', require('./pages/WikiPage.vue').default);
 Vue.component('wiki-edit', require('./pages/Wikiedit.vue').default);
 Vue.component('mypage-passchange', require('./components/Mypage_Passchange.vue').default);
-Vue.component('goodbye-page', require('./components/Goodbye.vue').default);
-Vue.component('goodbyebye-page', require('./components/Goodbye_bye.vue').default);
+Vue.component('goodbye-page', require('./pages/Goodbye.vue').default);
+Vue.component('goodbyebye-page', require('./pages/Goodbye_bye.vue').default);
 Vue.component(
     "login-component",
     require("./pages/LoginComponent").default
