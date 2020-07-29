@@ -2,7 +2,7 @@
     <div class="searcher">
         <form class="search-container">
         <label>
-            <input type="text" v-model="keyword" id="search-bar" placeholder="Search...">
+            <input type="text" v-model="keyword" id="search-bar" value="よってこや" placeholder="よってこや">
         </label>
         </form>
         <button v-on:click="postKeyword"><img class="search-icon" src="http://www.endlessicons.com/wp-content/uploads/2012/12/search-icon.png"></button>
@@ -14,19 +14,30 @@
         name: "FormComponent",
         data() {
             return {
-                keyword: '',
+                keyword:"よってこや",
                 lists: []
             }
         },
         methods: {
             postKeyword(){
-                axios.post('/search','')
+                axios.post('/search',{
+                    keyword: this.keyword
+                })
                 .then( response => {
+                    this.$emit('postLists',null)
                     console.log(response.data);
                     this.lists = response.data
                     this.$emit('postLists',this.lists)
                 })
             }
+        },
+        created() {
+            axios.post('/search','')
+                .then( response => {
+                    console.log(response.data);
+                    this.lists = response.data
+                    this.$emit('postLists',this.lists)
+                })
         }
     }
 </script>
@@ -56,7 +67,8 @@
                 transition: 0.35s ease;
                 color: #008ABF;
                 &::-webkit-input-placeholder{
-                    transition: opacity 0.45s ease;
+                    /*transition: opacity 0.45s ease;*/
+                    color: black;
                     opacity: 0;
                 }
             }

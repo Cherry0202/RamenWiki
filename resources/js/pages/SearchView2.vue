@@ -3,7 +3,6 @@
         <div id="main">
             <hamburger_-loggedin></hamburger_-loggedin>
             <search-form-component @postLists="getLists"></search-form-component>
-            <!--            <img src="../Ozawa_files/map-sample.png" alt="">-->
             <div class="g-map">
                 <!--                ここにgoogle map-->
             </div>
