@@ -13,7 +13,10 @@
             </div>
             <div class="main_text">
                 <p class="Midashi">店舗詳細</p>
-                <input type="button" class="edit" value="　Edit　">
+<!--                <input type="button" class="edit" value="　Edit　">-->
+                <router-link :to="{ name: 'edit' }" class="edit">
+                    Edit
+                </router-link>
                 <ui class="icon">
                     <li><img src="../Ozawa_files/icon1.png"></li>
                     <li><img src="../Ozawa_files/icon2.jpg"></li>
@@ -23,11 +26,7 @@
 
                 <div class="Honbun">
                     <p>
-                        hogehoge
-                        <br>
-                        hoge
-                        <br>
-                        hogeeeeeeeee
+                        {{ wiki.text}}
                     </p>
                 </div>
 
@@ -64,9 +63,9 @@
                     <div class="accshow">
                         <!--body-->
                         <p>
-                            RRRRRR
+                            とてもおいしかったです
                             <br>
-                            RRRRRRRRRRRRRRRRRRRRRR
+                            家族に紹介したいです。
                             <br>
                         </p>
                     </div>
@@ -105,6 +104,11 @@
         name: 'WikiPage',
         data: function(){
             return{
+                wiki: {
+                  text: "京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税)                        <br>\n" +
+                      "                        hoge" +
+                      "                        hogeeeeeeeee"
+                },
                 screenwidth: 375,
                 store_id: this.$route.params.id,
                 store_name: String,
