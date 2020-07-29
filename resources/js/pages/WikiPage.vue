@@ -4,7 +4,7 @@
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
                 <div class="grad">
-                    <p class="name">{{store_name}}</p>
+                    <p class="name">よってこや 新宿南口店</p>
                 </div>
                 <p class="yasi">⬅</p>
             </div>
@@ -26,8 +26,11 @@
 
                 <div class="Honbun">
                     <p>
-                        {{ wiki.text}}
+                        京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税) が看板メニュー。
                     </p>
+<!--                    <p>-->
+<!--                        煮卵トッピング無料(2030年1月まで)-->
+<!--                    </p>-->
                 </div>
 
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
@@ -46,7 +49,7 @@
                     <div class="aaaaaaaaaaaaaaa">
                         <img class="phone" src="../Ozawa_files/phone.png">
                         <p>
-                            {{phone_number}}
+                            03-3353-5990
                         </p>
                     </div>
                 </div>
@@ -140,6 +143,9 @@
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
+    a{
+        text-decoration: none;
+    }
     .wraps {
         margin-right: 0;
         width: 375px;
@@ -442,7 +448,7 @@
 
     .edit{
         position: absolute;
-        left: 70%;
+        left: 83%;
         top: 322px;
         background: #fff;
         border: 1px solid #fff;
@@ -452,6 +458,7 @@
         font-family: 'Exo', sans-serif;
         font-size: 14px;
         font-weight: 400;
+        width: 29px;
     }
     .edit:hover{
         opacity: 0.8;

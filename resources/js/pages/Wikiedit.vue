@@ -6,27 +6,28 @@
             <div class="main_photo">
                 <img alt="photo" src="../Ozawa_files/Sample_ramenshot.jpg">
                 <div class="grad"></div>
-                <p class="name">らーめん江畑</p>
-                <p class="yasi">⬅</p>
+                <p class="name">よってこや 新宿南口店</p>
+                <router-link class="yasi" :to="{ name: 'wiki' }">
+                    ⬅
+                </router-link>
             </div>
             <div class="main_lines">
                 <img alt="line" src="../Ozawa_files/ColorLine.png">
                 <div class="background"></div>
             </div>
-        
+
             <div class="formmmm">
                     <p class="mmmmmm">　　店舗詳細編集画面　　</p>
-                    <textarea class="textarea1" name="edit_wiki" rows="8" cols="40" placeholder="編集内容を記述してください..."></textarea><br>
+                    <textarea class="textarea1" name="edit_wiki" rows="8" cols="40" placeholder="編集内容を記述してください...">京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税) が看板メニュー。</textarea><br>
                     <input class="submitbtn" type="submit" value="送信">
-                
             </div>
 
 
 
-    
+
         </form>
-    </div> 
-    
+    </div>
+
 </template>
 
 <script>
@@ -36,6 +37,9 @@
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
+    a{
+        text-decoration: none;
+    }
 .main3{
     width: 375px;
     height: 812px;
@@ -52,7 +56,7 @@
         img{
             width: 375px;
             height: 300px;
-            object-fit: cover; 
+            object-fit: cover;
             position: absolute;
             top: 0;
             right: 0;
@@ -73,14 +77,15 @@
             z-index: 10;
         }
         .name{
-            font-family: 'MyFont';
+            font-family: "MyFont";
             position: absolute;
             top: 21%;
             left: 19%;
             transform: translateX(-25%);
-            font-size: 30px;
+            font-size: 25px;
             z-index: 11;
             color: white;
+            margin: 20px 0 0 40px;
         }
         .yasi{
             position: absolute;
@@ -114,7 +119,7 @@
         display: grid;
         justify-items:center;
         //background-color: blue; //dbg
-        .mmmmmm{ 
+        .mmmmmm{
             position: absolute;
             top: 35%;
             left: 50%;
