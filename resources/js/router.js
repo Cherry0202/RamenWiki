@@ -5,6 +5,7 @@ import Meta from 'vue-meta'
 // ページコンポーネントをインポートする
 import Search from './pages/SearchView'
 import Wiki from './pages/WikiPage'
+import WikiPageDemo from "./pages/WikiPageDemo";
 import Login from './pages/LoginComponent'
 import Register from './pages/MemberRegisterComponent'
 import Mypage from "./pages/Mypage";
@@ -32,6 +33,11 @@ const routes = [
         path: '/wiki/:id',
         component: Wiki,
         name: 'wiki'
+    },
+    {
+        path: '/wiki/demo',
+        component: WikiPageDemo,
+        name: 'wiki-demo'
     },
     {
         path: '/login',
