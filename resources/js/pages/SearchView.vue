@@ -174,10 +174,11 @@
             background-color: #2A2E43;
             display: flex;
             height: 8%;
-            width: 100%;
+            width: 980px;
             position: absolute;
             z-index: 2;
             bottom: 0;
+            align-items: center;
             .text2{
                 width: 85%;
                 /*background-color: #3AC;*/
@@ -202,7 +203,6 @@
                 h1{
                     font-size: 100px;
                     color: #9EA7CC;
-                    padding-left: 30px;
                 }
             }
         }
