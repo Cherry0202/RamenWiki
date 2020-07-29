@@ -1,6 +1,6 @@
 <template>
     <div class="wrap">
-        <div class="grad">←</div>
+        <div class="grad"></div>
         <div class="Midashi">
             <div class="center">
                 <img class="ai" alt="man" src="../Ozawa_files/ai_marker.png">
@@ -15,13 +15,13 @@
             <div class="white_text1">
                 <div class="photoimage1">
                     <!-- おすすめ店舗のラーメン画像 -->
-                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
+                    <img class="imagecovershot" src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/nangokusan/20191120/20191120204532.jpg">
                 </div>
                 <!-- おすすめ店舗の文章 -->
                 <div class="yayaya1">
                     <div class="topRamen_name">
                         <p>
-                            江畑の一杯
+                            らぁ麺 鳳仙花
                         </p>
                         <div class="topRamen_text">
                             <p>
@@ -41,13 +41,13 @@
             <div class="white_text2">
                 <div class="photoimage2">
                     <!-- おすすめ店舗のラーメン画像 -->
-                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
+                    <img class="imagecovershot" src="https://tblg.k-img.com/restaurant/images/Rvw/79636/640x640_rect_79636619.jpg">
                 </div>
                 <!-- おすすめ店舗の文章 -->
                 <div class="yayaya2">
                     <div class="topRamen_name">
                         <p>
-                            江畑の一杯
+                            らあめん 満来
                         </p>
                         <div class="topRamen_text">
                             <p>
@@ -66,6 +66,10 @@
             あなたの趣味嗜好に合わせて、AIのおすすめ店舗も増加していきます。
         </p>
 
+        <router-link class="arrow" :to="{ name: 'search-view2' }">
+            ⬅
+        </router-link>
+
     </div>
 </template>
 <script>
@@ -78,6 +82,15 @@
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
+    .arrow {
+        position: relative;
+        top: -636px;
+        font-size: 23px;
+        left: -158px;
+        text-decoration: none;
+        color: gray;
+        z-index: 11;
+    }
     .wrap {
         width: 375px;
         min-height: 100vh;
