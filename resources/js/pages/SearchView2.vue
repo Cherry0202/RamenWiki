@@ -1,7 +1,7 @@
 <template>
     <div class="wrap">
         <div id="main">
-            <hamburger_-menu></hamburger_-menu>
+            <hamburger_-loggedin></hamburger_-loggedin>
             <search-form-component @postLists="getLists"></search-form-component>
             <!--            <img src="../Ozawa_files/map-sample.png" alt="">-->
             <div class="g-map">
@@ -29,8 +29,9 @@
 
 <script>
     import Hamburger_Menu from "../components/Hamburger_Menu";
+    import Hamburger_Loggedin from "../components/Hamburger_Loggedin";
     export default {
-        components: {Hamburger_Menu},
+        components: {Hamburger_Loggedin, Hamburger_Menu},
         data() {
             return {
                 maplocation:{lat:0, lng:0},
