@@ -184,7 +184,7 @@
             }
             .yasi{
                 position: absolute;
-                top: 0%;
+                top: 2%;
                 left: 6%;
                 font-size: 20px;
                 z-index: 12;
