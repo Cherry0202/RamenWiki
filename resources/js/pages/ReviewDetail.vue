@@ -144,7 +144,7 @@
             font-weight: bold;
             text-align: center;
             position: relative;
-            top: 17px;
+            top: 23px;
         }
         .img-wrapper {
             width: 100%;
