@@ -56,7 +56,3 @@ Route::get('/', function () {
 Route::get('/mypage', function() {
     return view('mypage');
 });
-
-Route::get('/ai', function () {
-    return view('ai');
-});
