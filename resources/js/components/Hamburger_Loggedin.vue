@@ -92,7 +92,7 @@
         z-index: 4;
         .hamburger_btn {
             position: fixed; /*常に最上部に表示したいので固定*/
-            top: 22px;
+            top: 40px;
             left: 22px;
             width: 100px;
             height: 75px;
