@@ -12,6 +12,8 @@ import Mypage from "./pages/Mypage";
 import SearchView2 from "./pages/SearchView2";
 import AI from "./pages/AIPage"
 import WikiEdit from "./pages/Wikiedit"
+import Bye from "./pages/Goodbye"
+import ByeBye from "./pages/Goodbye_bye"
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -65,6 +67,16 @@ const routes = [
         component: WikiEdit,
         name: 'edit',
         meta: { name: 'viewport', content: 'width=375' }
+    },
+    {
+        path: '/bye',
+        component: Bye,
+        name: 'bye',
+    },
+    {
+        path: '/bye/bye',
+        component: ByeBye,
+        name: 'byebye',
     }
 ]
 
