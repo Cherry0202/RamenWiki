@@ -18,9 +18,6 @@
         <wiki-edit></wiki-edit>
         <goodbye-page></goodbye-page>
         <goodbyebye-page></goodbye-page>
-        <mypage-passchange></mypage-passchange>
-
-        まだおわてません
         <wiki-page></wiki-page>
     -->
 
