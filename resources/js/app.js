@@ -53,6 +53,7 @@ Vue.component(
 );
 //pages
 Vue.component("search-view", require("./pages/SearchView").default);
+Vue.component("search-view2", require("./pages/SearchView2").default);
 Vue.component("store-detail", require("./pages/StoreDetail").default);
 Vue.component("delete-account", require("./pages/DeleteAccount").default);
 Vue.component("my-page", require("./pages/MyPage").default);

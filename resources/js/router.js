@@ -8,6 +8,7 @@ import Wiki from './pages/WikiPage'
 import Login from './pages/LoginComponent'
 import Register from './pages/MemberRegisterComponent'
 import Mypage from "./pages/Mypage";
+import SearchView2 from "./pages/SearchView2";
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -19,6 +20,11 @@ const routes = [
     {
         path: '/',
         component: Search
+    },
+    {
+        path: '/ok',
+        component: SearchView2,
+        name: 'search-view2'
     },
     {
         path: '/wiki/:id',

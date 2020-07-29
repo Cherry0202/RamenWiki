@@ -34,7 +34,11 @@
                     <a href="" class="link_text">パスワードを忘れた方へ</a
                     ><br />
 <!--                    <input type="submit" value="CONTINUE" class="button" />-->
-                    <button class="button" v-on:click="check">CONTINUE</button>
+                    <button class="button" v-on:click="check">
+                        <router-link :to="{ name: 'search-view2' }">
+                        CONTINUE
+                        </router-link>
+                    </button>
                 </form>
             </div>
         </div>
@@ -62,6 +66,9 @@ export default {
 
 <style scoped lang="scss">
 /* 全体 */
+a {
+    text-decoration: none;
+}
 .wrap {
     margin: 0;
     width: 100%;
@@ -228,6 +235,10 @@ form {
     transition: all 0.3s ease;
     outline: none;
     font-size: 2em;
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 }
 .button:hover {
     background-color: #5773ff;
