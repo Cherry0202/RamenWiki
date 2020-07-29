@@ -7,7 +7,7 @@
                 <div class="arrow">←</div>
             </div>
             <div class="title-wrapper">
-                <h1 class="store-name">ラーメンB</h1>
+                <h1 class="store-name">よってこや 新宿南口店</h1>
             </div>
             <div class="mode-wrapper">
                 <h1 class="mode">詳細</h1>
@@ -21,12 +21,28 @@
         </div>
         <main class="contents-wrapper">
             <div class="contents">
-                <div class="review-list"></div>
-                <div class="review-list"></div>
-                <div class="review-list"></div>
-                <div class="review-list"></div>
-                <div class="review-list"></div>
-                <div class="review-list"></div>
+                <div
+                    class="review-list"
+                    v-for="review in reviews"
+                    :key="review.id"
+                >
+                    <div class="user-content">
+                        <div class="user-name">
+                            {{  review.user_name }}さん
+                        </div>
+                        <div class="review-text">
+                            {{ review.text}}
+                        </div>
+                    </div>
+                    <div class="chart">
+                        <img src="../Ozawa_files/chart2.png" alt="">
+                    </div>
+                </div>
+<!--                <div class="review-list"></div>-->
+<!--                <div class="review-list"></div>-->
+<!--                <div class="review-list"></div>-->
+<!--                <div class="review-list"></div>-->
+<!--                <div class="review-list"></div>-->
             </div>
         </main>
     </div>
@@ -37,11 +53,112 @@
         name: "ReviewList",
         head: {
             meta: [{ name: 'viewport', content: 'width=375' }]
+        },
+        data(){
+            return {
+                reviews:[
+                    {
+                        "user_name":"みそだいすき",
+                        "text":"とてもおいしかったです。\n" +
+                            "                            家族に紹介したいです。"
+                    },
+                    {
+                        "user_name":"替え玉っていいよね",
+                        "text":"細麺バリカタがおすすめ！"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },                    {
+                        "user_name":"hogehoge",
+                        "text":"hoeghoege"
+                    },
+                ]
+            }
         }
     }
 </script>
 
-<style scoped lang="css">
+<style scoped lang="scss">
     *{
         margin: 0;
         padding: 0;
@@ -49,19 +166,16 @@
     .main {
         width: 375px;
         height: 812px;
-        background-color: yellow;
     }
     .box-01 {
         width: 100%;
         height: 214px;
-        background-color: red;
-        /*img*/
-        /*background-image: ;*/
+        background-size: cover;
+        background-image: url("../Ozawa_files/Sample_ramenshot.jpg");
     }
     .arrow-wrapper {
         width: 100%;
         height: 48%;
-        background-color: lightgray;
     }
     .arrow {
         position: fixed;
@@ -71,7 +185,6 @@
     .title-wrapper {
         width: 100%;
         height: 25%;
-        background-color: lightgreen;
         text-align: center;
     }
     .store-name {
@@ -82,7 +195,6 @@
     .mode-wrapper {
         width: 100%;
         height: 24%;
-        background-color: lightblue;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -90,6 +202,7 @@
     .mode {
         font-size: 24px;
         color: white;
+        font-weight: 100;
     }
 
     #under-color-block {
@@ -141,5 +254,36 @@
         border-radius: 18px;
         background-color: #353A50;
         margin: 8px;
+        display: flex;
+        .user-content {
+            height: 100%;
+            width: 65%;
+            color: #FFFFFF;
+            .user-name{
+                width: 100%;
+                height: 35%;
+                display: flex;
+                align-items: flex-end;
+                padding-left: 10px;
+            }
+            .review-text{
+                width: 100%;
+                height: 65%;
+                display: flex;
+                align-items: center;
+                padding-left: 10px;
+            }
+        }
+        .chart{
+            background-color: #636b6f;
+            height: 100%;
+            width: 35%;
+            img {
+                width:auto;
+                height:auto;
+                max-width:100%;
+                max-height:100%;
+            }
+        }
     }
 </style>
