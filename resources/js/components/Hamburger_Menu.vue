@@ -70,11 +70,18 @@
         /*TODO:z-index*/
         z-index: 4;
         .hamburger_btn {
-            position: fixed; /*常に最上部に表示したいので固定*/
-            top: 0;
-            left: 0;
-            width: 70px;
-            height: 45px;
+            /*position: fixed; !*常に最上部に表示したいので固定*!*/
+            /*top: 0;*/
+            /*left: 0;*/
+            /*width: 70px;*/
+            /*height: 45px;*/
+            /*cursor: pointer;*/
+            /*z-index: 4;*/
+            position: fixed;
+            top: 22px;
+            left: 22px;
+            width: 100px;
+            height: 75px;
             cursor: pointer;
             z-index: 4;
         }
@@ -84,8 +91,8 @@
             position: absolute;
             top: 0;
             left: 20px;
-            width: 32px;
-            height: 2px;
+            width: 64px;
+            height: 3px;
             background: #333333;
             text-align: center;
         }
