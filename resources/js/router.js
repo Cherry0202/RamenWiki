@@ -16,6 +16,7 @@ import Bye from "./pages/Goodbye"
 import ByeBye from "./pages/Goodbye_bye"
 import ReviewList from "./pages/ReviewList";
 import ReviewDetail from "./pages/ReviewDetail";
+import ReviewInput from "./pages/ReviewInput";
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -69,6 +70,12 @@ const routes = [
         component: WikiEdit,
         name: 'edit',
         meta: { name: 'viewport', content: 'width=375' }
+    },
+    {
+        path: '/review/input',
+        component: ReviewInput,
+        name: 'review-input',
+        // meta: { name: 'viewport', content: 'width=375' }
     },
     {
         path: '/review/list',
