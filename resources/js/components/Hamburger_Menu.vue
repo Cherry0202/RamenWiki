@@ -30,10 +30,10 @@
                     <div class="button-div">
                         <div class="button-wrapper">
 <!--                        <form @submit.prevent="login">-->
-                            <button class="buttonop1" type="submit">ログイン</button>
+                            <button class="buttonop1"><router-link :to="{ name: 'login' }">ログイン</router-link></button>
 <!--                        </form>-->
 <!--                        <form @submit.prevent="signup">-->
-                            <button class="buttonop2" type="submit">会員登録</button>
+                            <button class="buttonop2"><router-link :to="{ name: 'register' }">会員登録</router-link></button>
 <!--                        </form>-->
                         </div>
                     </div>
@@ -236,16 +236,18 @@
                             border-radius: 35px;
                             width: 50vw;
                             height: 140px;
-                            font-size: 20pt;
                             text-align: center;
                             cursor: pointer;
                             padding: 13px 63px;
                             background: #00e6e6;
-                            color: #ffffff;
                             line-height: 1em;
                             transition: 0.3s;
                             border: 2px solid #00e6e6;
                             margin-bottom: 30px;
+                            a {
+                                font-size: 40px;
+                                color: #FFFFFF;
+                            }
                         }
 
                         .buttonop1:hover {
@@ -267,6 +269,10 @@
                             line-height: 1em;
                             transition: 0.3s;
                             border: 2px solid #00e6e6;
+                            a {
+                                font-size: 40px;
+                                color: #FFFFFF;
+                            }
                         }
 
                         .buttonop2:hover {
