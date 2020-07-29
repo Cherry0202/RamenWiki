@@ -1,5 +1,5 @@
 <template>
-    
+
     <div class="main2">
         <div class="box_01">
             <p id="midashi_01"><b>RamenWikiのアカウント削除</b></p>
@@ -22,23 +22,34 @@
                 <p><input type="checkbox" name="" value="">その他</p>
                 <p><textarea name="" rows="7" cols="48"></textarea></p>
                 <br>
-                <input type="button" class="button1" value="退会しない">
-                <input type="button" class="button2" value="退会する">
+                <router-link class="button1" :to="{ name: 'search-view2' }">
+                    退会しない
+                </router-link>
+                <router-link class="button2" :to="{ name: 'byebye' }">
+                    退会する
+                </router-link>
                 </form>
         </div>
-        
+
     </div>
 
 </template>
 
 <script>
+    export default {
+        head: {
+            meta: [{ name: 'viewport', content: 'width=375' }]
+        }
+    }
+
 </script>
-
-
 
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
 
 <style scoped lang="css">
+    a {
+        text-decoration: none;
+    }
 
 .main2{
     width: 375px;
