@@ -33,10 +33,10 @@
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/mypage.png"/>
-<!--                            <a href="/mypage">Mypage</a>-->
-                            <router-link :to="{ name: 'mypage2' }">
-                                Mypage
-                            </router-link>
+                            <a href="/mypage">Mypage</a>
+<!--                            <router-link :to="{ name: 'mypage2' }">-->
+<!--                                Mypage-->
+<!--                            </router-link>-->
                         </div>
                         <div class="list-wrapper">
                             <img class="home" src="../images/ai.png"/>
