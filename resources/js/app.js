@@ -4,6 +4,10 @@ window.Vue = require("vue");
 
 import VueRouter from 'vue-router'; // Vue Routerの読み込み
 import Vue from 'vue'
+import VueMeta from 'vue-meta'
+
+Vue.use(VueMeta)
+
 // ルーティングの定義をインポートする
 import router from './router'
 import App from './components/App'
@@ -17,19 +21,19 @@ Vue.component('Review', require('./components/Review').default)
 Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 
 /* ここに作ったコンポーネントを記載する */
+Vue.component('chart-sample',require('./components/Chart.vue').default)
 Vue.component('wiki-page', require('./pages/WikiPage.vue').default);
 Vue.component('wiki-edit', require('./pages/Wikiedit.vue').default);
 Vue.component('mypage-passchange', require('./components/Mypage_Passchange.vue').default);
-Vue.component('ai-page', require('./pages/AIPage.vue').default);
-Vue.component('goodbye-page', require('./components/Goodbye.vue').default);
-Vue.component('goodbyebye-page', require('./components/Goodbye_bye.vue').default);
+Vue.component('goodbye-page', require('./pages/Goodbye.vue').default);
+Vue.component('goodbyebye-page', require('./pages/Goodbye_bye.vue').default);
 Vue.component(
     "login-component",
-    require("./components/LoginComponent").default
+    require("./pages/LoginComponent").default
 );
 Vue.component(
     "member-register-component",
-    require("./components/MemberRegisterComponent").default
+    require("./pages/MemberRegisterComponent").default
 );
 Vue.component(
     "example-component",
@@ -53,6 +57,7 @@ Vue.component(
 );
 //pages
 Vue.component("search-view", require("./pages/SearchView").default);
+Vue.component("search-view2", require("./pages/SearchView2").default);
 Vue.component("store-detail", require("./pages/StoreDetail").default);
 Vue.component("delete-account", require("./pages/DeleteAccount").default);
 Vue.component("my-page", require("./pages/MyPage").default);
@@ -61,6 +66,7 @@ Vue.component("review-detail", require("./pages/ReviewDetail").default);
 Vue.component("review-list", require("./pages/ReviewList").default);
 Vue.component("create-view", require("./pages/CreateReview").default);
 Vue.component('myuser', require('./components/MypageUserComponent').default);
+Vue.component('aipage',require('./pages/AIPage'))
 
 
 

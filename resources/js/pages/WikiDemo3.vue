@@ -6,6 +6,7 @@
                 <div class="grad">
                     <p class="name">よってこや 新宿南口店</p>
                 </div>
+                <!--                <p class="yasi">⬅</p>-->
                 <router-link class="yasi" :to="{ name: 'search-view2' }">
                     ⬅
                 </router-link>
@@ -15,7 +16,7 @@
             </div>
             <div class="main_text">
                 <p class="Midashi">店舗詳細</p>
-<!--                <input type="button" class="edit" value="　Edit　">-->
+                <!--                <input type="button" class="edit" value="　Edit　">-->
                 <router-link :to="{ name: 'edit' }" class="edit">
                     Edit
                 </router-link>
@@ -30,9 +31,9 @@
                     <p>
                         京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税) が看板メニュー。
                     </p>
-<!--                    <p>-->
-<!--                        煮卵トッピング無料(2030年1月まで)-->
-<!--                    </p>-->
+                    <p>
+                        煮卵トッピング無料(2030年1月まで)
+                    </p>
                 </div>
 
                 <!----------------------------------------------------------------------------------------------------------------------------------------->
@@ -63,10 +64,17 @@
                 <p class="Sub_Midashi">最新レビュー</p>
                 <div class="accbox">
                     <!----------------------------------------------------------------------------------------------------------------------------------------->
-                    <label for="label1">みそだいすきさん</label>
+                    <label for="label1">hogeさん</label>
                     <input type="checkbox" id="label1" class="cssacc" />
                     <div class="accshow">
-                        <!--body-->
+                        <p>
+                            とてもおいしかったです。
+                        </p>
+                    </div>
+                    <!----------------------------------------------------------------------------------------------------------------------------------------->
+                    <label for="label2">みそだいすきさん</label>
+                    <input type="checkbox" id="label2" class="cssacc" />
+                    <div class="accshow">
                         <p>
                             とてもおいしかったです
                             <br>
@@ -75,21 +83,11 @@
                         </p>
                     </div>
                     <!----------------------------------------------------------------------------------------------------------------------------------------->
-                    <label for="label2">替え玉っていいよねさん</label>
-                    <input type="checkbox" id="label2" class="cssacc" />
-                    <div class="accshow">
-                        <!--body-->
-                        <p>
-                            細麺バリカタがおすすめ！
-                        </p>
-                    </div>
-                    <!----------------------------------------------------------------------------------------------------------------------------------------->
                 </div>
 
                 <hr class="hoge">
 
                 <div class="Buttons">
-<!--                    <a href="#" class="btn1">レビューを書く</a>-->
                     <router-link class="btn1" :to="{ name: 'review-input' }">
                         レビューを書く
                     </router-link>
@@ -98,7 +96,9 @@
                     </router-link>
                     <a href="#" class="btn3">この店舗に行ったことがある</a>
                     <a href="https://www.google.co.jp/maps/dir/%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E8%A5%BF%E6%96%B0%E5%AE%BF%EF%BC%91%E4%B8%81%E7%9B%AE%EF%BC%97+%E7%B7%8F%E5%90%88%E6%A0%A1%E8%88%8E%E3%82%B3%E3%82%AF%E3%83%BC%E3%83%B3%E3%82%BF%E3%83%AF+HAL%E6%9D%B1%E4%BA%AC/%E6%9D%B1%E4%BA%AC%E9%83%BD%E6%96%B0%E5%AE%BF%E5%8C%BA%E6%96%B0%E5%AE%BF%EF%BC%93%E4%B8%81%E7%9B%AE%EF%BC%93%EF%BC%95%E2%88%92%EF%BC%91%EF%BC%93+%E3%82%88%E3%81%A3%E3%81%A6%E3%81%93%E3%82%84+%E6%96%B0%E5%AE%BF%E5%8D%97%E5%8F%A3%E5%BA%97/@35.690683,139.699802,16z/data=!4m8!4m7!1m2!1m1!1s0x60188cd6981dce11:0xee411b3fa3fc9f13!1m2!1m1!1s0x60188cdaf48693a1:0x4d4ff726e7fb4a72!3e2" class="btn4">GoogleMapでルート案内する</a>
+
                 </div>
+
             </div>
         </form>
     </div>
@@ -113,9 +113,9 @@
         data: function(){
             return{
                 wiki: {
-                  text: "京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税)                        <br>\n" +
-                      "                        hoge" +
-                      "                        hogeeeeeeeee"
+                    text: "京都鶏ガラとんこつ醤油ラーメン屋台味(半熟味玉付・820円＋税)                        <br>\n" +
+                        "                        hoge" +
+                        "                        hogeeeeeeeee"
                 },
                 screenwidth: 375,
                 store_id: this.$route.params.id,
@@ -294,6 +294,9 @@
                 /*height: 100%;*/
             }
         }
+
+        ////////////////////////////////////////////////////////////////////////////////////
+
         /*
         .second_text{
             position: absolute;
@@ -352,6 +355,9 @@
             flex-direction: column;
             margin:20px 0 20px 0;
         }
+        /////////////////////////////////////////////////////////////////////////
+
+
     }
 
 </style>

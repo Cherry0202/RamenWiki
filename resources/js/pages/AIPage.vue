@@ -7,11 +7,6 @@
                 <p>AIのおすすめ</p>
             </div>
         </div>
-
-        <!--
-        <img class="line" alt="line" src="../Ozawa_files/ColorLine.png">
-        -->
-
         <div class="Sen">
             <p class="title-border">あなたが今まで行ったことのない<br>素敵なラーメン店をご紹介します。</p>
         </div>
@@ -20,25 +15,25 @@
             <div class="white_text1">
                 <div class="photoimage1">
                     <!-- おすすめ店舗のラーメン画像 -->
-                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
+                    <img class="imagecovershot" src="https://cdn-ak.f.st-hatena.com/images/fotolife/n/nangokusan/20191120/20191120204532.jpg">
                 </div>
                 <!-- おすすめ店舗の文章 -->
                 <div class="yayaya1">
                     <div class="topRamen_name">
                         <p>
-                            江畑の一杯
+                            らぁ麺 鳳仙花
                         </p>
-                       <div class="topRamen_text">
-                        <p>
-                            冷やし豆乳担々麺が人気。<br>
-                            ごまの風味と豆乳タレ、<br>
-                            ピリ辛の肉味噌が絶妙に<br>
-                            マッチ。
-                        </p>
-                       </div>
+                        <div class="topRamen_text">
+                            <p>
+                                冷やし豆乳担々麺が人気。<br>
+                                ごまの風味と豆乳タレ、<br>
+                                ピリ辛の肉味噌が絶妙に<br>
+                                マッチ。
+                            </p>
+                        </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
 
@@ -46,13 +41,13 @@
             <div class="white_text2">
                 <div class="photoimage2">
                     <!-- おすすめ店舗のラーメン画像 -->
-                    <img class="imagecovershot" src="../Ozawa_files/Sample_ramenshot.jpg">
-                </div>  
-                <!-- おすすめ店舗の文章 -->  
+                    <img class="imagecovershot" src="https://tblg.k-img.com/restaurant/images/Rvw/79636/640x640_rect_79636619.jpg">
+                </div>
+                <!-- おすすめ店舗の文章 -->
                 <div class="yayaya2">
                     <div class="topRamen_name">
                         <p>
-                            江畑の一杯
+                            らあめん 満来
                         </p>
                         <div class="topRamen_text">
                             <p>
@@ -63,26 +58,42 @@
                             </p>
                         </div>
                     </div>
-                </div>        
+                </div>
             </div>
         </div>
-        
+
         <p class="under_sentence">
             あなたの趣味嗜好に合わせて、AIのおすすめ店舗も増加していきます。
         </p>
 
+        <router-link class="arrow" :to="{ name: 'search-view2' }">
+            ⬅
+        </router-link>
+
     </div>
 </template>
-
 <script>
+    export default {
+        head: {
+            meta: [{ name: 'viewport', content: 'width=375' }]
+        }
+    }
 </script>
 
 <!--- SCSS ----------------------------------------------------------------------------------------------------------->
 <style scoped lang="scss">
+    .arrow {
+        position: relative;
+        top: -636px;
+        font-size: 23px;
+        left: -158px;
+        text-decoration: none;
+        color: gray;
+        z-index: 11;
+    }
     .wrap {
         width: 375px;
-        min-height: 812px;
-        max-height: auto;
+        min-height: 100vh;
         display: flex;
         flex-direction: column;
         background-color: #D5D7DB;
@@ -90,18 +101,18 @@
         align-items: center;
         position: relative;
         .grad{
-                position: absolute;
-                top: 0;
-                right: 0;
-                bottom: 0;
-                left: 0;
-                width: 375px;
-                height: 300px;
-                background: -moz-linear-gradient(top, #FFF, transparent);
-                background: -webkit-linear-gradient(top, #FFF, transparent);
-                background: linear-gradient(to bottom, #FFF, transparent);
-                z-index: 10;
-            }
+            position: absolute;
+            top: 0;
+            right: 0;
+            bottom: 0;
+            left: 0;
+            width: 375px;
+            height: 300px;
+            background: -moz-linear-gradient(top, #FFF, transparent);
+            background: -webkit-linear-gradient(top, #FFF, transparent);
+            background: linear-gradient(to bottom, #FFF, transparent);
+            z-index: 10;
+        }
         .Midashi{
             z-index: 11;
             display: flex;
@@ -116,13 +127,13 @@
                 left: 50%;
                 top: 50%;
                 transform: translate(-50%,-50%);
+                align-items: center;
+                justify-content: center;
                 p{
                     font-family: 'MyFont3';
                     font-size: 30px;
                     white-space: nowrap;
                     margin-left: 20px;
-                    position: relative;
-                    top: 10%;
                     color: #454F63;
                 }
             }
@@ -139,15 +150,12 @@
         .Sen{
             width: 100%;
             position: absolute;
-            top: 17%;
-            left: 0%;
-            //background-color: red; //dbg
-        
+            top: 18%;
+            left: 0;
         }
-        
-        
-        ///////////////////////////////////////////////////////////////////////////////////////////////////////////  CSSにも記述あり
 
+
+        ///////////////////////////////////////////////////////////////////////////////////////////////////////////  CSSにも記述あり
         .OsusumeRamen1{
             margin-top: 120px;
             width: 100%;
@@ -163,32 +171,23 @@
             //background-color: red; //dbg
             display: flex;
         }
-
         ///////////////////////////////////////////////////////////////////////////////////////////////////////////  FIN
-
         .under_sentence{
-           font-family: 'MyFont2'; 
-           font-size: 10px;
-           white-space: nowrap;
-           position: relative;
-           //margin-top: 100px;
-           /////////////////////////////
-           position: absolute;
-           top: 50%;
-           left: 50%;
-           transform: translate(-50%,-50%);
-           top: 94%;
-
-
+            font-family: 'MyFont2';
+            font-size: 10px;
+            white-space: nowrap;
+            position: relative;
+            //margin-top: 100px;
+            /////////////////////////////
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            top: 94%;
         }
     }
-
 </style>
-
-
-
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
-
 <style scoped lang="css">
     @font-face {
         font-family: 'MyFont2';
@@ -218,27 +217,24 @@
     .title-border:after {
         margin-left: 1rem;
     }
-
     /***********************************************************/
-
     .white_text1 , .white_text2{
         width: 70%;
         height: 100%;
         background-color: white;
         text-align: center;
         border-radius: 15px;
-        box-shadow: 
+        box-shadow:
             0 8px 10px 1px rgba(0,0,0,0.14),
             0 3px 14px 2px rgba(0,0,0,0.12),
             0 5px 5px -3px rgba(0,0,0,0.2)
-        ;
-
+    ;
     }
     .photoimage1 , .photoimage2{
         width: 120px;
         height: 120px;
         /*
-        background-color: darkblue; 
+        background-color: darkblue;
         */
         position: relative;
         border-radius: 15px;
@@ -247,11 +243,11 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        box-shadow: 
-                0 8px 10px 1px rgba(0,0,0,0.14),
-                0 3px 14px 2px rgba(0,0,0,0.12),
-                0 5px 5px -3px rgba(0,0,0,0.2)
-            ;
+        box-shadow:
+            0 8px 10px 1px rgba(0,0,0,0.14),
+            0 3px 14px 2px rgba(0,0,0,0.12),
+            0 5px 5px -3px rgba(0,0,0,0.2)
+    ;
     }
     .white_text1{
         margin-right: 20px;
@@ -267,15 +263,12 @@
         right: -78.5%;
         top: 17%;
     }
-
     .imagecovershot{
         width: 140px;
         height: 140px;
-        object-fit: cover; 
+        object-fit: cover;
         border-radius: 15px;
     }
-
-
     /***********************************************************/
     .yayaya1, .yayaya2{
         width: 170px;
@@ -287,7 +280,7 @@
         display: flex;
         -webkit-align-items: flex-start;
         align-items: flex-start;
-    
+
     }
     .yayaya1{
         left: 29.5%;
@@ -323,8 +316,6 @@
         font-size: 15px;
         color: #78849E;
         text-align: left;
-        
+
     }
-
-
 </style>

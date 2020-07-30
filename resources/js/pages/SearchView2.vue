@@ -1,11 +1,10 @@
 <template>
     <div class="wrap">
         <div id="main">
-            <hamburger_-menu></hamburger_-menu>
+            <hamburger_-loggedin></hamburger_-loggedin>
             <search-form-component @postLists="getLists"></search-form-component>
-<!--            <img src="../Ozawa_files/map-sample.png" alt="">-->
             <div class="g-map">
-<!--                ここにgoogle map-->
+                <!--                ここにgoogle map-->
             </div>
             <div class="card-wrapper">
                 <result-card-component :results="results"></result-card-component>
@@ -29,8 +28,9 @@
 
 <script>
     import Hamburger_Menu from "../components/Hamburger_Menu";
+    import Hamburger_Loggedin from "../components/Hamburger_Loggedin";
     export default {
-        components: {Hamburger_Menu},
+        components: {Hamburger_Loggedin, Hamburger_Menu},
         data() {
             return {
                 maplocation:{lat:0, lng:0},
@@ -48,7 +48,7 @@
         head: {
             meta: [{ name: 'viewport', content: '' }]
         }
-}
+    }
 </script>
 
 
@@ -93,37 +93,37 @@
             top: 0;
             z-index: 3;
             .search-container{
-            width: 260px;
-            display: block;
-            padding-left: 15px;
-            padding-top: 23px;
-            margin: 0 auto;
+                width: 260px;
+                display: block;
+                padding-left: 15px;
+                padding-top: 23px;
+                margin: 0 auto;
             }
 
             input#search-bar{
-            margin: 0 auto;
-            width: 100%;
-            height: 35px;
-            font-size: 1rem;
-            border: 1px solid #D0CFCE;
-            outline: none;
-            &:focus{
-                border: 1px solid #008ABF;
-                transition: 0.35s ease;
-                color: #008ABF;
-                &::-webkit-input-placeholder{
-                transition: opacity 0.45s ease;
-                opacity: 0;
+                margin: 0 auto;
+                width: 100%;
+                height: 35px;
+                font-size: 1rem;
+                border: 1px solid #D0CFCE;
+                outline: none;
+                &:focus{
+                    border: 1px solid #008ABF;
+                    transition: 0.35s ease;
+                    color: #008ABF;
+                    &::-webkit-input-placeholder{
+                        transition: opacity 0.45s ease;
+                        opacity: 0;
+                    }
                 }
             }
-            }
             .search-icon{
-            position: relative;
-            float: right;
-            width: 50px;
-            height: 50px;
-            top: -43px;
-            right: -5px;
+                position: relative;
+                float: right;
+                width: 50px;
+                height: 50px;
+                top: -43px;
+                right: -5px;
             }
         }
         #main{

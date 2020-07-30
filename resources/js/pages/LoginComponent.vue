@@ -12,26 +12,33 @@
                 <div class="box3"></div>
                 <div class="box4"></div>
             </div>
-            <a href="/register" class="tab_b">SIGN UP</a>
-            <!-- <router-link to="/register">SIGN UP</router-link> -->
+<!--            <a href="/register" class="tab_b">SIGN UP</a>-->
+             <router-link to="/register" class="tab_b">SIGN UP</router-link>
 
             <!-- フォーム部分 -->
             <div class="bottom_box">
-                <a href="" class="return">︎︎⬅︎︎</a>
-                <form action="" method="post">
+                <a href="" class="return">︎⬅︎</a>
+                <form>
                     <input
+                        v-model="user.email"
                         type="email"
                         class="email"
                         placeholder="Email"
                     /><br />
                     <input
+                        v-model="user.password"
                         type="password"
                         class="password"
                         placeholder="Password"
                     /><br />
                     <a href="" class="link_text">パスワードを忘れた方へ</a
                     ><br />
-                    <input type="submit" value="CONTINUE" class="button" />
+<!--                    <input type="submit" value="CONTINUE" class="button" />-->
+                    <button class="button" v-on:click="check">
+                        <router-link :to="{ name: 'search-view2' }">
+                        CONTINUE
+                        </router-link>
+                    </button>
                 </form>
             </div>
         </div>
@@ -40,14 +47,28 @@
 
 <script>
 export default {
-    created() {
-        console.log("login-component");
+    data() {
+        return{
+            user:{
+                email: null,
+                password: null
+            }
+        }
+    },
+    methods: {
+        check() {
+            console.log(this.user.email);
+            console.log(this.user.password);
+        }
     }
 };
 </script>
 
 <style scoped lang="scss">
 /* 全体 */
+a {
+    text-decoration: none;
+}
 .wrap {
     margin: 0;
     width: 100%;
@@ -114,7 +135,7 @@ export default {
     width: 25%;
     height: 20%;
     background-color: #665eff;
-    margin-left: -58.5%;
+    margin-left: -61%;
     margin-top: 15%;
 }
 .box2 {
@@ -130,7 +151,7 @@ export default {
     margin-top: 15%;
 }
 .box4 {
-    width: 25.4%;
+    width: 25%;
     height: 20%;
     background-color: #3acce1;
     margin-top: 15%;
@@ -140,7 +161,7 @@ export default {
 .bottom_box {
     width: 100%;
     height: 87%;
-    background-image: url("back_image.png");
+    background-image: url("../components/back_image.png");
     background-size: 101%;
     display: flex;
     justify-content: center;
@@ -164,11 +185,12 @@ form {
     height: 5.8%;
     border-radius: 20px;
     border: none;
-    box-shadow: 2px 2px 4px gray;
+    box-shadow: 2px 2px 4px grey;
     margin-top: 40%;
     margin-left: 3%;
     outline: none;
     font-size: 2.5em;
+    padding-left: 36px;
 }
 .password {
     width: 80%;
@@ -181,6 +203,7 @@ form {
     box-shadow: 2px 2px 4px gray;
     outline: none;
     font-size: 2.5em;
+    padding-left: 36px;
 }
 ::placeholder {
     font-family: "Gibson";
@@ -214,6 +237,10 @@ form {
     transition: all 0.3s ease;
     outline: none;
     font-size: 2em;
+    a {
+        text-decoration: none;
+        color: #FFFFFF;
+    }
 }
 .button:hover {
     background-color: #5773ff;

@@ -5,8 +5,8 @@
         <div class="mainbox">
             <div class="topbox"></div>
             <!-- ログイン会員登録切替タブ -->
-            <a href="/login" class="tab_a">SIGN IN</a>
-            <!-- <router-link to="/login">SIGN IN</router-link> -->
+<!--            <a href="/login" class="tab_a">SIGN IN</a>-->
+             <router-link to="/login" class="tab_a">SIGN IN</router-link>
             <div class="tab_b">
                 <span class="text">SIGN UP</span>
                 <div class="box1"></div>
@@ -18,23 +18,27 @@
             <div class="bottom_box">
                 <a href="/login" class="return">︎︎⬅︎︎</a>
                 <!-- <router-link to="/loginp" class="return">⬅︎</router-link> -->
-                <form action="" method="post">
+                <form>
                     <input
-                        type="email"
+                        v-model="user.user_name"
+                        type="text"
                         class="namebox"
                         placeholder="UserName"
                     /><br />
                     <input
+                        v-model="user.email"
                         type="email"
                         class="email"
                         placeholder="Email"
                     /><br />
                     <input
+                        v-model="user.password"
                         type="password"
                         class="password"
                         placeholder="Password"
                     /><br />
                     <input
+                        v-model="user.re_password"
                         type="password"
                         class="passwordplus"
                         placeholder="Confirm Password"
@@ -47,7 +51,8 @@
                             />利用規約に同意する<br />
                         </label>
                     </p>
-                    <input type="submit" value="CONTINUE" class="button" />
+<!--                    <input type="submit" value="CONTINUE" class="button" />-->
+                    <button class="button" v-on:click="check">CONTINUE</button>
                 </form>
             </div>
         </div>
@@ -55,11 +60,26 @@
 </template>
 
 <script>
-export default {
-    created() {
-        console.log("member-register-component");
-    }
-};
+    export default {
+        data() {
+            return{
+                user:{
+                    user_name: null,
+                    email: null,
+                    password: null,
+                    re_password: null
+                }
+            }
+        },
+        methods: {
+            check() {
+                console.log(this.user);
+                if (this.user.password !== this.user.re_password){
+                    console.log("パスワードが一致しません");
+                }
+            }
+        }
+    };
 </script>
 
 <style scoped lang="scss">
@@ -129,7 +149,7 @@ export default {
     width: 25%;
     height: 20%;
     background-color: #665eff;
-    margin-left: -59.9%;
+    margin-left: -64%;
     margin-top: 15%;
 }
 .box2 {
@@ -145,7 +165,7 @@ export default {
     margin-top: 15%;
 }
 .box4 {
-    width: 25.4%;
+    width: 25%;
     height: 20%;
     background-color: #3acce1;
     margin-top: 15%;
@@ -155,7 +175,7 @@ export default {
 .bottom_box {
     width: 100%;
     height: 87%;
-    background-image: url("back_image.png");
+    background-image: url("../components/back_image.png");
     background-size: 101%;
     display: flex;
     justify-content: center;

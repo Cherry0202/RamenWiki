@@ -10,7 +10,10 @@
 
 <script>
     export default {
-        name: "App"
+        name: "App",
+        metaInfo: [
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+        ]
     }
 </script>
 

@@ -1,19 +1,20 @@
 <template>
-    <!-- <div v-if="results.length === 0" :class="{display:none}"></div>
-    <div v-else class="card-wrapper">
-        <router-link v-for="result in results" :key="index" :to="{ name: 'wiki', params: { id: result['store'].id } }" class="card">
-            {{result['store'].store_name}}
-        </router-link> -->
-    <div style="display: flex;">
+    <div v-if="results.length == 0" style="display: none;"></div>
+    <div v-else style="display: flex;" class="wrap">
+    <div class="frip-wrap" v-for="result in results" :key="index">
         <div class="flip">
             <div class="front" style="display: inline-block;">
                 <div class="card">
                     <!-- 店舗写真 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG0y4r189JNlic90O6R_GwHI9sNMfPUdP5qVRomMIfAwXEFXaCintilsqKVPU2NJ51JltAbxtFViPsdGV5MMoYF8sAcPkkKOmJQ5M4O55z8cBSrOIb74hC735APTQwch577nIGXvL5Xb3kBd306ZtJN8IdPg849LO5pfMhRBhNffSauWdnwYtiv20YKknCvq3PpifB0oFDyjVuv442LrlJmjhIr8ryFuC2aLatQbG3u0ILaeH3SQbyOhkEykkWlKLDQ==" style="height: 280px; width: 100%; display: block;">
+                    <div v-if="result['store'].id%2 === 1">
+                    <img class="card-img-top" src="../Ozawa_files/Sample_ramenshot.jpg" style="height: 280px; width: 100%; display: block;">
+                    </div>
+                    <div v-else>
+                        <img class="card-img-top" src="https://dancyu.jp/images/mm2074.jpg" style="height: 280px; width: 100%; display: block;">
+                    </div>
                     <div class="card_deteil">
                         <div class="store">
-                            <h4>お店名</h4>
-                            <p>1.0km</p>
+                            <h4>{{result['store'].store_name}}</h4>
                         </div>
                     </div>
                 </div>
@@ -21,21 +22,28 @@
             <div class="back"  style="display: inline-block;">
                 <div class="card">
                     <!-- チャート表示 -->
-                    <img class="card-img-top" src="https://msp.c.yimg.jp/images/v2/FUTi93tXq405grZVGgDqG5dKs-0aOvg76LQ_Qwd2KTld_yqDBMdkOHghXMEQlDIADs6PiDMt-BOq3JXUB_PLClhXSPyp56rZOBf811Wl1mFbpfIGX2b_jd_UXfBPo-4A2yQn6nj1fhTNCAPFrz1dVAkWTDlLXZEHRnVVc4MgKtwzMLtXrKsDiquaKyEs2QC-pDit8zy3wFK_w3PdwLzrK_eNMzfhF4eAUcS5o827CV0V_BUEqfE33vidzJSlc7UyW6kzLEUIwOS3P-dpFGqZbvwq_CBYZHMTFMQE7D2iisbYb5iyju37hWvXtX9TaXyu?errorImage=false" style="height: 280px; width: 100%; display: block;">
+                    <img class="card-img-top" src="../Ozawa_files/chart.png" style="height: 280px; width: 100%; display: block;">
                     <div class="card_detail">
                         <div class="button">
-                            <a href="#" class="btn red">店舗詳細</a>
+                            <router-link class="btn red" :to="{ name: 'wiki', params: { id: result['store'].id } }">
+                                店舗詳細
+                            </router-link>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    </div>
 
 </template>
 
 <script>
-
+export default {
+    props: {
+        results: null
+    }
+}
 </script>
 
 <style lang="scss" scoped>
@@ -54,12 +62,28 @@ body {
   padding: 1em;
   margin:0;
 }
+img {
+    border-radius:10px;
+}
+.frip-wrap {
+    display: flex;
+    justify-content: space-between;
+}
+.wrap {
+    width: 100vw;
+    height: 338px;
+    overflow-x: scroll;
+}
+.card {
+    margin: 0px;
+}
 
 // base
 .flip {
     position: relative;
+    margin-left: 18px;
     >.front{
-        background-color: #636b6f;
+        /*background-color: #636b6f;*/
     }
     >.back {
         display: inline-block;

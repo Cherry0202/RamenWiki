@@ -9,10 +9,13 @@
             <p>退会が完了しました。</p>
             <p>『Ramen Wiki』をご利用いただきありがとうございました。</p>
             <p>またのご利用をお待ちしております。</p>
-            <div class="img_wrapper"><img src="../Ozawa_files/aisatsu_kodomo_boy.png" alt="お辞儀ボイ"　width="220" height="220"></div>
-            <div class="button_wrapper"><button>Ramen Wiki ホームへ</button></div> 
+            <div class="img_wrapper"><img src="../Ozawa_files/aisatsu_kodomo_boy.png" alt="お辞儀ボイ" 　width="220" height="220"></div>
+            <div class="button_wrapper">
+                <router-link class="btn" :to="{ path: '/' }">
+                    Ramen Wiki ホームへ
+                </router-link>
+            </div>
         </div>
-        
     </div>
 </template>
 
@@ -24,6 +27,9 @@
 <!--- CSS ----------------------------------------------------------------------------------------------------------->
 
 <style scoped lang="css">
+    a {
+        text-decoration: none;
+    }
     .main{
     width: 375px;
     height: 812px;
@@ -71,7 +77,7 @@ h1{
     margin-bottom: 50px;
 }
 
-button{
+.btn{
     background-color: #393838;
     color: white;
     font-size: 17px;

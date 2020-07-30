@@ -1,5 +1,5 @@
 <template>
-    <h1>recommend page</h1>
+    <aipage></aipage>
 </template>
 
 <script>
