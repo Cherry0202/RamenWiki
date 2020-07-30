@@ -185,11 +185,12 @@ form {
     height: 5.8%;
     border-radius: 20px;
     border: none;
-    box-shadow: 2px 2px 4px gray;
+    box-shadow: 2px 2px 4px grey;
     margin-top: 40%;
     margin-left: 3%;
     outline: none;
     font-size: 2.5em;
+    padding-left: 36px;
 }
 .password {
     width: 80%;
@@ -202,6 +203,7 @@ form {
     box-shadow: 2px 2px 4px gray;
     outline: none;
     font-size: 2.5em;
+    padding-left: 36px;
 }
 ::placeholder {
     font-family: "Gibson";

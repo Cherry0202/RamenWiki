@@ -34,9 +34,9 @@
                 <div class="review-text">
                     <textarea name="text" placeholder="レビュー内容を記載してください"></textarea>
                 </div>
-                <div class="link-list">
+                <router-link class="link-list" :to="{ name: 'wiki-demo3' }">
                     <button class="sub">投稿</button>
-                </div>
+                </router-link>
             </div>
         </main>
     </div>

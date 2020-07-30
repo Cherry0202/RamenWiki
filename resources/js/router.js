@@ -18,6 +18,7 @@ import ReviewList from "./pages/ReviewList";
 import ReviewDetail from "./pages/ReviewDetail";
 import ReviewInput from "./pages/ReviewInput";
 import Chart from "./components/Chart";
+import WikiDemo3 from "./pages/WikiDemo3";
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -44,6 +45,11 @@ const routes = [
         path: '/wiki/demo',
         component: WikiPageDemo,
         name: 'wiki-demo'
+    },
+    {
+        path: '/wiki/demo3',
+        component: WikiDemo3,
+        name: 'wiki-demo3'
     },
     {
         path: '/login',
@@ -76,14 +82,7 @@ const routes = [
         path: '/review/input',
         component: ReviewInput,
         name: 'review-input',
-        // meta: { name: 'viewport', content: 'width=375' }
     },
-    // {
-    //     path: '/review/input',
-    //     component: ReviewInput,
-    //     name: 'review-input',
-    //     // meta: { name: 'viewport', content: 'width=375' }
-    // },
     {
         path: '/review/list',
         component: ReviewList,

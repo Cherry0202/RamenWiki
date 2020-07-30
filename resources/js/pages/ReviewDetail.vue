@@ -24,11 +24,11 @@
     <main class="contents-wrapper">
       <div class="contents">
           <div class="user-name">
-              みそだいすきさんのレビュー
+              hogeさんのレビュー
           </div>
           <div class="img-wrapper">
               <div class="chart">
-                  <img src="../Ozawa_files/chart2.png" alt="">
+                  <img src="../Ozawa_files/角丸chart.png" alt="">
               </div>
               <div class="review-img">
                   <img class="card-img-top" src="../Ozawa_files/Sample_ramenshot.jpg">
@@ -37,9 +37,7 @@
           <div class="text-wrapper">
               <div class="review-text">
               とてもおいしかったです。
-              <br>
-              家族に紹介したいです。
-              </div>
+          </div>
           </div>
       </div>
     </main>

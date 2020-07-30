@@ -21,6 +21,7 @@ Vue.component('Review', require('./components/Review').default)
 Vue.use(VueRouter); // Vue.jsで、Vue Routerを使うように設定
 
 /* ここに作ったコンポーネントを記載する */
+Vue.component('chart-sample',require('./components/Chart.vue').default)
 Vue.component('wiki-page', require('./pages/WikiPage.vue').default);
 Vue.component('wiki-edit', require('./pages/Wikiedit.vue').default);
 Vue.component('mypage-passchange', require('./components/Mypage_Passchange.vue').default);

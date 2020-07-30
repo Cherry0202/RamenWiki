@@ -26,7 +26,7 @@
                 <router-link
                     class="review-list"
                     v-for="review in reviews"
-                    :key="review.id"
+                    :key="index"
                     :to="{ name: 'review-detail' }"
                 >
                     <div class="user-content">
@@ -37,7 +37,10 @@
                             {{ review.text}}
                         </div>
                     </div>
-                    <div class="chart">
+                    <div v-if="review.user_name === 'hoge'" class="chart">
+                        <img src="../Ozawa_files/角丸chart.png" alt="">
+                    </div>
+                    <div v-else class="chart">
                         <img src="../Ozawa_files/chart2.png" alt="">
                     </div>
                 </router-link>
@@ -56,6 +59,10 @@
             return {
                 reviews:[
                     {
+                        "user_name":"hoge",
+                        "text":"とてもおいしかったです"
+                    },
+                    {
                         "user_name":"みそだいすき",
                         "text":"とてもおいしかったです。\n" +
                             "                            家族に紹介したいです。"
@@ -66,12 +73,9 @@
                     },
                     {
                         "user_name":"hogehoge",
-                        "text":"hoeghoegeho"
+                        "text":"hoeghoege"
                     },
                     {
-                        "user_name":"hogehoge",
-                        "text":"hoeghoege"
-                    },                    {
                         "user_name":"hogehoge",
                         "text":"hoeghoege"
                     },                    {
