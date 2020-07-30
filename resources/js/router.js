@@ -17,6 +17,7 @@ import ByeBye from "./pages/Goodbye_bye"
 import ReviewList from "./pages/ReviewList";
 import ReviewDetail from "./pages/ReviewDetail";
 import ReviewInput from "./pages/ReviewInput";
+import Chart from "./components/Chart";
 
 // VueRouterプラグインを使用する
 // これによって<RouterView />コンポーネントなどを使うことができる
@@ -77,6 +78,12 @@ const routes = [
         name: 'review-input',
         // meta: { name: 'viewport', content: 'width=375' }
     },
+    // {
+    //     path: '/review/input',
+    //     component: ReviewInput,
+    //     name: 'review-input',
+    //     // meta: { name: 'viewport', content: 'width=375' }
+    // },
     {
         path: '/review/list',
         component: ReviewList,

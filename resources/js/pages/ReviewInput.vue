@@ -26,13 +26,13 @@
                     hoge
                 </div>
                 <div class="view-chart">
-                    <chart/>
+                    <chart-sample></chart-sample>
                 </div>
                 <div class="upload-image">
                     <input type="file">
                 </div>
                 <div class="review-text">
-                    <textarea name="text"></textarea>
+                    <textarea name="text" placeholder="レビュー内容を記載してください"></textarea>
                 </div>
                 <div class="link-list">
                     <button class="sub">投稿</button>
@@ -79,6 +79,12 @@
         border-bottom: 1px solid #e74c3c;
         box-shadow: none;
         outline: none;
+    }
+    .chartjs-render-monitor{
+        display: block;
+        /* height: 338px; */
+        width: 68%;
+        padding-left: 53px;
     }
     .main {
         width: 375px;
@@ -158,52 +164,51 @@
     .contents {
         width: 338px;
         height: 540px;
-        background-color: #353A50;
+        /*background-color: #353A50;*/
+        background-color: white;
         border-radius: 18px;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
         .user-name {
-            background-color: #552233;
             width: 100%;
             height: 5%;
-            padding-left: 6px;
+            padding-left: 11px;
+            padding-top: 4px;
         }
         .view-chart {
-            background-color: #9561e2;
+            /*background-color: #9561e2;*/
             width: 100%;
-            height: 50%;
+            height: 65%;
         }
         .upload-image {
-            background-color: #4dc0b5;
-            width: 100%;
-            height: 10%;
+            /*background-color: #4dc0b5;*/
+            width: 95%;
+            height: 5%;
             display: flex;
             align-items: center;
             justify-content: flex-start;
             padding-left: 6px;
         }
         .review-text {
-            background-color: #9EA7CC;
-            width: 100%;
-            height: 25%;
+            width: 95%;
+            height: 15%;
             textarea {
                 width: 100%;
                 height: 100%;
-                border-radius: 20px;
+                border-radius: 16px;
             }
         }
         .link-list {
-            background-color: #313131;
             width: 100%;
             height: 10%;
             display: flex;
             justify-content: center;
             align-items: center;
             .sub {
-                width: 103px;
-                height: 52px;
-                border-radius: 12px;
+                width: 99px;
+                height: 35px;
+                border-radius: 5px;
                 background-color: #3ACCE1;
             }
         }
