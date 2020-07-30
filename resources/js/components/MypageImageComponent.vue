@@ -23,8 +23,9 @@ export default {
           {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851328050495555/review.jpeg"},
           {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851386787528746/review4.jpeg"},
           {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851359969280000/review2.jpeg"},
-          {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851373063766036/review3.jpeg"}
-          ],
+          {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851373063766036/review3.jpeg"},
+          {"url":"https://cdn.discordapp.com/attachments/735335073716502718/737851328050495555/review.jpeg"},
+      ],
       noPhotoSrc: './images/aisatsu_kodomo_boy.png'
     }
   }
