@@ -4,7 +4,7 @@
         <div class="box-01">
             <div class="arrow-wrapper">
                 <!--       vue router -->
-                <router-link class="arrow" :to="{ name: 'wiki-demo' }">
+                <router-link class="arrow" :to="{ name: 'wiki-demo3' }">
                 ⬅
                 </router-link>
             </div>

@@ -21,6 +21,7 @@ export default {
     return {
       // reviews: [],
       reviews: [
+          {"store_name":"よってこや 新宿南口店","text":"とてもおいしかったです","url":"https://cdn.discordapp.com/attachments/723391445356249108/738234242097610822/Sample_ramenshot.jpg"},
           {"store_name":"すごい煮干ラーメン凪 新宿ゴールデン街店 本館","text":"とにかく！すごい！に・ぼ・し！！","url":"https://cdn.discordapp.com/attachments/735335073716502718/737851328050495555/review.jpeg"},
           {"store_name":"焼きあご塩らー麺たかはし 新宿本店","text":"焼きあごだしが効いたスープと麺が合わさるハーモニー","url":"https://cdn.discordapp.com/attachments/735335073716502718/737851386787528746/review4.jpeg"},
           {"store_name":" らぁ麺 はやし田 新宿本店","text":"焼きあごだしが効いたスープと麺が合わさるハーモニー","url":"https://cdn.discordapp.com/attachments/735335073716502718/737851386787528746/review4.jpeg"},
